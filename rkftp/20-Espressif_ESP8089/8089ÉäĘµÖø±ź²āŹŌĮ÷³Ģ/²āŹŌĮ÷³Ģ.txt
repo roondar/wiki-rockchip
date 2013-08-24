@@ -1,0 +1,18 @@
+(1)首先，因为目前测试程序还未改进，所以它要求adb的路径是在C:/adb_fastboot/adt-bundle-windows-x86/sdk/platform-tools/下 ，所以麻烦先将原来adb所在的目录下面的东西，都拷贝到该目录
+
+(2)然后将eagle_ate.ko, eafke_fw.bin, eagle_fw_1.bin 也放置在(1)的那个目录，确保设备连接电脑，也认到adb，然后依次运行：
+adb remount
+adb push eagle_ate.ko     /system/vendor/modules/
+adb push eagle_fw.bin     /system/vendor/modules/
+adb push eagle_fw_1.bin /system/vendor/modules/
+adb push eagle_test /system/bin/
+adb shell insmod  /system/vendor/modules/eagle_ate.ko
+
+(3)解压TX_TX_TEST_130627.rar ，进入解压后的目录，然后按照《TX_RX_TEST_INSTRUCTION_FOR_PRODUCT_V0.2_130727.docx》的说明开始操作，比较简单
+
+(4)因为我本机的电脑没有安装matlab和iqv相关的东西，所以之前会出现测试程序无法运行的问题，我想深圳测试IQV的电脑这些环境都应该有了。如果万一万一遇到不能运行，
+那请先安装MCR79和ni4882_310.exe, 
+
+如果最后安装完了这两个还有问题，那我只能说四个字：
+
+请联系我！

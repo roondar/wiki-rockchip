@@ -1,0 +1,72 @@
+diff --git a/frameworks/base/services/java/com/android/server/WifiService.java b/frameworks/base/services/java/com/android/server/WifiService.java
+index b43bebf..66594ed 100644
+--- a/frameworks/base/services/java/com/android/server/WifiService.java
++++ b/frameworks/base/services/java/com/android/server/WifiService.java
+@@ -135,7 +135,7 @@ public class WifiService extends IWifiManager.Stub {
+     ConnectivityManager mCm;
+     private WifiWatchdogService mWifiWatchdogService = null;
+     private String[] mWifiRegexs;
+-
++	private int mWifiTurnOff = 0;
+     /**
+      * See {@link Settings.Secure#WIFI_IDLE_MS}. This is the default value if a
+      * Settings.Secure value is not present. This timeout value is chosen as
+@@ -143,7 +143,7 @@ public class WifiService extends IWifiManager.Stub {
+      * being enabled but not active exceeds the battery drain caused by
+      * re-establishing a connection to the mobile data network.
+      */
+-    private static final long DEFAULT_IDLE_MILLIS = 15 * 60 * 1000; /* 15 minutes */
++    private static final long DEFAULT_IDLE_MILLIS = 1 * 60 * 1000; /* 15 minutes */
+ 
+     private static final String WAKELOCK_TAG = "*wifi*";
+ 
+@@ -478,8 +478,8 @@ public class WifiService extends IWifiManager.Stub {
+             mWifiStateTracker.startEventLoop();
+ 
+         } else {
+-
+-            mContext.unregisterReceiver(mReceiver);
++			if(mWifiTurnOff == 0)
++            	mContext.unregisterReceiver(mReceiver);
+            // Remove notification (it will no-op if it isn't visible)
+             mWifiStateTracker.setNotificationVisible(false, 0, false, 0);
+ 
+@@ -1676,6 +1676,11 @@ public class WifiService extends IWifiManager.Stub {
+                 mAlarmManager.cancel(mIdleIntent);
+                 mDeviceIdle = false;
+                 mScreenOff = false;
++				if(mWifiTurnOff == 1){
++					Slog.e(TAG, "Device wake up, turn on wifi...");
++					setWifiEnabled(true);
++					mWifiTurnOff = 0;
++				}
+                 // Once the screen is on, we are not keeping WIFI running
+                 // because of any locks so clear that tracking immediately.
+                 reportStartWorkSource();
+@@ -1921,7 +1926,8 @@ public class WifiService extends IWifiManager.Stub {
+         intentFilter.addAction(Intent.ACTION_BATTERY_CHANGED);
+         intentFilter.addAction(ACTION_DEVICE_IDLE);
+         intentFilter.addAction(BluetoothA2dp.ACTION_SINK_STATE_CHANGED);
+-        mContext.registerReceiver(mReceiver, intentFilter);
++        if(mWifiTurnOff == 0)
++			mContext.registerReceiver(mReceiver, intentFilter);
+     }
+ 
+     private boolean isAirplaneSensitive() {
+@@ -1990,8 +1996,14 @@ public class WifiService extends IWifiManager.Stub {
+                     break;
+ 
+                 case MESSAGE_STOP_WIFI:
+-                    mWifiStateTracker.disconnectAndStop();
+-                    // don't release wakelock
++                    //mWifiStateTracker.disconnectAndStop();
++					//when device enter deep sleep mode, turn off wifi.
++					if(mWifiTurnOff == 0){
++						Slog.e(TAG, "Device enter deep sleep mode, turn off wifi...");
++                    	mWifiTurnOff = 1;
++						setWifiEnabled(false);
++					}
++					// don't release wakelock
+                     break;
+ 
+                 case MESSAGE_RELEASE_WAKELOCK:

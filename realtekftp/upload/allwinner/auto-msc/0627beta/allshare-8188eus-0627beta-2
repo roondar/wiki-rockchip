@@ -1,0 +1,2826 @@
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2437
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2437
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/AudioService( 1955):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@419c9bf8com.android.music.MediaPlaybackService$3@419c8800
+I/ActivityManager( 1955): Start proc com.android.musicfx for broadcast com.android.musicfx/.ControlPanelReceiver: pid=4412 uid=10029 gids={50029, 3003, 3002, 1028}
+V/MusicFXControlPanelReceiver( 4412): onReceive
+V/MusicFXControlPanelReceiver( 4412): Action: android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION
+V/MusicFXControlPanelReceiver( 4412): Package name: com.android.music
+V/MusicFXControlPanelReceiver( 4412): Audio session: 8
+V/MusicFXControlPanelEffect( 4412): closeSession(android.app.ReceiverRestrictedContext@419c71c0, com.android.music, 8)
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=02:c5:05:00:97:82
+D/WifiP2pService( 1955): InactiveState{ what=147478 when=0 obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 02:c5:05:00:97:82
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147478 when=0 obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 02:c5:05:00:97:82
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=0 arg2=8 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=0 arg2=8 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=0 arg2=8 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Push2TV 716A0D-PTV3000, deviceAddress: 22:e5:2a:71:6a:0d, primary type: 7-0050F204-1, secondary type: null, wps: 136, grpcapab: 0, devcapab: 37, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=0, activeDisplay=null, availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), Push2TV 716A0D-PTV3000 (22:e5:2a:71:6a:0d)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2437
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2462
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+[   90.592868] RTL871X: cfg80211_remain_on_channel_expired
+[   90.599494] RTL871X: no packet in tx packet buffer (0)
+[   90.955869] RTL871X: survey done event(d)
+[   90.964509] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+I/wpa_supplicant( 2156): p2p_add[   90.974315] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:307
+_device, listen_freq=2412
+[   90.984618] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+[   90.996162] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=921
+[   91.008991] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1921
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[   91.918129] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[   92.932871] RTL871X: cfg80211_remain_on_channel_expired
+[   92.939491] RTL871X: no packet in tx packet buffer (0)
+[   93.295000] RTL871X: survey done event(f)
+I/wpa_supplicant( 2156): p2p_add[   93.303917] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+_device, listen_freq=2462
+I/wpa[   93.315063] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:204
+_supplicant( 2156): p2p_add_devi[   93.325361] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+ce, listen_freq=2412
+[   93.337029] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=612
+[   93.350740] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1612
+[   93.948113] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+D/WifiDisplayAdapter( 1955): requestConnectLocked: address=d8:57:ef:b8:2b:6e, trusted=true
+I/WifiDisplayController( 1955): Conn[   94.132077] RTL871X: cfg80211_rtw_cancel_remain_on_channel(p2p0)
+ecting to Wifi display: Dongle-A[   94.140068] RTL871X: cfg80211_rtw_cancel_remain_on_channel, cancel ro ch timer
+1B4B0
+D/WifiDisplayController( 1955): connect config = [
+D/WifiDisplayController( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiDi[   94.160617] RTL871X: cfg80211_remain_on_channel_expired
+splayController( 1955):  wps:  s[   94.170516] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:1 duration:200
+etup: 0
+D/WifiDisplayController[   94.178723] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+[   94.187401] CPU1: Booted secondary processor
+( 1955):  BSSID: null
+D/WifiDis[   94.187481] Calibrating delay loop (skipped) already calibrated this CPUplayController( 1955):  pin: nulRTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=600
+l
+D/WifiDisplayController( 1955): 
+D/WifiDisplayController( 19[   94.218490] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1600
+55):  groupOwnerIntent: 10
+D/Wi[   94.228839] RTL871X: RTW_Tx:tx_ch=1, da=d8:57:ef:b8:2b:6e
+fiDisplayController( 1955):  per[   94.237009] RTL871X: RTW_Tx:P2P_PROVISION_DISC_REQ, dialogToken=1
+sist: -2]
+D/WifiP2pService( 195[   94.246677] RTL871X: _cfg80211_rtw_mgmt_tx, extend ro ch time
+5): InactiveState{ what=139271 w[   94.247240] CPU3: Booted secondary processor
+hen=0 arg2=9 obj=
+D/WifiP2pServ[   94.247306] Calibrating delay loop (skipped) already calibrated this CPUice( 1955):  address: d8:57:ef:bRTL871X: _cfg80211_rtw_mgmt_tx, set switch ch timer, period=3000
+8:2b:6e
+D/WifiP2pService( 1955):  wps:  setup: 0
+D/WifiP2pService( 1955):  BSSID: null
+D/WifiP2pService( 1955):  pin: null
+D/WifiP2pService( 1955): 
+D/WifiP2pService( 1955):  groupOwnerIntent: 10
+D/WifiP2pService( 1955):  persist: -2 }
+D/WifiP2pService( 1955): InactiveState sending connect
+V/codec_audio_pad( 1219): in normal mode, headset or speaker on,****LINE:54,FUNC:set_normal_path
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PEER d8:57:ef:b8:2b:6e
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=1, activeDisplay=Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), Push2TV 716A0D-PTV3000 (22:e5:2a:71:6a:0d)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PEER d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 0 p2p_client_list
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 1 p2p_client_list
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_STOP_FIND
+I/wpa_supplicant( 2156): p2p0: P2P-FIND-STOPPED 
+D/WifiP2pService( 1955): target ssid is null join:false
+D/WifiP2pService( 1955): [   94.388096] RTL871X: RTW_Rx:cur_ch=1
+allshare p2pclient persistent.
+[   94.394732] RTL871X: RTW_Rx:P2P_PROVISION_DISC_RESP, dialogToken=1
+D/WifiP2pService( 1955): netId r[   94.404691] RTL871X: cfg80211_rtw_cancel_remain_on_channel(p2p0)
+elated with d8:57:ef:b8:2b:6e = [   94.413966] RTL871X: cfg80211_rtw_cancel_remain_on_channel, cancel ro ch timer
+-1
+D/WifiP2pService( 1955): Sending prov disc
+I/WifiDisplayCon[   94.429611] RTL871X: cfg80211_remain_on_channel_expired
+troller( 1955): Initiated connec[   94.437864] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:1 duration:200
+tion to Wifi display: Dongle-A1B4B0
+D/WifiDisplayController( 19[   94.450616] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1600
+55): Received WIFI_P2P_PEERS_CHA[   94.461085] RTL871X: RTW_Tx:tx_ch=1, da=d8:57:ef:b8:2b:6e
+NGED_ACTION.
+D/WifiP2pService( [   94.469720] RTL871X: RTW_Tx:P2P_GO_NEGO_REQ, dialogToken=2, intent:7+, op_ch:11, ch_list:11
+1955): GroupCreatingState
+I/wpa[   94.481795] RTL871X: _cfg80211_rtw_mgmt_tx, extend ro ch time
+_supplicant( 2156): [CTRL_IFACE][   94.491000] RTL871X: _cfg80211_rtw_mgmt_tx, set switch ch timer, period=3000
+p2p0: P2P_PROV_DISC d8:57:ef:b8:2b:6e pbc
+D/WifiP2pService( 195[   94.505674] RTL871X: RTW_Rx:cur_ch=1
+5): ProvisionDiscoveryState
+D/W[   94.511216] RTL871X: RTW_Rx:P2P_GO_NEGO_RESP, dialogToken=2, intent:1-, status:0, op_ch:-1, ch_list:1-11, 36, 40, 44, 48, 149, 153, 157, 161
+ifiP2pService( 1955): ProvisionD[   94.528103] RTL871X: rtw_chk_p2pie_ch_list_with_buddy(p2p0) ch_list fit buddy_ch:11
+iscoveryState{ what=147493 when=-77ms }
+D/WifiP2pService( 1955)[   94.542857] RTL871X: RTW_Tx:tx_ch=1, da=d8:57:ef:b8:2b:6e
+: GroupCreatingState{ what=14749[   94.551037] RTL871X: RTW_Tx:P2P_GO_NEGO_CONF, dialogToken=2, status:0, op_ch:11, ch_list:11
+3 when=-78ms }
+D/WifiP2pService[   94.563145] RTL871X: _cfg80211_rtw_mgmt_tx, extend ro ch time
+( 1955): P2pEnabledState{ what=1[   94.572339] RTL871X: _cfg80211_rtw_mgmt_tx, set switch ch timer, period=3000
+47493 when=-78ms }
+D/WifiP2pSer[   94.584067] RTL871X: cfg80211_rtw_cancel_remain_on_channel(p2p0)
+vice( 1955): discovery change br[   94.592515] RTL871X: cfg80211_rtw_cancel_remain_on_channel, cancel ro ch timer
+oadcast false
+D/WifiP2pService( 1955): ProvisionDiscoveryState{[   94.608112] RTL871X: cfg80211_remain_on_channel_expired
+ what=139283 when=-62ms arg2=10 }
+D/WifiP2pService( 1955): GroupCreatingState{ what=139283 when=-62ms arg2=10 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-62ms arg2=10 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-63ms arg2=10 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 1, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Push2TV 716A0D-PTV3000, deviceAddress: 22:e5:2a:71:6a:0d, primary type: 7-0050F204-1, secondary type: null, wps: 136, grpcapab: 0, devcapab: 37, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955): updateDesiredDevice: new information Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 1, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+I/wpa_supplicant( 2156): p2p0: P2P-PROV-DISC-PBC-RESP d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_CONNECT d8:57:ef:b8:2b:6e pbc persis[   94.754636] RTL871X: cfg80211_rtw_change_iface(p2p0) call netdev_if2_open
+tent go_intent=10 
+D/WifiP2pSer[   94.763796] RTL871X: +871x_drv - if2_open, bup=1
+vice( 1955): ProvisionDiscoveryS[   94.771742] RTL871X: -871x_drv - if2_open, bup=1
+tate{ what=147490 when=0 obj=Dev[   94.779710] RTL871X: cfg80211_rtw_change_iface(p2p0) old_iftype=2, new_iftype=9
+ice: 
+D/WifiP2pService( 1955): [   94.791243] RTL871X: hw_var_set_opmode()-3261 mode = 3
+ deviceAddress: d8:57:ef:b8:2b:6[   94.791255] RTL871X: cfg80211_rtw_set_channel(p2p0)
+[   94.791846] RTL871X: cfg80211_rtw_set_channel(p2p0)
+e
+D/WifiP2pService( 1955):  pri[   94.792022] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[   94.792032] RTL871X: flush all sta, and cam_entry
+mary type: null
+D/WifiP2pServic[   94.792045] RTL871X: rtw_sta_flush(p2p0)
+[   94.792061] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+[   94.792248] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[   94.792261] RTL871X: free sta macaddr =ff:ff:ff:ff:ff:ff
+
+D/WifiP2pService( 1955):  wps: [   94.792373] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=0
+[   94.792457] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=1
+0
+D/WifiP2pService( 1955):  grp[   94.792536] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=2
+[   94.792617] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=3
+capab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null
+D/WifiP2pService( 1955):  event: 2
+D/WifiP2pService( 1955):  pin: null }
+D/WifiP2pService( 1955): Found a match 
+D/WifiP2pService( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  wps:  setup: 0
+D/WifiP2pService( 1955):  BSSID: null
+D/WifiP2pService( 1955):  pin: null
+D/WifiP2pService( 1955): 
+D/WifiP2pService( 1955):  groupOwnerIntent: 10
+D/WifiP2pService( 1955):  persist: -2
+D/WifiP2pService( 1955): GroupNegotiationState
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): p2p0: P2P-GO-NEG-SUCCESS 
+D/WifiP2pService( 1955): GroupNegotiationState{ what=147481 when=-1ms }
+D/WifiP2pService( 1955): GroupNegotiationState go success
+D/WifiP2pService( 1955): GroupNegotiationState{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d7[   94.963988] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+fd00 }
+D/WifiP2pService( 1955):[   94.973864] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+ GroupCreatingState{ what=147462[   94.983696] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+ when=-1ms obj=android.net.wifi.[   94.995955] RTL871X: Got P2P Capability Attr, grp_cap=0x6b, is_GO
+StateChangeResult@41d7fd00 }
+D/[   95.005503] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+WifiP2pService( 1955): P2pEnable[   95.017763] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+dState{ what=147462 when=-1ms obj=android.net.wifi.StateChangeResult@41d7fd00 }
+D/WifiP2pServic[   95.034042] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+e( 1955): DefaultState{ what=147[   95.041168] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+462 when=-1ms obj=android.net.wi[   95.051824] RTL871X: add bcn, wps_ielen=54
+[   95.059181] RTL871X: got p2p_ie, len=20
+
+E/wpa_supplicant( 2156): Using [   95.066196] RTL871X: rtw_check_beacon_data, len=206
+interface p2p0 with hwaddr 02:e0[   95.074447] RTL871X: update_hw_ht_param
+:46:17:02:11 and ssid "DIRECT-cn[   95.082236] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+-Android_2eb1"
+[   95.093118] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[   95.099616] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[   95.109469] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[   95.115699] RTL871X: second adapter, CH=1, BW=0, offset=0
+[   95.121757] RTL871X: CH=11, BW=0, offset=0
+[   95.126869] RTL871X: update_mgnt_tx_rate(): rate = 2
+[   95.136137] RTL871X: ### Set STA_(1) info
+[   95.140682] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[   95.147236] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[   95.157090] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[   95.168494] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[   95.174499] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[   95.183266] RTL871X: rtw_cfg80211_indicate_connect(padapter=f4431000)
+[   95.190502] RTL871X: assoc success
+[   95.194341] RTL871X: enter GO Mode, p2p_ielen=20
+[   95.200036] ADDRCONF(NETDEV_CHANGE): p2p0: link becomes ready
+[   95.206989] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[   95.215627] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for   (null)
+[   95.223263] RTL871X: cipher=0xfac04
+[   95.227159] RTL871X: key_len=0x10
+[   95.231037] RTL871X: seq_len=0x0
+[   95.234783] RTL871X: key_index=1
+[   95.238519] RTL871X: pairwise=0
+[   95.242054] RTL871X: rtw_cfg80211_ap_set_encryption
+[   95.247509] RTL871X: rtw_cfg80211_ap_set_encryption, set group_key, CCMP
+[   95.255032] RTL871X: set_group_key
+[   95.258983] RTL871X: set group key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) keyid:1
+[   95.259057] RTL871X: cfg80211_rtw_set_default_key(p2p0) key_index=1, unicast=0, multicast=1.
+[   95.261294] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[   95.261308] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[   95.261320] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=217
+I/wpa_supplicant( 2156): p2p0: C[   95.261336] RTL871X: add bcn, wps_ielen=79
+[   95.261347] RTL871X: got p2p_ie, len=20
+[   95.261361] RTL871X: rtw_check_beacon_data, len=231
+TRL-EVENT-CONNECTED - Connection[   95.261396] RTL871X: update_hw_ht_param
+[   95.262458] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+ to 02:e0:46:17:02:11 completed [   95.264240] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[   95.264861] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+(auth) [id=23 id_str=][   95.264875] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[   95.264885] RTL871X: second adapter, CH=1, BW=0, offset=0
+[   95.264896] RTL871X: CH=11, BW=0, offset=0
+[   95.265360] RTL871X: update_mgnt_tx_rate(): rate = c
+[   95.266000] RTL871X: ### Set STA_(1) info
+[ 
+  95.266014] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[   95.266027] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[   95.266045] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[   95.266062] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[   95.266239] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[   95.267121] RTL871X: enter GO Mode, p2p_ielen=20
+D/WifiP2pService( 1955): GroupNe[   95.267307] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[   95.267398] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[   95.267421] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=114
+gotiationState{ what=147459 when[   95.267434] RTL871X: update_bcn_vendor_spec_ie
+[   95.267442] RTL871X: update_bcn_wps_ie
+=-1ms arg1=23 obj=02:e0:46:17:02[   95.267490] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[   95.267511] RTL871X: Got P2P Capability Attr, grp_cap=0x6b, is_GO
+:11 }[   95.267542] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[   95.267558] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+
+D/WifiP2pService( 1955): GroupCr[   95.495116] RTL871X: SetHwReg8188EU, 4074, RCR= 7000208e 
+eatingState{ what=147459 when=-2ms arg1=23 obj=02:e0:46:17:02:11 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147459 when=-2ms arg1=23 obj=02:e0:46:17:02:11 }
+D/WifiP2pService( 1955): DefaultState{ what=147459 when=-2ms arg1=23 obj=02:e0:46:17:02:11 }
+D/WifiP2pService( 1955): GroupNegotiationState{ what=147462 when=-2ms obj=android.net.wifi.StateChangeResult@41d829e0 }
+D/WifiP2pService( 1955): GroupCreatingState{ what=147462 when=-3ms obj=android.net.wifi.StateChangeResult@41d829e0 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=-3ms obj=android.net.wifi.StateChangeResult@41d829e0 }
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=-3ms obj=android.net.wifi.StateChangeResult@41d829e0 }
+V/codec_audio_pad( 1219): in normal mode, headset or speaker on,****LINE:54,FUNC:set_normal_path
+[   96.046497] RTL871X: +OnAuth
+[   96.049732] RTL871X: auth alg=0, seq=1
+[   96.053925] RTL871X: going to alloc stainfo for sa=d8:57:ef:b8:2b:6e
+[   96.061096] RTL871X: issue_auth
+[   96.066132] RTL871X: OnAssocReq
+[   96.069645] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=26)
+[   96.079989] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=46)
+[   96.090310] RTL871X: STA included WPS IE in (Re)Association Request - assume WPS is used
+[   96.099371] RTL871X: [process_assoc_req_p2p_ie] P2P IE Found!!
+[   96.105907] RTL871X: [process_assoc_req_p2p_ie] Got P2P Capability Attr!!
+[   96.113506] RTL871X: [process_assoc_req_p2p_ie] Got P2P DEVICE INFO Attr!!
+[   96.121207] RTL871X: [OnAssocReq] WFD IE Found!!
+[   96.126378] RTL871X: [OnAssocReq] Peer PORT NUM = 554
+[   96.132103] RTL871X: allocate new AID = (1)
+[   96.136789] RTL871X: update_bcn_fixed_ie
+[   96.141206] RTL871X: HT: STA d8:57:ef:b8:2b:6e HT Capabilities Info: 0x002c
+[   96.149059] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - no greenfield, num of non-gf stations 1
+[   96.160479] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - 20 MHz HT, num of 20MHz HT STAs 1
+[   96.171221] RTL871X: bss_cap_update_on_sta_join, updated=1
+[   96.177376] RTL871X: update_sta_info_apmode
+[   96.182058] RTL871X: ### Set STA_(2) info
+[   96.186564] RTL871X: issue_asocrsp
+[   96.190406] RTL871X: report_add_sta_event: add STA
+[   96.195817] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[   96.195899] RTL871X: OnAction_back
+[   96.195908] RTL871X: OnAction_back, action=0
+[   96.195922] RTL871X: issue_action_BA, category=3, action=1, status=0
+[   96.217497] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=2 
+[   96.226245] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[   96.234817] RTL871X: DBG_TX_DROP_FRAME update_attrib psta->ieee8021x_blocked == _TRUE,  pattrib->ether_type(86dd) != 0x888e
+[   96.247278] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[   96.254204] RTL871X: rtw_mlcst2unicst()-366: rtw_xmit() return error!
+[   96.261480] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xffff0, shortGIrate=0x01
+[   96.271802] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000ffff0 RAUseRate=000ff010 HighestRate=19,DecisionRate=19 
+[   96.283390] RTL871X: indicate_sta_assoc_event to upper layer - hostapd
+[   96.290731] RTL871X: rtw_cfg80211_indicate_sta_assoc(padapter=f4431000,p2p0)
+[   96.299216] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[   96.304007] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[   96.304024] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xf0000, shortGIrate=0x01
+[   96.304040] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000f0000 RAUseRate=000f0000 HighestRate=19,DecisionRate=19 
+[   96.334584] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[   96.339955] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=217
+[   96.347739] RTL871X: add bcn, wps_ielen=79
+[   96.352328] RTL871X: got p2p_ie, len=20
+[   96.356617] RTL871X: rtw_check_beacon_data, len=231
+[   96.362109] RTL871X: update_hw_ht_param
+[   96.367115] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[   96.375868] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[   96.382364] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[   96.392331] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[   96.398604] RTL871X: second adapter, CH=1, BW=0, offset=0
+[   96.404639] RTL871X: CH=11, BW=0, offset=0
+[   96.409740] RTL871X: update_mgnt_tx_rate(): rate = c
+[   96.416255] RTL871X: ### Set STA_(1) info
+[   96.420780] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[   96.427301] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[   96.437146] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[   96.448568] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[   96.454620] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[   96.463375] RTL871X: enter GO Mode, p2p_ielen=20
+[   96.468697] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[   96.474215] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[   96.483691] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=114
+[   96.490914] RTL871X: update_bcn_vendor_spec_ie
+[   96.495886] RTL871X: update_bcn_wps_ie
+[   96.500172] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[   96.509662] RTL871X: Got P2P Capability Attr, grp_cap=0x6b, is_GO
+[   96.516548] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[   96.526048] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[   96.533254] RTL871X: cfg80211_rtw_change_station(p2p0)
+[   96.539263] RTL871X: send eapol packet
+I/wpa_supplicant( 2156): p2p0: CTRL-EVENT-EAP-STARTED d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156)[   96.550578] RTL871X: send eapol packet
+: p2p0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+I/wpa_supplicant( 2156): p2p0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=14122 method=254
+[   96.768377] acquire wake_lock for 4500 ms(tx:3,rx_unicast:1)
+[   96.929795] CPU2: shutdown
+[   96.932836] [hotplug]: cpu(1) try to kill cpu(2)
+[   96.939017] [hotplug]: cpu2 is killed! .
+[   96.946266] CPU3: shutdown
+[   96.949562] [hotplug]: cpu(1) try to kill cpu(3)
+[   96.956012] [hotplug]: cpu3 is killed! .
+[   97.057334] RTL871X: send eapol packet
+[   97.456936] RTL871X: send eapol packet
+[   97.473253] RTL871X: send eapol packet
+[   97.489623] RTL871X: send eapol packet
+I/wpa_supplicant( 2156): p2p0: W[   97.504102] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+PS-REG-SUCCESS d8:57:ef:b8:2b:6e[   97.512261] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+ 12345678-9abc-def0-1234-56789ab[   97.519936] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=217
+cdef0
+I/wpa_supplicant( 2156): [   97.530500] RTL871X: add bcn, wps_ielen=79
+p2p0: P2P-GROUP-FORMATION-SUCCES[   97.537831] RTL871X: got p2p_ie, len=20
+S 
+D/WifiP2pService( 1955): Gro[   97.544914] RTL871X: rtw_check_beacon_data, len=231
+upNegotiationState{ what=147483 [   97.553234] RTL871X: update_hw_ht_param
+when=-1ms }
+D/WifiP2pService( 1[   97.561112] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+955): GroupNegotiationState go s[   97.571869] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+uccess
+[   97.579238] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[   97.589207] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[   97.589229] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[   97.604368] RTL871X: second adapter, CH=1, BW=0, offset=0
+[   97.610464] RTL871X: CH=11, BW=0, offset=0
+[   97.615621] RTL871X: update_mgnt_tx_rate(): rate = c
+[   97.626251] RTL871X: ### Set STA_(1) info
+[   97.630818] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[   97.637371] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[   97.647267] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[   97.658735] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[   97.664865] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[   97.673622] RTL871X: enter GO Mode, p2p_ielen=20
+[   97.679021] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[   97.684478] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[   97.694060] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=114
+[   97.701298] RTL871X: update_bcn_vendor_spec_ie
+[   97.706270] RTL871X: update_bcn_wps_ie
+[   97.710624] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[   97.720141] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[   97.727015] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[   97.736507] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[   97.747629] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+I/wpa_supplicant( 2156): p2p0: P[   97.753052] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+2P-GROUP-STARTED p2p0 GO ssid="D[   97.761199] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+IRECT-cn-Android_2eb1" freq=2412[   97.771760] RTL871X: add bcn, wps_ielen=54
+ passphrase="eEVUFhpg" go_dev_ad[   97.779125] RTL871X: got p2p_ie, len=20
+dr=02:e0:46:17:02:11 [PERSISTENT[   97.786180] RTL871X: rtw_check_beacon_data, len=206
+]
+D/WifiP2pService( 1955): Grou[   97.794429] RTL871X: update_hw_ht_param
+pNegotiationState{ what=147485 w[   97.802616] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+hen=0 obj=network: DIRECT-cn-And[   97.813119] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+roid_2eb1
+D/WifiP2pService( 195[   97.820490] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+5):  isGO: true
+D/WifiP2pServic[   97.832524] RTL871X: primary adapter, CH=11, BW=1, offset=2
+e( 1955):  GO: Device: 
+D/WifiP[   97.841549] RTL871X: second adapter, CH=1, BW=0, offset=0
+2pService( 1955):  deviceAddress[   97.850370] RTL871X: CH=11, BW=0, offset=0
+: 02:e0:46:17:02:11
+D/WifiP2pSe[   97.858242] RTL871X: update_mgnt_tx_rate(): rate = c
+rvice( 1955):  primary type: nul[   97.867005] RTL871X: ### Set STA_(1) info
+l
+D/WifiP2pService( 1955):  sec[   97.873353] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+ondary type: null
+D/WifiP2pServ[   97.882632] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+ice( 1955):  wps: 0
+D/WifiP2pSe[   97.895266] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+rvice( 1955):  grpcapab: 0
+D/Wi[   97.909513] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+fiP2pService( 1955):  devcapab: [   97.918118] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+0
+D/WifiP2pService( 1955):  sta[   97.929500] RTL871X: enter GO Mode, p2p_ielen=20
+tus: 4
+D/WifiP2pService( 1955):[   97.936692] RTL871X: cfg80211_rtw_change_bss(p2p0)
+  wfdInfo: null
+D/WifiP2pServic[   97.944765] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+e( 1955):  interface: p2p0
+D/Wi[   97.956926] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+fiP2pService( 1955):  networkId:[   97.966801] RTL871X: update_bcn_vendor_spec_ie
+ -2 }
+D/WifiP2pService( 1955): [   97.974538] RTL871X: update_bcn_wps_ie
+GroupNegotiationState group star[   97.981577] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+ted
+[   97.993771] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[   98.001043] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[   98.010538] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[   98.017925] RTL871X: send eapol packet
+I/wpa_supplicant( 2156): p2p0: W[   98.022591] RTL871X: cfg80211_rtw_change_station(p2p0)
+PS-SUCCESS 
+I/wpa_supplicant( 2[   98.030769] RTL871X: OnDisassoc Reason code(8)
+156): p2p0: CTRL-EVENT-EAP-FAILU[   98.038494] RTL871X: ap recv disassoc reason code(8) sta:d8:57:ef:b8:2b:6e
+RE d8:57:ef:b8:2b:6e
+[   98.048933] RTL871X: rtw_cfg80211_indicate_sta_disassoc(padapter=f4431000,p2p0)
+[   98.048947] RTL871X: set pairwise key to hw: alg:0(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:16832
+[   98.068574] RTL871X: report_del_sta_event: delete STA, mac_id=2
+[   98.075221] RTL871X: update_bcn_fixed_ie
+[   98.079647] RTL871X: bss_cap_update_on_sta_leave, updated=1
+[   98.085948] RTL871X: ### Clean STA_(2) info
+[   98.090697] RTL871X: OnDeAuth Reason code(3)
+[   98.095500] RTL871X: ap recv deauth reason code(3) sta:d8:57:ef:b8:2b:6e
+[   98.103631] RTL871X: rtw_stadel_event_callback(mac_id=2)=d8:57:ef:b8:2b:6e
+[   98.111463] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=0 MACID=2 
+[   98.113876] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[   98.113889] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+[   98.113901] RTL871X: -cfg80211_rtw_del_station(p2p0)
+[   98.114092] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[   98.114102] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+I/wpa_supplicant( 2156): [CTRL_I[   98.114112] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+[   98.114124] RTL871X: add bcn, wps_ielen=54
+[   98.114133] RTL871X: got p2p_ie, len=20
+FACE]p2p0: LIST_NETWORKS[   98.114145] RTL871X: rtw_check_beacon_data, len=206
+[   98.114168] RTL871X: update_hw_ht_param
+[   98.114986] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[   98.116737] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[   98.117362] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+
+[   98.117376] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[   98.117386] RTL871X: second adapter, CH=1, BW=0, offset=0
+[   98.117397] RTL871X: CH=11, BW=0, offset=0
+[   98.117862] RTL871X: update_mgnt_tx_rate(): rate = c
+I/wpa_supplicant( 2156): [CTRL_I[   98.118493] RTL871X: ### Set STA_(1) info
+[   98.118504] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[   98.118517] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+FACE]wlan0: SIGNAL_POLL[   98.118532] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[   98.118545] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[   98.118738] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[   98.119619] RTL871X: enter GO Mode, p2p_ielen=20
+
+[   98.119716] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[   98.119781] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[   98.119800] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[   98.119812] RTL871X: update_bcn_vendor_spec_ie
+[   98.119820] RTL871X: update_bcn_wps_ie
+[   98.119858] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+I/wpa_supplicant( 2156): [CTRL_I[   98.119878] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[   98.119906] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+FACE]p2p0: GET_NETWORK 24 mode[   98.119922] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: AP_SCAN 1
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SAVE_CONFIG
+I/wpa_supplicant( 2156): wpa_s->ifname p2p0 cmd SET p2p_group_idle 10
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SET p2p_group_idle 10
+D/WifiP2pService( 1955): sending p2p persistent groups changed broadcast
+D/CommandListener( 1213): Setting iface cfg
+[   98.388154] CPU2: Booted secondary processorp0
+
+D/TetherController( 1213): Star[   98.388231] Calibrating delay loop (skipped) already calibrated this CPUting tethering services
+D/TetherController( 1213): Tethering services running
+D/WifiP2pService( 1955): Started Dhcp server on p2p0
+D/WifiP2pService( 1955): GroupCreatedState
+D/WifiP2pService( 1955): GroupCreatedState{ what=147464 when=-377ms }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147464 when=-384ms }
+I/dnsmasq ( 4506): started, version 2.51 cachesize 150
+I/dnsmasq ( 4506): compile time options: nCPU3: Booted secondary processor
+o-IPv6 GNU-getopt no-DBus no-I18[   98.440758] Calibrating delay loop (skipped) already calibrated this CPUN DHCP no-scripts no-TFTP
+W/dnsmasq ( 4506): warning: no upstream servers configured
+I/dnsmasq ( 4506): DHCP, IP range 192.168.49.2 -- 192.168.49.254, lease time 1h
+I/dnsmasq ( 4506): read /etc/hosts - 1 addresses
+D/WifiP2pService( 1955): DefaultState{ what=147464 when=-384ms }
+D/dalvikvm( 1955): GC_CONCURRENT freed 516K, 13% free 7648K/8692K, paused 168ms+7ms, total 281ms
+RTL871X: +OnAuth
+[   98.543511] RTL871X: auth alg=0, seq=1
+[   98.547711] RTL871X: going to alloc stainfo for sa=d8:57:ef:b8:2b:6e
+[   98.554884] RTL871X: issue_auth
+[   98.571766] RTL871X: OnAssocReq
+[   98.575286] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=26)
+[   98.585616] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=46)
+[   98.595955] RTL871X: [process_assoc_req_p2p_ie] P2P IE Found!!
+[   98.602491] RTL871X: [process_assoc_req_p2p_ie] Got P2P Capability Attr!!
+[   98.610093] RTL871X: [process_assoc_req_p2p_ie] Got P2P DEVICE INFO Attr!!
+[   98.617792] RTL871X: [OnAssocReq] WFD IE Found!!
+[   98.622964] RTL871X: [OnAssocReq] Peer PORT NUM = 554
+[   98.628626] RTL871X: allocate new AID = (1)
+[   98.633308] RTL871X: update_bcn_fixed_ie
+[   98.637735] RTL871X: HT: STA d8:57:ef:b8:2b:6e HT Capabilities Info: 0x002c
+[   98.645542] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - no greenfield, num of non-gf stations 1
+[   98.656847] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - 20 MHz HT, num of 20MHz HT STAs 1
+[   98.667578] RTL871X: bss_cap_update_on_sta_join, updated=1
+[   98.673760] RTL871X: update_sta_info_apmode
+[   98.678456] RTL871X: ### Set STA_(2) info
+[   98.682956] RTL871X: issue_asocrsp
+[   98.686816] RTL871X: report_add_sta_event: add STA
+[   98.692285] RTL871X: OnAction_back
+[   98.696088] RTL871X: OnAction_back, action=0
+[   98.700875] RTL871X: issue_action_BA, category=3, action=1, status=0
+[   98.708633] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[   98.714619] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=2 
+[   98.723375] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[   98.731682] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xffff0, shortGIrate=0x01
+[   98.742220] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000ffff0 RAUseRate=000ff010 HighestRate=19,DecisionRate=19 
+[   98.753881] RTL871X: indicate_sta_assoc_event to upper layer - hostapd
+[   98.761237] RTL871X: rtw_cfg80211_indicate_sta_assoc(padapter=f4431000,p2p0)
+[   98.769513] acquire wake_lock for 4500 ms(tx:5,rx_unicast:5)
+[   98.769843] RTL871X: cfg80211_rtw_change_station(p2p0)
+[   98.779219] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for   (null)
+[   98.779233] RTL871X: cipher=0xfac04
+[   98.779240] RTL871X: key_len=0x10
+[   98.779247] RTL871X: seq_len=0x0
+[   98.779255] RTL871X: key_index=1
+[   98.779262] RTL871X: pairwise=0
+[   98.779274] RTL871X: rtw_cfg80211_ap_set_encryption
+[   98.779286] RTL871X: rtw_cfg80211_ap_set_encryption, set group_key, CCMP
+[   98.779297] RTL871X: set_group_key
+[   98.779367] RTL871X: cfg80211_rtw_set_default_key(p2p0) key_index=1, unicast=0, multicast=1.
+[   98.782482] RTL871X: send eapol packet
+[   98.782781] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[   98.782792] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[   98.782802] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+[   98.782815] RTL871X: add bcn, wps_ielen=54
+[   98.782825] RTL871X: got p2p_ie, len=20
+[   98.782841] RTL871X: rtw_check_beacon_data, len=206
+[   98.782876] RTL871X: update_hw_ht_param
+[   98.875011] RTL871X: set group key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) keyid:1
+[   98.884125] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[   98.892997] RTL871X: SetHwReg8188EU, 4074, RCR= 7000208e 
+[   98.900742] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[   98.907240] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[   98.917158] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[   98.923410] RTL871X: second adapter, CH=1, BW=0, offset=0
+[   98.929470] RTL871X: CH=11, BW=0, offset=0
+[   98.934615] RTL871X: update_mgnt_tx_rate(): rate = c
+[   98.941133] RTL871X: ### Set STA_(1) info
+[   98.945649] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[   98.952191] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[   98.962044] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[   98.973465] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[   98.979617] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[   98.988377] RTL871X: enter GO Mode, p2p_ielen=20
+[   98.993703] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[   98.999168] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[   99.008651] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[   99.015776] RTL871X: update_bcn_vendor_spec_ie
+[   99.020766] RTL871X: update_bcn_wps_ie
+[   99.025029] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[   99.034641] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[   99.041774] RTL871X: DBG_TX_DROP_FRAME update_attrib psta->ieee8021x_blocked == _TRUE,  pattrib->ether_type(86dd) != 0x888e
+[   99.054280] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[   99.061220] RTL871X: rtw_mlcst2unicst()-366: rtw_xmit() return error!
+[   99.068677] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[   99.078499] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[   99.085886] RTL871X: cfg80211_rtw_get_key(p2p0)
+[   99.091153] RTL871X: send eapol packet
+[   99.098614] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for d8:57:ef:b8:2b:6e
+[   99.106895] RTL871X: cipher=0xfac04
+[   99.110826] RTL871X: key_len=0x10
+[   99.114530] RTL871X: seq_len=0x0
+[   99.118166] RTL871X: key_index=0
+[   99.121783] RTL871X: pairwise=1
+[   99.125302] RTL871X: rtw_cfg80211_ap_set_encryption
+[   99.130908] RTL871X: rtw_cfg80211_ap_set_encryption, set pairwise key, CCMP
+[   99.138766] RTL871X: set pairwise key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:16832
+[   99.147112] RTL871X: cfg80211_rtw_change_station(p2p0)
+I/wpa_supplicant( 2156): p2p0: A[   99.154097] RTL871X: r871x_set_stakey_hdl(): enc_algorithm=4
+P-STA-CONNECTED d8:57:ef:b8:2b:6[   99.163222] RTL871X: Write CAM, mac_addr=d8:57:ef:b8:2b:6e, cam_entry=5
+e p2p_dev_addr=d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): wpa_s->ifname p2p0 cmd SET p2p_group_idle 0
+D/WifiP2pService( 1955): GroupCreatedState{ what=147498 when=-2ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SET p2p_group_idle 0
+D/WifiP2pService( 1955): GroupCreatedState ap sta connected
+D/WifiP2pService( 1955): sending p2p connection changed broadcast
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): GroupCreatedState{ what=139283 when=0 arg2=11 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=0 arg2=11 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-1ms arg2=11 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): GroupCreatedState{ what=139287 when=0 arg2=12 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139287 when=0 arg2=12 }
+D/WifiP2pService( 1955): DefaultState{ what=139287 when=0 arg2=12 }
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Push2TV 716A0D-PTV3000, deviceAddress: 22:e5:2a:71:6a:0d, primary type: 7-0050F204-1, secondary type: null, wps: 136, grpcapab: 0, devcapab: 37, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955): updateDesiredDevice: new information Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955): Received group info: network: DIRECT-cn-Android_2eb1, isGO: true, GO: Device: , deviceAddress: 02:e0:46:17:02:11, primary type: null, secondary type: null, wps: 0, grpcapab: 0, devcapab: 0, status: 4, wfdInfo: null, Client: Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50, interface: p2p0, networkId: 24
+I/WifiDisplayController( 1955): Connected to Wifi display: Dongle-A1B4B0
+I/WifiDisplayController( 1955): Listening for RTSP connection on 192.168.49.1:7236 from Wifi display: Dongle-A1B4B0
+E/MonoPipe( 1219): Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+I/AudioFlinger( 1219): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+I/AudioMixer( 1219): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 1219): AudioFlinger's thread 0x425e6008 ready to run
+I/r_submix( 1219): out_standby()
+I/AudioFlinger( 1219): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+I/AudioMixer( 1219): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 1219): AudioFlinger's thread 0x425ee2a8 ready to run
+[  100.213155] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[  100.221476] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xf0000, shortGIrate=0x01
+[  100.231732] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000f0000 RAUseRate=000f0000 HighestRate=19,DecisionRate=19 
+I/dnsmasq ( 4506): DHCPDISCOVER(p2p0) d8:57:ef:b8:2b:6e 
+I/dnsmasq ( 4506): DHCPOFFER(p2p0) 192.168.49.44 d8:57:ef:b8:2b:6e 
+I/dnsmasq ( 4506): DHCPREQUEST(p2p0) 192.168.49.44 d8:57:ef:b8:2b:6e 
+I/dnsmasq ( 4506): DHCPACK(p2p0) 192.168.49.44 d8:57:ef:b8:2b:6e 
+D/dnsmasq-W( 4506): 1.clientInfo[emac_len=6,iface_name=p2p0,hostname=(null)]
+D/dnsmasq-W( 4506): 2.clientInfo[mac=d8:57:ef:b8:2b:6e,ip=192.168.49.44]
+D/dnsmasq-W( 4506): Error connecting (Connection refused)
+[  100.768384] acquire wake_lock for 4500 ms(tx:8,rx_unicast:1)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  101.299830] CPU2: shutdown
+[  101.302888] [hotplug]: cpu(0) try to kill cpu(2)
+[  101.309125] [hotplug]: cpu2 is killed! .
+[  101.326359] CPU3: shutdown
+[  101.329448] [hotplug]: cpu(1) try to kill cpu(3)
+[  101.335644] [hotplug]: cpu3 is killed! .
+I/NetworkSession( 1219): incoming connection from 192.168.49.44:51537 (socket 34)
+I/NetworkSession( 1219): added clientSession 2
+I/WifiDisplaySource( 1219): We now have a client (2) connected.
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 1
+V/WifiDisplaySource( 1219): date: Thu Jan  1 02:46:08 1970
+V/WifiDisplaySource( 1219): public: org.wfa.wfd1.0, GET_PARAMETER, SET_PARAMETER
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'OPTIONS * RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 1
+V/WifiDisplaySource( 1219): require: org.wfa.wfd1.0
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): content-length: 199
+V/WifiDisplaySource( 1219): content-type: text/parameters
+V/WifiDisplaySource( 1219): cseq: 2
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): wfd_audio_codecs: LPCM 00000003 00, AAC 0000000F 00
+V/WifiDisplaySource( 1219): wfd_video_formats: 00 00 02 02 0001DEFF 157C7FFF 00000FFF 00 0000 0000 00 none none
+V/WifiDisplaySource( 1219): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 19000 0 mode=play
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): Using AAC audio.
+I/WifiDisplaySource( 1219): Sink doesn't appear to support content protection.
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 3
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 4
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'SETUP rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 2
+V/WifiDisplaySource( 1219): transport: RTP/AVP/UDP;unicast
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+D/omx_venc( 1219): ----get_omx_component_factory_fn
+D/osal_linux( 1219): init hw ref count:1
+I/Converter( 1219): using audio bitrate of 128000 bps, video bitrate of 3000000 bps
+D/omx_venc( 1219):  COMPONENT_SET_PARAMETER: OMX_IndexParamVideoIntraRefresh , can't set curently
+I/ACodec  ( 1219): setupVideoEncoder succeeded
+D/omx_venc( 1219): x set state command, cmd = 0, cmddata = 2.
+D/omx_venc( 1219):  init format,width: 1280, height: 720, bitrate: 3000000
+I/r_submix( 1219): adev_open_input_stream()
+I/r_submix( 1219): in_standby()
+I/r_submix( 1219): in_standby()
+D/omx_venc( 1219): pSelf->m_sInPortDef.bPopulated:1, pSelf->m_sOutPortDef.bPopulated: 1
+D/omx_venc( 1219): x set state command, cmd = 0, cmddata = 3.
+D/omx_venc( 1219): pSelf->m_sInPortFormat.eColorFormat == OMX_COLOR_FormatAndroidOpaque
+I/Converter( 1219): using audio bitrate of 128000 bps, video bitrate of 3000000 bps
+W/OMXNodeInstance( 1219): OMX_EnableAndroidNativeBuffers failed with error -2147479526 (0x8000101a)
+I/Sender  ( 1219): rtpSessionID = 3, rtcpSessionID = 0
+[  102.768390] acquire wake_lock for 4500 ms(tx:13,rx_unicast:16)
+V/WifiDisplaySource( 1219): session 2 received 'PLAY rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 3
+V/WifiDisplaySource( 1219): session: 25288478
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+I/WifiDisplayController( 1955): Lost RTSP connection with Wifi display due to error 1: Dongle-A1B4B0
+I/WifiDisplayController( 1955): Wifi display connection failed!
+I/WifiDisplayController( 1955): Retrying Wifi display connection.  Retries left: 2
+I/WifiDisplaySource( 1219): Sending TEARDOWN trigger.
+I/WifiDisplayController( 1955): Stopped listening for RTSP connection on 192.168.49.1:7236 from Wifi display: Dongle-A1B4B0
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 5
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'TEARDOWN rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 4
+V/WifiDisplaySource( 1219): session: 25288478
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): Received TEARDOWN request.
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  104.768381] acquire wake_lock for 4500 ms(tx:7,rx_unicast:7)
+[  105.278073] p2p0: no IPv6 routers present
+I/WifiDisplaySource( 1219): TEARDOWN trigger timed out, forcing disconnection.
+V/WifiDisplaySource( 1219): finishStop
+V/WifiDisplaySource( 1219): disconnectClient
+V/WifiDisplaySource( 1219)[  105.315753] RTL871X: +cfg80211_rtw_del_station(p2p0)
+: Destroying PlaybackSession
+I/[  105.324853] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+PlaybackSession( 1219): destroyA[  105.333399] RTL871X: free psta=f447d774, aid=1
+sync
+I/Converter( 1219): shutti[  105.340627] RTL871X: rx agg disable tid(0)
+ng down encoder
+D/omx_venc( 121[  105.347957] RTL871X: issue_action_BA, category=3, action=2, status=0
+9): x set state command, cmd = 0[  105.357885] RTL871X: issue_deauth to d8:57:ef:b8:2b:6e
+, cmddata = 2.
+D/omx_venc( 1219[  105.366421] RTL871X: rtw_cfg80211_indicate_sta_disassoc(padapter=f4431000,p2p0)
+[  105.366435] RTL871X: set pairwise key to hw: alg:0(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:16832
+): pSelf->m_sInPortDef.bPopulate[  105.387005] RTL871X: report_del_sta_event: delete STA, mac_id=2
+d:1, pSelf->m_sOutPortDef.bPopul[  105.396284] RTL871X: update_bcn_fixed_ie
+ated: 1
+D/omx_venc( 1219): x se[  105.403471] RTL871X: bss_cap_update_on_sta_leave, updated=1
+t state command, cmd = 0, cmddat[  105.412501] RTL871X: ### Clean STA_(2) info
+a = 1.
+D/omx_venc( 1219): compo[  105.420196] RTL871X: -cfg80211_rtw_del_station(p2p0)
+nent_deinit before
+D/omx_venc( [  105.428639] RTL871X: +cfg80211_rtw_del_station(p2p0)
+1219): x stop command.
+D/osal_l[  105.436583] RTL871X: flush all sta, and cam_entry
+[  105.436605] RTL871X: rtw_stadel_event_callback(mac_id=2)=d8:57:ef:b8:2b:6e
+[  105.436620] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=0 MACID=2 
+inux( 1219): exit hw ref count:0[  105.460097] RTL871X: rtw_sta_flush(p2p0)
+
+D/aw_omx_core( 1219):  Unloadi[  105.467264] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+ng the dynamic library for OMX.a[  105.476013] RTL871X: +cfg80211_rtw_del_station(p2p0)
+llwinner.video.encoder.avc
+I/Co[  105.484238] RTL871X: free sta macaddr =ff:ff:ff:ff:ff:ff
+nverter( 1219): encoder (video/r[  105.493012] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=0
+aw) shut down.
+I/PlaybackSessio[  105.501959] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=1
+n( 1219): kWhatStopped video pos[  105.510993] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=2
+ted
+I/Converter( 1219): shuttin[  105.520013] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=3
+g down encoder
+I/Converter( 121[  105.529039] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  105.529288] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  105.529300] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  105.529311] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+9): encoder (audio/raw) shut dow[  105.564488] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=35
+n.
+I/PlaybackSession( 1219): kW[  105.574396] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+hatStopped audio posted
+I/Playb[  105.586659] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+ackSession( 1219): Track 0 stopp[  105.596225] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+ed
+I/PlaybackSession( 1219): no[  105.608425] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=26
+t all tracks are stopped yet
+I/[  105.618310] RTL871X: cfg80211_rtw_del_beacon(p2p0)
+PlaybackSession( 1219): Track 1 [  105.626408] RTL871X: cfg80211_rtw_change_iface(p2p0) call netdev_if2_open
+stopped
+I/r_submix( 1219): shut[  105.636721] RTL871X: +871x_drv - if2_open, bup=1
+down
+V/WifiDisplaySource( 1219)[  105.644668] RTL871X: -871x_drv - if2_open, bup=1
+: disconnectClient2
+V/WifiDispl[  105.652624] RTL871X: cfg80211_rtw_change_iface(p2p0) old_iftype=9, new_iftype=2
+aySource( 1219): finishStopAfter[  105.663583] RTL871X: cfg80211_rtw_change_iface, role=1, p2p_state=2, pre_p2p_state=2
+DisconnectingClient
+V/WifiDispl[  105.675024] RTL871X: stop_ap_mode, free acl_node_queue, num=0
+aySource( 1219): finishStop2
+I/[  105.684239] RTL871X: rtw_sta_flush(p2p0)
+WifiDisplaySource( 1219): We're [  105.691382] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+stopped.
+I/wpa_supplicant( 2156[  105.700008] RTL871X: ### Clean STA_(1) info
+): [CTRL_IFACE]p2p0: P2P_GROUP_R[  105.707423] RTL871X: ### Clean STA_(1) info
+EMOVE p2p0
+I/wpa_supplicant( 21[  105.714924] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+56): p2p0: P2P-GROUP-REMOVED p2p0 GO reason=REQUESTED
+I/r_submix( 1219): shutdown
+I/wpa_suppli[  105.735958] RTL871X: hw_var_set_opmode()-3261 mode = 2
+cant( 2156): p2p0: AP-STA-DISCONNECTED d8:57:ef:b8:2b:6e p2p_dev_addr=d8:57:ef:b8:2b:6e
+I/WifiDisplayController( 1955): Disconnecting from Wifi display: Dongle-A1B4B0
+D/WifiP2pService( 1955): GroupCreatedState{ what=139280 when=-1ms arg2=13 }
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=0, activeDisplay=null, availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), Push2TV 716A0D-PTV3000 (22:e5:2a:71:6a:0d)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/WifiP2pService( 1955): GroupCreatedState remove group
+I/r_submix( 1219): shutdown
+D/TetherController( 1213): Stopping tethering services
+I/dnsmasq ( 4506): exiting on receipt of SIGTERM
+D/TetherController( 1213): Tethering services stoppe[  105.814392] CPU2: Booted secondary processor
+[  105.814470] Calibrating delay loop (skipped) already calibrated this CPUd
+D/WifiP2pService( 1955): OngoingGroupRemovalState
+D/WifiP2pService( 1955): OngoingGroupRemovalState{ what=147486 when=-407ms obj=network: null
+D/WifiP2pService( 1955):  isGO: true
+D/WifiP2pService( 1955):  GO: null
+D/WifiP2pService( 1955):  interface: p2p0
+D/WifiP2pService( 1955):  networkId: 0 }
+D/WifiP2pService( 1955): GroupCreatedState{ wCPU3: Booted secondary processor
+[  105.854966] Calibrating delay loop (skipped) already calibrated this CPUhat=147486 when=-408ms obj=network: null
+D/WifiP2pService( 1955):  isGO: true
+D/WifiP2pService( 1955):  GO: null
+D/WifiP2pService( 1955):  interface: p2p0
+D/WifiP2pService( 1955):  networkId: 0 }
+D/WifiP2pService( 1955): GroupCreatedState group removed
+I/WifiDisplayController( 1955): Disconnected from Wifi display: Dongle-A1B4B0
+I/WifiDisplayController( 1955): Connecting to Wifi display: Dongle-A1B4B0
+D/WifiDisplayController( 1955): connect config = [
+D/WifiDisplayController( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiDisplayController( 1955):  wps:  setup: 0
+D/WifiDisplayController( 1955):  BSSID: null
+D/WifiDisplayControRTL871X: no packet in tx packet buffer (0)
+ller( 1955):  pin: null
+D/WifiDisplayController( 1955): 
+D/WifiDisplayController( 1955):  groupOwnerIntent: 10
+D/WifiDisplayController( 1955):  persist: -2]
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=1, activeDisplay=Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), Push2TV 716A0D-PTV3000 (22:e5:2a:71:6a:0d)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/CommandListener( 1213): Clearing all IP addresses on p2p0
+D/WifiP2pService( 1955): Stopped Dhcp server
+D/NetUtils( 1955): android_net_utils_resetConnections in env=0x59f9af10 clazz=0x49700001 iface=p2p0 mask=0x3
+D/dalvikvm( 2488): GC_CONCURRENT freed 325K, 16% free 4775K/5620K, paused 2ms+9ms, total 51ms
+I/wpa_supplicant( 2156): wpa_s->ifname p2p0 cmd SET p2p_group_idle 0
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SET p2p_group_idle 0
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_FLUSH
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=22:e5:2a:71:6a:0d
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=42:14:aa:55:0d:f2
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=d8:57:ef:b8:2b:6e
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): sending p2p connection changed broadcast
+D/WifiP2pService( 1955): InactiveState
+D/WifiP2pService( 1955): InactiveState{ what=147462 when=-582ms obj=android.net.wifi.StateChangeResult@41c84128 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/WifiDisplayController( 1955): Canceling connection to Wifi display: Dongle-A1B4B0
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=-582ms obj=android.net.wifi.StateChangeResult@41c84128 }
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=-582ms obj=android.net.wifi.StateChangeResult@41c84128 }
+D/WifiP2pService( 1955): InactiveState{ what=147462 when=-583ms obj=android.net.wifi.StateChangeResult@41c134c8 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=-583ms obj=android.net.wifi.StateChangeResult@41c134c8 }
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=0, activeDisplay=null, availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), Push2TV 716A0D-PTV3000 (22:e5:2a:71:6a:0d)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=-583ms obj=android.net.wifi.StateChangeResult@41c134c8 }
+D/WifiP2pService( 1955): InactiveState{ what=147497 when=-582ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147497 when=-583ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PEER d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PEER d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 0 p2p_client_list
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 1 p2p_client_list
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_STOP_FIND
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PROV_DISC d8:57:ef:b8:2b:6e pbc
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_CANCEL
+D/WifiP2pService( 1955): DefaultState{ what=147497 when=-583ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+E/WifiP2pService( 1955): Unhandled message { what=147497 when=-584ms obj=Device: 
+E/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+E/WifiP2pService( 1955):  primary type: null
+E/WifiP2pService( 1955):  secondary type: null
+E/WifiP2pService( 1955):  wps: 0
+E/WifiP2pService( 1955):  grpcapab: 0
+E/WifiP2pService( 1955):  devcapab: 0
+E/WifiP2pService( 1955):  status: 4
+E/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): InactiveState{ what=139271 when=-176ms arg2=14 obj=
+D/WifiP2pService( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  wps:  setup: 0
+D/WifiP2pService( 1955):  BSSID: null
+D/WifiP2pService( 1955):  pin: null
+D/WifiP2pService( 1955): 
+D/WifiP2pService( 1955):  groupOwnerIntent: 10
+D/WifiP2pService( 1955):  persist: -2 }
+D/WifiP2pService( 1955): InactiveState sending connect
+D/WifiP2pService( 1955): target ssid is null join:false
+D/WifiP2pService( 1955): allshare p2pclient persistent.
+D/WifiP2pService( 1955): netId related with d8:57:ef:b8:2b:6e = -1
+D/WifiP2pService( 1955): Sending prov disc
+D/WifiP2pService( 1955): GroupCreatingState
+D/WifiP2pService( 1955): ProvisionDiscoveryState
+I/WifiDisplayController( 1955): Initiated connection to Wifi display: Dongle-A1B4B0
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): ProvisionDiscoveryState{ what=147478 when=-8ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 22:e5:2a:71:6a:0d
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): GroupCreatingState{ what=147478 when=-8ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 22:e5:2a:71:6a:0d
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): mSavedPeerConfig d8:57:ef:b8:2b:6edevice 22:e5:2a:71:6a:0d
+D/WifiP2pService( 1955): P2pEnabledState{ what=147478 when=-9ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 22:e5:2a:71:6a:0d
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): ProvisionDiscoveryState{ what=147478 when=-9ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): GroupCreatingState{ what=147478 when=-9ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): mSavedPeerConfig d8:57:ef:b8:2b:6edevice 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955): P2pEnabledState{ what=147478 when=-10ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): ProvisionDiscoveryState{ what=139283 when=-10ms arg2=15 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): GroupCreatingState{ what=139283 when=-10ms arg2=15 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-10ms arg2=15 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-10ms arg2=15 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): ProvisionDiscoveryState{ what=147478 when=-10ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 1, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiP2pService( 1955): GroupCreatingState{ what=147478 when=-11ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): Add device to lost list Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null
+D/WifiP2pService( 1955): ProvisionDiscoveryState{ what=139274 when=-10ms arg2=16 }
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=0, activeDisplay=null, availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/WifiP2pService( 1955): GroupCreatingState{ what=139274 when=-10ms arg2=16 }
+D/WifiP2pService( 1955): sending p2p connection changed broadcast
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_FLUSH
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_FIND 120
+D/WifiDisplayController( 1955): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: DISCONNECTED/FAILED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/WifiP2pService( 1955): InactiveState
+I/WifiDisplayController( 1955): Canceled connection to Wifi display: Dongle-A1B4B0
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-13ms arg2=17 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-14ms arg2=17 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-14ms arg2=17 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-7ms arg2=18 }
+D/WifiP2pService( 1955): P2pEnabledState[  106.979945] CPU1: shutdown
+{ what=139283 when=-7ms arg2=18 [  106.985678] [hotplug]: cpu(0) try to kill cpu(1)
+}
+D/WifiP2pService( 1955): Defa[  106.994817] [hotplug]: cpu1 is killed! .
+ultState{ what=139283 when=-7ms arg2=18 }
+D/WifiDisplayAdapter([  107.004049] CPU2: shutdown
+ 1955): getWifiDisplayStatusLock[  107.009946] [hotplug]: cpu(0) try to kill cpu(2)
+ed: result=WifiDisplayStatus{fea[  107.018748] [hotplug]: cpu2 is killed! .
+tureState=3, scanState=0, activeDisplayState=0, activeDisplay=null, availableDisplays=[], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-6ms arg2=19 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-6ms arg2=19 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-6ms arg2=19 }
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-5ms arg2=20 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-6ms arg2=20 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-6ms arg2=20 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-2ms arg2=21 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-2ms arg2=21 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-2ms arg2=21 }
+D/WifiP2pService( 1955): InactiveState{ what=139265 when=-2ms }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139265 when=-2ms }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiP2pService( 1955): discovery change broadcast true
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-3ms arg2=22 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-3ms arg2=22 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-3ms arg2=22 }
+D/WifiDisplayController( 1955): Received list of peers.
+W/ThrottleService( 1955): unable to find stats for iface rmnet0
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  107.305116] RTL871X: survey done event(35)
+[  107.314584] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  107.324924] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:204
+I/wpa_supplicant( 2156): p2p_add[  107.333428] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+_device, freq -> listen_freq=244[  107.344769] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=612
+2
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-FOUND 02:c5:05:00:9[  107.359236] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1612
+7:82 p2p_dev_addr=02:c5:05:00:97:82 pri_dev_type=10-0050F204-5 name='MiniMax-f8k6' config_methods=0x188 dev_capab=0x20 group_capab=0x2b wfd_dev_info=0x00000601510000012c
+I/wpa_supplicant( 2156): p2p_add_device, freq -> listen_freq=2412
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-FOUND d8:57:ef:b8:2b:6e p2p_dev_addr=d8:57:ef:b8:2b:6e pri_dev_type=1-0050F204-1 name='Dongle-A1B4B0' config_methods=0x188 dev_capab=0x21 group_capab=0x0 wfd_dev_info=0x000006015d022a0032
+D/WifiP2pService( 1955): InactiveState{ what=147477 when=-1ms obj=Device: MiniMax-f8k6
+D/WifiP2pService( 1955):  deviceAddress: 02:c5:05:00:97:82
+D/WifiP2pService( 1955):  primary type: 10-0050F204-5
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 392
+D/WifiP2pService( 1955):  grpcapab: 43
+D/WifiP2pService( 1955):  devcapab: 32
+D/WifiP2pService( 1955):  status: 3
+D/WifiP2pService( 1955):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 337
+D/WifiP2pService( 1955):  WFD CtrlPort: 0
+D/WifiP2pService( 1955):  WFD MaxThroughput: 300 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147477 when=-2ms obj=Device: MiniMax-f8k6
+D/WifiP2pService( 1955):  deviceAddress: 02:c5:05:00:97:82
+D/WifiP2pService( 1955):  primary type: 10-0050F204-5
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 392
+D/WifiP2pService( 1955):  grpcapab: 43
+D/WifiP2pService( 1955):  devcapab: 32
+D/WifiP2pService( 1955):  status: 3
+D/WifiP2pService( 1955):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 337
+D/WifiP2pService( 1955):  WFD CtrlPort: 0
+D/WifiP2pService( 1955):  WFD MaxThroughput: 300 }
+D/WifiP2pService( 1955): InactiveState{ what=147477 when=-2ms obj=Device: Dongle-A1B4B0
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: 1-0050F204-1
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 392
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 33
+D/WifiP2pService( 1955):  status: 3
+D/WifiP2pService( 1955):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 349
+D/WifiP2pService( 1955):  WFD CtrlPort: 554
+D/WifiP2pService( 1955):  WFD MaxThroughput: 50 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147477 when=-2ms obj=Device: Dongle-A1B4B0
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: 1-0050F204-1
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 392
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 33
+D/WifiP2pService( 1955):  status: 3
+D/WifiP2pService( 1955):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 349
+D/WifiP2pService( 1955):  WFD CtrlPort: 554
+D/WifiP2pService( 1955):  WFD MaxThroughput: 50 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=0 arg2=23 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=0 arg2=23 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=0 arg2=23 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: MiniMax-f8k6, deviceAddress: 02:c5:05:00:97:82, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 43, devcapab: 32, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 337, WFD CtrlPort: 0, WFD MaxThroughput: 300
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=0, activeDisplay=null, availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), MiniMax-f8k6 (02:c5:05:00:97:82)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-4ms arg2=24 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-4ms arg2=24 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-4ms arg2=24 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: MiniMax-f8k6, deviceAddress: 02:c5:05:00:97:82, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 43, devcapab: 32, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 337, WFD CtrlPort: 0, WFD MaxThroughput: 300
+[  107.958111] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[  108.982994] RTL871X: cfg80211_remain_on_channel_expired
+[  108.989617] RTL871X: no packet in tx packet buffer (0)
+[  109.354996] RTL871X: survey done event(10)
+I/wpa_supplicant( 2156): p2p_add[  109.364197] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+_device, freq(2442) is not 1,6,1[  109.375313] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:307
+1, don't update to listen_freq
+[  109.385661] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+I/wpa_supplicant( 2156): p2p_add[  109.397896] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=921
+_device, listen_freq=2442
+I/wpa_supplicant( 2156): p2p_add_devi[  109.412114] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1921
+ce, listen_freq=2412
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  110.328160] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[  111.342874] RTL871X: cfg80211_remain_on_channel_expired
+[  111.349614] RTL871X: no packet in tx packet buffer (0)
+[  111.706497] RTL871X: survey done event(c)
+[  111.715400] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+I/wpa_supplicant( 2156): p2p_add[  111.725725] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:204
+_device, listen_freq=2412
+I/wpa[  111.735501] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+_supplicant( 2156): p2p_add_devi[  111.747277] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=612
+ce, freq -> listen_freq=2462
+I/wpa_supplicant( 2156): p2p0: P2P[  111.761740] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1612
+-DEVICE-FOUND 42:14:aa:55:0d:f2 p2p_dev_addr=42:14:aa:55:0d:f2 pri_dev_type=10-0050F204-5 name='Android_79df' config_methods=0x188 dev_capab=0x24 group_capab=0x0 wfd_dev_info=0x00000600101c440032
+D/WifiP2pService( 1955): InactiveState{ what=147477 when=-1ms obj=Device: Android_79df
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: 10-0050F204-5
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 392
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 36
+D/WifiP2pService( 1955):  status: 3
+D/WifiP2pService( 1955):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 16
+D/WifiP2pService( 1955):  WFD CtrlPort: 7236
+D/WifiP2pService( 1955):  WFD MaxThroughput: 50 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147477 when=-1ms obj=Device: Android_79df
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: 10-0050F204-5
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 392
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 36
+D/WifiP2pService( 1955):  status: 3
+D/WifiP2pService( 1955):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 16
+D/WifiP2pService( 1955):  WFD CtrlPort: 7236
+D/WifiP2pService( 1955):  WFD MaxThroughput: 50 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): InactiveState{ what=139283 when=-1ms arg2=25 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-1ms arg2=25 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-2ms arg2=25 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: MiniMax-f8k6, deviceAddress: 02:c5:05:00:97:82, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 43, devcapab: 32, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 337, WFD CtrlPort: 0, WFD MaxThroughput: 300
+[  112.358116] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  113.382870] RTL871X: cfg80211_remain_on_channel_expired
+[  113.389361] RTL871X: no packet in tx packet buffer (0)
+[  113.744991] RTL871X: survey done event(12)
+I/wpa_supplicant( 2156): p2p_add[  113.753989] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+_device, listen_freq=2412
+I/wpa[  113.765191] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:204
+_supplicant( 2156): p2p_add_devi[  113.775385] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+ce, listen_freq=2462
+[  113.787259] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=612
+[  113.800741] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1612
+[  114.398105] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[  115.422864] RTL871X: cfg80211_remain_on_channel_expired
+[  115.429362] RTL871X: no packet in tx packet buffer (0)
+[  115.784991] RTL871X: survey done event(f)
+I/wpa_supplicant( 2156): p2p_add[  115.793776] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+_device, listen_freq=2412
+I/wpa[  115.803764] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:307
+_supplicant( 2156): p2p_add_devi[  115.814063] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+ce, listen_freq=2462
+[  115.825884] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=921
+[  115.839493] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1921
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  116.748101] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[  117.772993] RTL871X: cfg80211_remain_on_channel_expired
+[  117.779491] RTL871X: no packet in tx packet buffer (0)
+[  118.134997] RTL871X: survey done event(b)
+[  118.143562] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+I/wpa_supplicant( 2156): p2p_add[  118.153315] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:307
+_device, listen_freq=2412
+[  118.163682] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+[  118.175136] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=921
+[  118.188241] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1921
+
+
+
+
+
+
+
+
+[  119.098104] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+
+
+
+
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[  120.112867] RTL871X: cfg80211_remain_on_channel_expired
+[  120.119367] RTL871X: no packet in tx packet buffer (0)
+[  120.474999] RTL871X: survey done event(e)
+I/wpa_supplicant( 2156): p2p_add_device, listen_freq=2412
+[  120.483779] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+I/wpa_supplicant( 2156): p2p_add[  120.495798] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:6 duration:307
+_device, listen_freq=2462
+[  120.505909] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+[  120.517290] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=921
+[  120.530117] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1921
+D/WifiDisplayAdapter( 1955): requestConnectLocked: address=d8:57:ef:b8:2b:6e, trusted=true
+I/WifiDisplayController( 1955): Connecting to Wifi display: Dongle-A[  121.219713] RTL871X: cfg80211_rtw_cancel_remain_on_channel(p2p0)
+1B4B0
+D/WifiDisplayController( [  121.227959] RTL871X: cfg80211_rtw_cancel_remain_on_channel, cancel ro ch timer
+1955): connect config = [
+D/WifiDisplayController( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiDi[  121.243741] RTL871X: cfg80211_remain_on_channel_expired
+splayController( 1955):  wps:  s[  121.254820] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:1 duration:200
+etup: 0
+D/WifiDisplayController[  121.263288] RTL871X: cfg80211_rtw_remain_on_channel, issue nulldata pwrbit=1
+( 1955):  BSSID: null
+D/WifiDisplayController( 1955):  pin: nul[  121.278516] RTL871X: cfg80211_rtw_remain_on_channel, set switch ch timer, duration=600
+l
+D/WifiDisplayController( 1955): 
+D/WifiDisplayController( 1955):  groupOwnerIntent: 10
+D/Wi[  121.294873] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1600
+fiDisplayController( 1955):  persist: -2]
+D/WifiDisplayAdapter([  121.308481] RTL871X: RTW_Tx:tx_ch=1, da=d8:57:ef:b8:2b:6e
+ 1955): getWifiDisplayStatusLock[  121.316739] RTL871X: RTW_Tx:P2P_PROVISION_DISC_REQ, dialogToken=1
+ed: result=WifiDisplayStatus{fea[  121.326563] RTL871X: _cfg80211_rtw_mgmt_tx, extend ro ch time
+tureState=3, scanState=0, active[  121.335798] RTL871X: _cfg80211_rtw_mgmt_tx, set switch ch timer, period=3000
+DisplayState=1, activeDisplay=Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), MiniMax-f8k6 (02:c5:05:00:97:82)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/WifiP2pService( 1955): InactiveState{ what=139271 when=0 arg2=26 obj=
+D/WifiP2pService( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  wps:  setup: 0
+D/WifiP2pService( 1955):  BSSID: null
+D/WifiP2pService( 1955):  pin: null
+D/WifiP2pService( 1955): 
+D/WifiP2pService( 1955):  groupOwnerIntent: 10
+D/WifiP2pService( 1955):  persist: -2 }
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PEER d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_PEER d8:57:ef:b8:2b:6e
+V/codec_audio_pad( 1219): in normal mode, headset or speaker on,****LINE:54,FUNC:set_normal_path
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 0 p2p_client_list
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 1 p2p_client_list
+D/WifiP2pService( 1955): InactiveState sending connect
+D/WifiP2pService( 1955): target ssid is null join:false
+D/WifiP2pService( 1955): allshare p2pclient persistent.
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_STOP_FIND
+I/wpa_supplicant( 2156): p2[  121.451708] RTL871X: RTW_Rx:cur_ch=1
+p0: P2P-FIND-STOPPED 
+D/WifiP2p[  121.458332] RTL871X: RTW_Rx:P2P_PROVISION_DISC_RESP, dialogToken=1
+Service( 1955): netId related wi[  121.468317] RTL871X: cfg80211_rtw_cancel_remain_on_channel(p2p0)
+th d8:57:ef:b8:2b:6e = -1
+D/Wif[  121.477524] RTL871X: cfg80211_rtw_cancel_remain_on_channel, cancel ro ch timer
+iP2pService( 1955): Sending prov disc
+I/WifiDisplayController( [  121.493235] RTL871X: cfg80211_remain_on_channel_expired
+1955): Initiated connection to W[  121.501739] RTL871X: cfg80211_rtw_remain_on_channel(p2p0) ch:1 duration:200
+ifi display: Dongle-A1B4B0
+D/WifiP2pService( 1955): GroupCreati[  121.514619] RTL871X: cfg80211_rtw_remain_on_channel, set ro ch timer, duration=1600
+ngState
+D/WifiP2pService( 1955)[  121.524788] RTL871X: RTW_Tx:tx_ch=1, da=d8:57:ef:b8:2b:6e
+: ProvisionDiscoveryState
+I/wpa[  121.533373] RTL871X: RTW_Tx:P2P_GO_NEGO_REQ, dialogToken=2, intent:7-, op_ch:11, ch_list:11
+_supplicant( 2156): [CTRL_IFACE][  121.545488] RTL871X: _cfg80211_rtw_mgmt_tx, extend ro ch time
+p2p0: P2P_PROV_DISC d8:57:ef:b8:[  121.554695] RTL871X: _cfg80211_rtw_mgmt_tx, set switch ch timer, period=3000
+2b:6e pbc
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEE[  121.569032] RTL871X: RTW_Rx:cur_ch=1
+RS_CHANGED_ACTION.
+D/WifiP2pSer[  121.574888] RTL871X: RTW_Rx:P2P_GO_NEGO_RESP, dialogToken=2, intent:1+, status:0, op_ch:-1, ch_list:1-11, 36, 40, 44, 48, 149, 153, 157, 161
+vice( 1955): ProvisionDiscoveryS[  121.591809] RTL871X: rtw_chk_p2pie_ch_list_with_buddy(p2p0) ch_list fit buddy_ch:11
+tate{ what=147493 when=-86ms }
+D/WifiP2pService( 1955): GroupCr[  121.606445] RTL871X: RTW_Tx:tx_ch=1, da=d8:57:ef:b8:2b:6e
+eatingState{ what=147493 when=-8[  121.614751] RTL871X: RTW_Tx:P2P_GO_NEGO_CONF, dialogToken=2, status:0, op_ch:11, ch_list:11
+6ms }
+D/WifiP2pService( 1955): [  121.626819] RTL871X: _cfg80211_rtw_mgmt_tx, extend ro ch time
+P2pEnabledState{ what=147493 whe[  121.636010] RTL871X: _cfg80211_rtw_mgmt_tx, set switch ch timer, period=3000
+n=-86ms }
+D/WifiP2pService( 195[  121.647321] RTL871X: cfg80211_rtw_cancel_remain_on_channel(p2p0)
+5): discovery change broadcast f[  121.656253] RTL871X: cfg80211_rtw_cancel_remain_on_channel, cancel ro ch timer
+alse
+D/WifiP2pService( 1955): ProvisionDiscoveryState{ what=139[  121.671861] RTL871X: cfg80211_remain_on_channel_expired
+283 when=-52ms arg2=27 }
+D/WifiP2pService( 1955): GroupCreatingState{ what=139283 when=-53ms arg2=27 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-53ms arg2=27 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-53ms arg2=27 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 1, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: MiniMax-f8k6, deviceAddress: 02:c5:05:00:97:82, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 43, devcapab: 32, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 337, WFD CtrlPort: 0, WFD MaxThroughput: 300
+D/WifiDisplayController( 1955): updateDesiredDevice: new information Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 1, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+I/wpa_supplicant( 2156): p2p0: P2P-PROV-DISC-PBC-RESP d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_CONNECT d8:57:ef:b8:2b:6e pbc persistent go_intent=10 
+D/WifiP2pService( 1955): Provi[  121.819851] RTL871X: cfg80211_rtw_change_iface(p2p0) call netdev_if2_open
+sionDiscoveryState{ what=147490 [  121.830539] RTL871X: +871x_drv - if2_open, bup=1
+when=0 obj=Device: 
+D/WifiP2pSe[  121.838252] RTL871X: -871x_drv - if2_open, bup=1
+rvice( 1955):  deviceAddress: d8[  121.846096] RTL871X: cfg80211_rtw_change_iface(p2p0) old_iftype=2, new_iftype=9
+:57:ef:b8:2b:6e
+D/WifiP2pServic[  121.857500] RTL871X: cfg80211_rtw_set_channel(p2p0)
+[  121.857739] RTL871X: hw_var_set_opmode()-3261 mode = 3
+e( 1955):  primary type: null
+D[  121.871450] RTL871X: cfg80211_rtw_set_channel(p2p0)
+/WifiP2pService( 1955):  seconda[  121.879415] RTL871X: +cfg80211_rtw_del_station(p2p0)
+ry type: null
+D/WifiP2pService([  121.887536] RTL871X: flush all sta, and cam_entry
+ 1955):  wps: 0
+D/WifiP2pServic[  121.895602] RTL871X: rtw_sta_flush(p2p0)
+e( 1955):  grpcapab: 0
+D/WifiP2[  121.902755] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+pService( 1955):  devcapab: 0
+D[  121.911410] RTL871X: +cfg80211_rtw_del_station(p2p0)
+/WifiP2pService( 1955):  status:[  121.919582] RTL871X: free sta macaddr =ff:ff:ff:ff:ff:ff
+ 4
+D/WifiP2pService( 1955):  wf[  121.928379] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=0
+dInfo: null
+D/WifiP2pService( 1[  121.937344] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=1
+955):  event: 2
+D/WifiP2pServic[  121.946355] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=2
+e( 1955):  pin: null }
+D/WifiP2[  121.955364] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=3
+pService( 1955): Found a match 
+D/WifiP2pService( 1955):  address: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  wps:  setup: 0
+D/WifiP2pService( 1955):  BSSID: null
+D/WifiP2pService( 1955):  pin: null
+D/WifiP2pService( 1955): 
+D/WifiP2pService( 1955):  groupOwnerIntent: 10
+D/WifiP2pService( 1955):  persist: -2
+D/WifiP2pService( 1955): GroupNegotiationState
+I/wpa_supplicant( 2156): p2p0: P2P-GO-NEG-SUCCESS 
+D/WifiP2pService( 1955): GroupNegotiationState{ what=147481 when=-2ms }
+D/WifiP2pService( 1955): GroupNegotiationState go success
+D/WifiP2pService( 1955): GroupNegotiationState{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d8a308 }
+D/WifiP2pService( 1955): GroupCreatingState{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d8a308 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=-8ms obj=android.net.wifi.StateChangeResult@41d8a308 }
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=-8ms obj=android.net.wifi.StateChangeResult@41d8a308 }
+E/wpa_supplicant( 2156): Using interface p2p0 with hwaddr 02:e0:46:17:02:11 and ssid "DIRECT-DZ-Android_2eb1"
+[  122.100351] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  122.109816] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[  122.116957] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  122.126415] RTL871X: Got P2P Capability Attr, grp_cap=0x6b, is_GO
+[  122.133254] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  122.142709] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+[  122.156105] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  122.161485] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+[  122.169287] RTL871X: add bcn, wps_ielen=54
+[  122.173882] RTL871X: got p2p_ie, len=20
+[  122.178187] RTL871X: rtw_check_beacon_data, len=206
+[  122.183661] RTL871X: update_hw_ht_param
+[  122.188738] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[  122.197618] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  122.204113] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[  122.214018] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  122.220438] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  122.226512] RTL871X: CH=11, BW=0, offset=0
+[  122.236248] RTL871X: update_mgnt_tx_rate(): rate = c
+[  122.242881] RTL871X: ### Set STA_(1) info
+[  122.247437] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  122.254044] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  122.263909] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  122.275422] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[  122.283000] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  122.291760] RTL871X: rtw_cfg80211_indicate_connect(padapter=f4431000)
+[  122.299210] RTL871X: assoc success
+[  122.303031] RTL871X: enter GO Mode, p2p_ielen=20
+[  122.308525] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  122.317150] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for   (null)
+[  122.324707] RTL871X: cipher=0xfac04
+[  122.328641] RTL871X: key_len=0x10
+[  122.332343] RTL871X: seq_len=0x0
+[  122.336016] RTL871X: key_index=1
+[  122.339659] RTL871X: pairwise=0
+[  122.343170] RTL871X: rtw_cfg80211_ap_set_encryption
+[  122.348661] RTL871X: rtw_cfg80211_ap_set_encryption, set group_key, CCMP
+[  122.356155] RTL871X: set_group_key
+[  122.360017] RTL871X: set group key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) keyid:1
+[  122.360072] RTL871X: cfg80211_rtw_set_default_key(p2p0) key_index=1, unicast=0, multicast=1.
+[  122.368471] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[  122.368486] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  122.368496] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=217
+[  122.368510] RTL871X: add bcn, wps_ielen=79
+[  122.368520] RTL871X: got p2p_ie, len=20
+I/wpa_supplicant( 2156): p2p0: C[  122.368534] RTL871X: rtw_check_beacon_data, len=231
+[  122.368567] RTL871X: update_hw_ht_param
+[  122.369361] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+TRL-EVENT-CONNECTED - Connection[  122.371112] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  122.371736] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+ to 02:e0:46:17:02:11 completed [  122.371750] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  122.371760] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  122.371771] RTL871X: CH=11, BW=0, offset=0
+(auth) [id=25 id_str=][  122.372235] RTL871X: update_mgnt_tx_rate(): rate = c
+[  122.372874] RTL871X: ### Set STA_(1) info
+[  122.372885] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  122.372899] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+
+[  122.372916] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  122.372931] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[  122.383487] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  122.384370] RTL871X: enter GO Mode, p2p_ielen=20
+[  122.384506] RTL871X: cfg80211_rtw_change_bss(p2p0)
+D/WifiP2pService( 1955): GroupNe[  122.384584] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  122.384605] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=114
+gotiationState{ what=147459 when[  122.384619] RTL871X: update_bcn_vendor_spec_ie
+[  122.384627] RTL871X: update_bcn_wps_ie
+=0 arg1=25 obj=02:e0:46:17:02:11[  122.384673] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  122.384695] RTL871X: Got P2P Capability Attr, grp_cap=0x6b, is_GO
+ }[  122.384723] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  122.384739] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+
+D/WifiP2pService( 1955): GroupCreatingState{ what=147459 when=-1ms arg1=25 obj=02:e0:46:17:02:11[  122.601372] RTL871X: SetHwReg8188EU, 4074, RCR= 7000208e 
+ }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147459 when=-1ms arg1=25 obj=02:e0:46:17:02:11 }
+D/WifiP2pService( 1955): DefaultState{ what=147459 when=-1m[  122.619246] CPU1: Booted secondary processor
+[  122.619318] Calibrating delay loop (skipped) already calibrated this CPUs arg1=25 obj=02:e0:46:17:02:11 }
+D/WifiP2pService( 1955): GroupNegotiationState{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d5d6c0 }
+D/WifiP2pService( 1955): GroupCreatingSCPU2: Booted secondary processor
+[  122.648649] Calibrating delay loop (skipped) already calibrated this CPUtate{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d5d6c0 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d5d6c0 }
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=0 obj=android.net.wifi.StateChangeResult@41d5d6c0 }
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+W/AudioFlinger( 1219): write blocked for 440 msecs, 1 delayed writes, thread 0x41b83110
+V/codec_audio_pad( 1219): in normal mode, headset or speaker on,****LINE:54,FUNC:set_normal_path
+RTL871X: +OnAuth
+[  123.115017] RTL871X: auth alg=0, seq=1
+[  123.119229] RTL871X: going to alloc stainfo for sa=d8:57:ef:b8:2b:6e
+[  123.126347] RTL871X: issue_auth
+[  123.130626] RTL871X: OnAssocReq
+[  123.134168] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=26)
+[  123.144497] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=46)
+[  123.154821] RTL871X: STA included WPS IE in (Re)Association Request - assume WPS is used
+[  123.163908] RTL871X: [process_assoc_req_p2p_ie] P2P IE Found!!
+[  123.170439] RTL871X: [process_assoc_req_p2p_ie] Got P2P Capability Attr!!
+[  123.178023] RTL871X: [process_assoc_req_p2p_ie] Got P2P DEVICE INFO Attr!!
+[  123.185727] RTL871X: [OnAssocReq] WFD IE Found!!
+[  123.190948] RTL871X: [OnAssocReq] Peer PORT NUM = 554
+[  123.196595] RTL871X: allocate new AID = (1)
+[  123.201298] RTL871X: update_bcn_fixed_ie
+[  123.205704] RTL871X: HT: STA d8:57:ef:b8:2b:6e HT Capabilities Info: 0x002c
+[  123.213518] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - no greenfield, num of non-gf stations 1
+[  123.224888] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - 20 MHz HT, num of 20MHz HT STAs 1
+[  123.235633] RTL871X: bss_cap_update_on_sta_join, updated=1
+[  123.241802] RTL871X: update_sta_info_apmode
+[  123.246475] RTL871X: ### Set STA_(2) info
+[  123.251009] RTL871X: issue_asocrsp
+[  123.254873] RTL871X: report_add_sta_event: add STA
+[  123.260327] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[  123.260400] RTL871X: OnAction_back
+[  123.260410] RTL871X: OnAction_back, action=0
+[  123.260424] RTL871X: issue_action_BA, category=3, action=1, status=0
+[  123.282006] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=2 
+[  123.290751] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[  123.299052] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xffff0, shortGIrate=0x01
+[  123.309331] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000ffff0 RAUseRate=000ff010 HighestRate=19,DecisionRate=19 
+[  123.320937] RTL871X: indicate_sta_assoc_event to upper layer - hostapd
+[  123.328397] RTL871X: rtw_cfg80211_indicate_sta_assoc(padapter=f4431000,p2p0)
+[  123.337043] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[  123.342448] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  123.347805] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=217
+[  123.355617] RTL871X: add bcn, wps_ielen=79
+[  123.360213] RTL871X: got p2p_ie, len=20
+[  123.364507] RTL871X: rtw_check_beacon_data, len=231
+[  123.370005] RTL871X: update_hw_ht_param
+[  123.375115] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[  123.383869] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  123.390362] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[  123.400425] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  123.406661] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  123.412735] RTL871X: CH=11, BW=0, offset=0
+[  123.417996] RTL871X: update_mgnt_tx_rate(): rate = c
+[  123.424507] RTL871X: ### Set STA_(1) info
+[  123.429045] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  123.435574] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  123.445427] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  123.456831] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[  123.462864] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  123.471498] RTL871X: enter GO Mode, p2p_ielen=20
+[  123.476805] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  123.482441] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  123.491922] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=114
+[  123.499236] RTL871X: update_bcn_vendor_spec_ie
+[  123.504230] RTL871X: update_bcn_wps_ie
+[  123.508658] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  123.518167] RTL871X: Got P2P Capability Attr, grp_cap=0x6b, is_GO
+[  123.525032] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  123.534577] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+V/codec_audio_pad( 1219): in nor[  123.541804] RTL871X: cfg80211_rtw_change_station(p2p0)
+mal mode, headset or speaker on,[  123.550439] RTL871X: send eapol packet
+****LINE:54,FUNC:set_normal_path
+I/wpa_supplicant( 2156): p2p0: CTRL-EVENT-EAP-STARTED d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 215[  123.566182] RTL871X: send eapol packet
+6): p2p0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+I/wpa_supplicant( 2156): p2p0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=14122 method=254
+[  124.065009] RTL871X: send eapol packet
+[  124.213391] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[  124.221768] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xf0000, shortGIrate=0x01
+[  124.232007] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000f0000 RAUseRate=000f0000 HighestRate=19,DecisionRate=19 
+[  124.462622] RTL871X: send eapol packet
+[  124.478578] RTL871X: send eapol packet
+[  124.494210] RTL871X: send eapol packet
+I/wpa_supplicant( 2156): p2p0: W[  124.503973] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+PS-REG-SUCCESS d8:57:ef:b8:2b:6e[  124.512049] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+ 12345678-9abc-def0-1234-56789ab[  124.520195] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=217
+cdef0
+I/wpa_supplicant( 2156): [  124.530856] RTL871X: add bcn, wps_ielen=79
+p2p0: P2P-GROUP-FORMATION-SUCCES[  124.538108] RTL871X: got p2p_ie, len=20
+S 
+D/WifiP2pService( 1955): Gro[  124.545276] RTL871X: rtw_check_beacon_data, len=231
+upNegotiationState{ what=147483 [  124.553456] RTL871X: update_hw_ht_param
+when=0 }
+D/WifiP2pService( 1955[  124.561495] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+): GroupNegotiationState go succ[  124.571995] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+ess
+[  124.579490] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[  124.589339] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  124.595576] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  124.601679] RTL871X: CH=11, BW=0, offset=0
+[  124.606866] RTL871X: update_mgnt_tx_rate(): rate = c
+[  124.613385] RTL871X: ### Set STA_(1) info
+[  124.617901] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  124.624473] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  124.634603] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  124.646022] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[  124.648101] RTL871X: p2p_concurrent_handler, switch ch back to buddy's cur_channel=11
+[  124.661386] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  124.674295] RTL871X: enter GO Mode, p2p_ielen=20
+[  124.679725] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  124.685313] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  124.694812] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=114
+[  124.702040] RTL871X: update_bcn_vendor_spec_ie
+[  124.707040] RTL871X: update_bcn_wps_ie
+[  124.711377] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  124.720894] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  124.727866] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  124.737557] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[  124.749180] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+I/wpa_supplicant( 2156): p2p0: P[  124.754579] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+2P-GROUP-STARTED p2p0 GO ssid="D[  124.762757] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+IRECT-DZ-Android_2eb1" freq=2412[  124.773336] RTL871X: add bcn, wps_ielen=54
+ passphrase="PML5Rr4c" go_dev_ad[  124.780676] RTL871X: got p2p_ie, len=20
+dr=02:e0:46:17:02:11 [PERSISTENT[  124.787742] RTL871X: rtw_check_beacon_data, len=206
+]
+D/WifiP2pService( 1955): Grou[  124.795995] RTL871X: update_hw_ht_param
+pNegotiationState{ what=147485 w[  124.803860] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+hen=0 obj=network: DIRECT-DZ-And[  124.814744] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+roid_2eb1
+D/WifiP2pService( 195[  124.822116] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+5):  isGO: true
+D/WifiP2pServic[  124.834080] RTL871X: primary adapter, CH=11, BW=1, offset=2
+e( 1955):  GO: Device: 
+D/WifiP[  124.843207] RTL871X: second adapter, CH=1, BW=0, offset=0
+2pService( 1955):  deviceAddress[  124.851914] RTL871X: CH=11, BW=0, offset=0
+: 02:e0:46:17:02:11
+D/WifiP2pSe[  124.859740] RTL871X: update_mgnt_tx_rate(): rate = c
+rvice( 1955):  primary type: nul[  124.868503] RTL871X: ### Set STA_(1) info
+l
+D/WifiP2pService( 1955):  sec[  124.874875] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+ondary type: null
+D/WifiP2pServ[  124.884303] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+ice( 1955):  wps: 0
+D/WifiP2pSe[  124.896785] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+rvice( 1955):  grpcapab: 0
+D/Wi[  124.910997] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+fiP2pService( 1955):  devcapab: [  124.919747] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+0
+D/WifiP2pService( 1955):  sta[  124.931000] RTL871X: enter GO Mode, p2p_ielen=20
+tus: 4
+D/WifiP2pService( 1955):[  124.938315] RTL871X: cfg80211_rtw_change_bss(p2p0)
+  wfdInfo: null
+D/WifiP2pServic[  124.946306] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+e( 1955):  interface: p2p0
+D/Wi[  124.958459] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+fiP2pService( 1955):  networkId:[  124.968346] RTL871X: update_bcn_vendor_spec_ie
+ -2 }
+D/WifiP2pService( 1955): [  124.976064] RTL871X: update_bcn_wps_ie
+GroupNegotiationState group star[  124.983098] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+ted
+[  124.995308] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  125.002702] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  125.012333] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[  125.019732] RTL871X: send eapol packet
+I/wpa_supplicant( 2156): p2p0: W[  125.024126] RTL871X: cfg80211_rtw_change_station(p2p0)
+PS-SUCCESS 
+I/wpa_supplicant( 2156): p2p0: CTRL-EVENT-EAP-FAILURE d8:57:ef:b8:2b:6e
+[  125.039383] RTL871X: OnDisassoc Reason code(8)
+[  125.044934] RTL871X: ap recv disassoc reason code(8) sta:d8:57:ef:b8:2b:6e
+[  125.052652] RTL871X: rtw_cfg80211_indicate_sta_disassoc(padapter=f4431000,p2p0)
+[  125.052666] RTL871X: set pairwise key to hw: alg:0(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:16832
+[  125.070435] RTL871X: report_del_sta_event: delete STA, mac_id=2
+[  125.077086] RTL871X: update_bcn_fixed_ie
+[  125.081518] RTL871X: bss_cap_update_on_sta_leave, updated=1
+[  125.087794] RTL871X: ### Clean STA_(2) info
+[  125.092540] RTL871X: OnDeAuth Reason code(3)
+[  125.097343] RTL871X: ap recv deauth reason code(3) sta:d8:57:ef:b8:2b:6e
+[  125.105218] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  125.105500] RTL871X: rtw_stadel_event_callback(mac_id=2)=d8:57:ef:b8:2b:6e
+[  125.105518] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=0 MACID=2 
+[  125.126285] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+[  125.132292] RTL871X: -cfg80211_rtw_del_station(p2p0)
+[  125.138190] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[  125.143553] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  125.148929] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+[  125.156725] RTL871X: add bcn, wps_ielen=54
+[  125.161339] RTL871X: got p2p_ie, len=20
+[  125.165635] RTL871X: rtw_check_beacon_data, len=206
+[  125.171135] RTL871X: update_hw_ht_param
+[  125.176236] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[  125.184988] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  125.191486] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[  125.201481] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  125.207720] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  125.213780] RTL871X: CH=11, BW=0, offset=0
+[  125.218987] RTL871X: update_mgnt_tx_rate(): rate = c
+[  125.225505] RTL871X: ### Set STA_(1) info
+[  125.230032] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  125.236562] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  125.246632] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  125.258104] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[  125.264122] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  125.272877] RTL871X: enter GO Mode, p2p_ielen=20
+[  125.278215] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  125.283664] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  125.293148] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[  125.300318] RTL871X: update_bcn_vendor_spec_ie
+[  125.305291] RTL871X: update_bcn_wps_ie
+[  125.309554] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  125.319045] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  125.325921] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  125.335413] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: LIST_NETWORKS
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: GET_NETWORK 26 mode
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: AP_SCAN 1
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SAVE_CONFIG
+I/wpa_supplicant( 2156): wpa_s->ifname p2p0 cmd SET p2p_group_idle 10
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SET p2p_group_idle 10
+D/CommandListener( 1213): Setting iface cfg
+D/CommandListener( 1213): Trying to bring up p2p0
+D/WifiP2pService( 1955): sending p2p persistent groups changed broadcast
+D/TetherController( 1213): Starting tethering services
+D/TetherController( 1213): Tethering services running
+I/dnsmasq ( 4618): started, version 2.51 cachesize 150
+I/dnsmasq ( 4618): compile time options: no-IPv6 GNU-getopt no-DBus no-I18N DHCP no-scripts no-TFTP
+W/dnsmasq ( 4618): warning: no upstream servers configured
+I/dnsmasq ( 4618): DHCP, IP range 192.168.49.2 -- 192.168.49.254, lease time 1h
+I/dnsmasq ( 4618): read /etc/hosts - 1 addresses
+D/WifiP2pService( 1955): Started Dhcp server on p2p0
+D/WifiP2pService( 1955): GroupCreatedState
+D/WifiP2pService( 1955): GroupCreatedState{ what=147464 when=-343ms }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147464 when=-343ms }
+D/WifiP2pService( 1955): DefaultState{ what=147464 when=-343ms }
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  125.553125] RTL871X: +OnAuth
+[  125.556358] RTL871X: auth alg=0, seq=1
+[  125.560558] RTL871X: going to alloc stainfo for sa=d8:57:ef:b8:2b:6e
+[  125.567692] RTL871X: issue_auth
+[  125.572002] RTL871X: OnAssocReq
+[  125.575519] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=26)
+[  125.585844] RTL871X: unknown vendor specific information element ignored (vendor OUI 50:6f:9a len=46)
+[  125.596182] RTL871X: [process_assoc_req_p2p_ie] P2P IE Found!!
+[  125.602723] RTL871X: [process_assoc_req_p2p_ie] Got P2P Capability Attr!!
+[  125.610328] RTL871X: [process_assoc_req_p2p_ie] Got P2P DEVICE INFO Attr!!
+[  125.618027] RTL871X: [OnAssocReq] WFD IE Found!!
+[  125.623198] RTL871X: [OnAssocReq] Peer PORT NUM = 554
+[  125.628855] RTL871X: allocate new AID = (1)
+[  125.633536] RTL871X: update_bcn_fixed_ie
+[  125.637948] RTL871X: HT: STA d8:57:ef:b8:2b:6e HT Capabilities Info: 0x002c
+[  125.645752] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - no greenfield, num of non-gf stations 1
+[  125.657098] RTL871X: bss_cap_update_on_sta_join STA d8:57:ef:b8:2b:6e - 20 MHz HT, num of 20MHz HT STAs 1
+[  125.667822] RTL871X: bss_cap_update_on_sta_join, updated=1
+[  125.673971] RTL871X: update_sta_info_apmode
+[  125.678658] RTL871X: ### Set STA_(2) info
+[  125.683152] RTL871X: issue_asocrsp
+[  125.686992] RTL871X: report_add_sta_event: add STA
+[  125.692508] RTL871X: OnAction_back
+[  125.696306] RTL871X: OnAction_back, action=0
+[  125.701095] RTL871X: issue_action_BA, category=3, action=1, status=0
+[  125.708252] RTL871X: Drop duplicate management frame with seq_num = 2867.
+[  125.715879] RTL871X: Drop duplicate management frame with seq_num = 2867.
+[  125.724138] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[  125.730248] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=2 
+[  125.739001] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[  125.747284] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xffff0, shortGIrate=0x01
+[  125.757526] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000ffff0 RAUseRate=000ff010 HighestRate=19,DecisionRate=19 
+[  125.769214] RTL871X: indicate_sta_assoc_event to upper layer - hostapd
+[  125.776525] RTL871X: rtw_cfg80211_indicate_sta_assoc(padapter=f4431000,p2p0)
+[  125.784996] RTL871X: cfg80211_rtw_change_station(p2p0)
+[  125.800089] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for   (null)
+[  125.807522] RTL871X: cipher=0xfac04
+[  125.811439] RTL871X: key_len=0x10
+[  125.815143] RTL871X: seq_len=0x0
+[  125.818762] RTL871X: key_index=1
+[  125.822370] RTL871X: pairwise=0
+[  125.825887] RTL871X: rtw_cfg80211_ap_set_encryption
+[  125.831369] RTL871X: rtw_cfg80211_ap_set_encryption, set group_key, CCMP
+[  125.838371] acquire wake_lock for 4500 ms(tx:5,rx_unicast:6)
+[  125.845195] RTL871X: set_group_key
+[  125.849030] RTL871X: set group key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) keyid:1
+[  125.849085] RTL871X: cfg80211_rtw_set_default_key(p2p0) key_index=1, unicast=0, multicast=1.
+[  125.852214] RTL871X: send eapol packet
+[  125.852502] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[  125.852514] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  125.852525] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+[  125.852537] RTL871X: add bcn, wps_ielen=54
+[  125.852547] RTL871X: got p2p_ie, len=20
+[  125.852561] RTL871X: rtw_check_beacon_data, len=206
+[  125.852593] RTL871X: update_hw_ht_param
+[  125.909127] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[  125.917872] RTL871X: SetHwReg8188EU, 4074, RCR= 7000208e 
+[  125.925618] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  125.932115] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[  125.942024] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  125.948271] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  125.954479] RTL871X: CH=11, BW=0, offset=0
+[  125.959614] RTL871X: update_mgnt_tx_rate(): rate = c
+[  125.966248] RTL871X: ### Set STA_(1) info
+[  125.970759] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  125.977293] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  125.987280] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  125.998694] RTL871X: ### MacID(2),Set Max Tx RPT MID(3)
+[  126.004747] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  126.013501] RTL871X: enter GO Mode, p2p_ielen=20
+[  126.018818] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  126.024265] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  126.033749] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[  126.040885] RTL871X: update_bcn_vendor_spec_ie
+[  126.045854] RTL871X: update_bcn_wps_ie
+[  126.050110] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  126.059895] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  126.066770] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  126.076312] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=74
+[  126.083814] RTL871X: cfg80211_rtw_get_key(p2p0)
+[  126.089166] RTL871X: send eapol packet
+[  126.099195] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for d8:57:ef:b8:2b:6e
+[  126.107481] RTL871X: cipher=0xfac04
+[  126.111406] RTL871X: key_len=0x10
+[  126.115108] RTL871X: seq_len=0x0
+[  126.118734] RTL871X: key_index=0
+[  126.122350] RTL871X: pairwise=1
+[  126.125860] RTL871X: rtw_cfg80211_ap_set_encryption
+[  126.131334] RTL871X: rtw_cfg80211_ap_set_encryption, set pairwise key, CCMP
+[  126.139172] RTL871X: set pairwise key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:16832
+[  126.143993] RTL871X: cfg80211_rtw_change_station(p2p0)
+I/wpa_supplicant( 2156): p2p0: A[  126.154712] RTL871X: r871x_set_stakey_hdl(): enc_algorithm=4
+P-STA-CONNECTED d8:57:ef:b8:2b:6[  126.163560] RTL871X: Write CAM, mac_addr=d8:57:ef:b8:2b:6e, cam_entry=5
+e p2p_dev_addr=d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): wpa_s->ifname p2p0 cmd SET p2p_group_idle 0
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SET p2p_group_idle 0
+D/WifiP2pService( 1955): GroupCreatedState{ what=147498 when=-3ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/Wi[  126.213387] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+fiP2pService( 1955):  devcapab: [  126.223616] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xf0000, shortGIrate=0x01
+0
+D/WifiP2pService( 1955):  sta[  126.236818] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000f0000 RAUseRate=000f0000 HighestRate=19,DecisionRate=19 
+tus: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): GroupCreatedState ap sta connected
+D/WifiP2pService( 1955): sending p2p connection changed broadcast
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): GroupCreatedState{ what=139283 when=0 arg2=28 }
+D/WifiDisplayController( 1955): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=-1ms arg2=28 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-1ms arg2=28 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiP2pService( 1955): GroupCreatedState{ what=139287 when=0 arg2=29 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139287 when=-1ms arg2=29 }
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiP2pService( 1955): DefaultState{ what=139287 when=-1ms arg2=29 }
+D/WifiDisplayController( 1955):   Device: MiniMax-f8k6, deviceAddress: 02:c5:05:00:97:82, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 43, devcapab: 32, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 337, WFD CtrlPort: 0, WFD MaxThroughput: 300
+D/WifiDisplayController( 1955): updateDesiredDevice: new information Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+E/MonoPipe( 1219): Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+I/AudioFlinger( 1219): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+I/AudioMixer( 1219): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 1219): AudioFlinger's thread 0x42622008 ready to run
+I/r_submix( 1219): out_standby()
+I/AudioFlinger( 1219): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+I/AudioMixer( 1219): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 1219): AudioFlinger's thread 0x4260e008 ready to run
+D/WifiDisplayController( 1955): Received group info: network: DIRECT-DZ-Android_2eb1, isGO: true, GO: Device: , deviceAddress: 02:e0:46:17:02:11, primary type: null, secondary type: null, wps: 0, grpcapab: 0, devcapab: 0, status: 4, wfdInfo: null, Client: Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50, interface: p2p0, networkId: 26
+I/WifiDisplayController( 1955): Connected to Wifi display: Dongle-A1B4B0
+I/WifiDisplayController( 1955): Listening for RTSP connection on 192.168.49.1:7236 from Wifi display: Dongle-A1B4B0
+[  127.439810] CPU1: shutdown
+[  127.442873] [hotplug]: cpu(0) try to kill cpu(1)
+[  127.449122] [hotplug]: cpu1 is killed! .
+[  127.456328] CPU2: shutdown
+[  127.459423] [hotplug]: cpu(0) try to kill cpu(2)
+[  127.465635] [hotplug]: cpu2 is killed! .
+I/dnsmasq ( 4618): DHCPDISCOVER(p2p0) d8:57:ef:b8:2b:6e 
+I/dnsmasq ( 4618): DHCPOFFER(p2p0) 192.168.49.44 d8:57:ef:b8:2b:6e 
+I/dnsmasq ( 4618): DHCPREQUEST(p2p0) 192.168.49.44 d8:57:ef:b8:2b:6e 
+I/dnsmasq ( 4618): DHCPACK(p2p0) 192.168.49.44 d8:57:ef:b8:2b:6e 
+D/dnsmasq-W( 4618): 1.clientInfo[emac_len=6,iface_name=p2p0,hostname=(null)]
+D/dnsmasq-W( 4618): 2.clientInfo[mac=d8:57:ef:b8:2b:6e,ip=192.168.49.44]
+D/dnsmasq-W( 4618): Error connecting (Connection refused)
+[  127.838378] acquire wake_lock for 4500 ms(tx:8,rx_unicast:2)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/NetworkSession( 1219): incoming connection from 192.168.49.44:51538 (socket 34)
+I/NetworkSession( 1219): added clientSession 2
+I/WifiDisplaySource( 1219): We now have a client (2) connected.
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 1
+V/WifiDisplaySource( 1219): date: Thu Jan  1 02:46:35 1970
+V/WifiDisplaySource( 1219): public: org.wfa.wfd1.0, GET_PARAMETER, SET_PARAMETER
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'OPTIONS * RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 1
+V/WifiDisplaySource( 1219): require: org.wfa.wfd1.0
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): content-length: 199
+V/WifiDisplaySource( 1219): content-type: text/parameters
+V/WifiDisplaySource( 1219): cseq: 2
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): wfd_audio_codecs: LPCM 00000003 00, AAC 0000000F 00
+V/WifiDisplaySource( 1219): wfd_video_formats: 00 00 02 02 0001DEFF 157C7FFF 00000FFF 00 0000 0000 00 none none
+V/WifiDisplaySource( 1219): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 19000 0 mode=play
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): Using AAC audio.
+I/WifiDisplaySource( 1219): Sink doesn't appear to support content protection.
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 3
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 4
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+V/WifiDisplaySource( 1219): session 2 received 'SETUP rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 2
+V/WifiDisplaySource( 1219): transport: RTP/AVP/UDP;unicast
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+D/omx_venc( 1219): ----get_omx_component_factory_fn
+D/osal_linux( 1219): init hw ref count:1
+I/Converter( 1219): using audio bitrate of 128000 bps, video bitrate of 3000000 bps
+D/omx_venc( 1219):  COMPONENT_SET_PARAMETER: OMX_IndexParamVideoIntraRefresh , can't set curently
+I/ACodec  ( 1219): setupVideoEncoder succeeded
+D/omx_venc( 1219): x set state command, cmd = 0, cmddata = 2.
+D/omx_venc( 1219):  init format,width: 1280, height: 720, bitrate: 3000000
+I/r_submix( 1219): adev_open_input_stream()
+I/r_submix( 1219): in_standby()
+I/r_submix( 1219): in_standby()
+D/omx_venc( 1219): pSelf->m_sInPortDef.bPopulated:1, pSelf->m_sOutPortDef.bPopulated: 1
+D/omx_venc( 1219): x set st[  129.838389] acquire wake_lock for 4500 ms(tx:12,rx_unicast:14)
+ate command, cmd = 0, cmddata = 3.
+D/omx_venc( 1219): pSelf->m_sInPortFormat.eColorFormat == OMX_COLOR_FormatAndroidOpaque
+I/Converter( 1219): using audio bitrate of 128000 bps, video bitrate of 3000000 bps
+W/OMXNodeInstance( 1219): OMX_EnableAndroidNativeBuffers failed with error -2147479526 (0x8000101a)
+I/Sender  ( 1219): rtpSessionID = 3, rtcpSessionID = 0
+V/WifiDisplaySource( 1219): session 2 received 'PLAY rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): cseq: 3
+V/WifiDisplaySource( 1219): session: 1917323191
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): Received PLAY request.
+V/WifiDisplaySource( 1219): session 2 received 'SET_PARAMETER rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): content-length: 17
+V/WifiDisplaySource( 1219): content-type: text/parameters
+V/WifiDisplaySource( 1219): cseq: 4
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): wfd_idr_request
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): 4.updateLiveness
+I/Converter( 1219): requesting IDR frame
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplayController( 1955): Opened RTSP connection with Wifi display: Dongle-A1B4B0
+I/DisplayManagerService( 1955): Display device added: DisplayDeviceInfo{"Dongle-A1B4B0": 1280 x 720, 60.0 fps, density 213, 213.0 x 213.0 dpi, touch EXTERNAL, rotation 0, type WIFI, address d8:57:ef:b8:2b:6e}
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=2, activeDisplay=Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), MiniMax-f8k6 (02:c5:05:00:97:82)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+E/SurfaceFlinger( 1216): received event for an invalid display (id=2)
+I/InputReader( 1955): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 1955): Device reconfigured: id=2, name='gt82x', size 1280x800, orientation 0, mode 1, display id 0
+[  131.140869] CPU1: Booted secondary processor
+[  131.140958] Calibrating delay loop (skipped) already calibrated this CPUD/dalvikvm( 2163): GC_CONCURRENT freed 377K, 15% free 5402K/6296K, paused 3ms+7ms, total 77ms
+V/WifiDisplaySource( 1219): session 2 received 'SET_PARAMETER rtCPU2: Booted secondary processor
+[  131.183846] Calibrating delay loop (skipped) already calibrated this CPUsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): content-length: 17
+V/WifiDisplaySource( 1219): content-type: text/parameters
+V/WifiDisplaySource( 1219): cseq: 5
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): wfd_idr_request
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): 4.updateLiveness
+I/Converter( 1219): requesting IDR frame
+D/dalvikvm( 2488): GC_CONCURRENT freed 377K, 16% free 4801K/5696K, paused 3ms+4ms, total 34ms
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+acquire wake_lock for 4500 ms(tx:46,rx_unicast:6)
+[  132.419983] CPU2: shutdown
+[  132.423066] [hotplug]: cpu(0) try to kill cpu(2)
+[  132.429379] [hotplug]: cpu2 is killed! .
+[  132.437083] CPU3: shutdown
+[  132.440210] [hotplug]: cpu(0) try to kill cpu(3)
+[  132.446430] [hotplug]: cpu3 is killed! .
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  133.838638] acquire wake_lock for 4500 ms(tx:105,rx_unicast:0)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  134.818347] RTL871X: rtw_issue_addbareq_cmd, p=0
+[  134.823599] RTL871X: issue_action_BA, category=3, action=0, status=0
+[  134.830768] RTL871X: BA_starting_seqctrl = 280 for TID=0
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  135.838514] acquire wake_lock for 4500 ms(tx:142,rx_unicast:0)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  137.961919] RTL871X: issue_nulldata(p2p0) to d8:57:ef:b8:2b:6e, ch:11, 3/3 in 120 ms
+[  137.970617] RTL871X: ack check for asoc expire, keep_alive_trycnt=1
+[  137.977997] acquire wake_lock for 4500 ms(tx:105,rx_unicast:0)
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  139.320388] RTL871X: rtw_issue_addbareq_cmd, p=0
+[  139.325604] RTL871X: issue_action_BA, category=3, action=0, status=0
+[  139.332776] RTL871X: BA_starting_seqctrl = 522 for TID=0
+[  139.339272] RTL871X: OnAction_back
+[  139.343098] RTL871X: OnAction_back, action=1
+[  139.347883] RTL871X: agg_enable for TID=0
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  139.838407] acquire wake_lock for 4500 ms(tx:205,rx_unicast:2)
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=02:c5:05:00:97:82
+D/WifiP2pService( 1955): GroupCreatedState{ what=147478 when=-1ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 02:c5:05:00:97:82
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147478 when=-1ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 02:c5:05:00:97:82
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): GroupCreatedState{ what=139283 when=0 arg2=30 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=0 arg2=30 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=0 arg2=30 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955):   Device: Android_79df, deviceAddress: 42:14:aa:55:0d:f2, primary type: 10-0050F204-5, secondary type: null, wps: 392, grpcapab: 0, devcapab: 36, status: 3, wfdInfo: WFD enabled: trueWFD DeviceInfo: 16, WFD CtrlPort: 7236, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955): updateDesiredDevice: new information Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayAdapter( 1955): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=2, activeDisplay=Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)], rememberedDisplays=[SBWD-DCA42D (10:9f:a9:dc:a4:2d), Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  141.838383] acquire wake_lock for 4500 ms(tx:54,rx_unicast:5)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  143.838389] acquire wake_lock for 4500 ms(tx:105,rx_unicast:48)
+I/WifiDisplaySource( 1219): scheduleReaper.
+V/WifiDisplaySource( 1219): session 2 received 'SET_PARAMETER rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): content-length: 17
+V/WifiDisplaySource( 1219): content-type: text/parameters
+V/WifiDisplaySource( 1219): cseq: 6
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): wfd_idr_request
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): 4.updateLiveness
+I/Converter( 1219): requesting IDR frame
+V/WifiDisplaySource( 1219): session 2 received 'SET_PARAMETER rtsp://192.168.49.1/wfd1.0/streamid=0 RTSP/1.0
+V/WifiDisplaySource( 1219): content-length: 17
+V/WifiDisplaySource( 1219): content-type: text/parameters
+V/WifiDisplaySource( 1219): cseq: 7
+V/WifiDisplaySource( 1219): user-agent: SEC-WDH/LJ02
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): wfd_idr_request
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): 4.updateLiveness
+I/Converter( 1219): requesting IDR frame
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  145.838386] acquire wake_lock for 4500 ms(tx:152,rx_unicast:6)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  146.941766] RTL871X: rtw_issue_addbareq_cmd, p=6
+[  146.947035] RTL871X: issue_action_BA, category=3, action=0, status=6
+[  146.954239] RTL871X: BA_starting_seqctrl = 10 for TID=6
+[  146.964380] RTL871X: OnAction_back
+[  146.968199] RTL871X: OnAction_back, action=1
+[  146.972987] RTL871X: agg_enable for TID=6
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  147.838389] acquire wake_lock for 4500 ms(tx:145,rx_unicast:2)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  149.838378] acquire wake_lock for 4500 ms(tx:96,rx_unicast:2)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  151.838377] acquire wake_lock for 4500 ms(tx:96,rx_unicast:2)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  153.838393] acquire wake_lock for 4500 ms(tx:159,rx_unicast:2)
+[  154.213397] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[  154.221880] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xff000, shortGIrate=0x01
+[  154.232201] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000ff000 RAUseRate=000ff000 HighestRate=19,DecisionRate=17 
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=42:14:aa:55:0d:f2
+D/WifiP2pService( 1955): GroupCreatedState{ what=147478 when=-1ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147478 when=-1ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: 42:14:aa:55:0d:f2
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiDisplayController( 1955): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/WifiP2pService( 1955): GroupCreatedState{ what=139283 when=0 arg2=31 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=139283 when=0 arg2=31 }
+D/WifiP2pService( 1955): DefaultState{ what=139283 when=-1ms arg2=31 }
+D/WifiDisplayController( 1955): Received list of peers.
+D/WifiDisplayController( 1955):   Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/WifiDisplayController( 1955): updateDesiredDevice: new information Device: Dongle-A1B4B0, deviceAddress: d8:57:ef:b8:2b:6e, primary type: 1-0050F204-1, secondary type: null, wps: 392, grpcapab: 0, devcapab: 33, status: 0, wfdInfo: WFD enabled: trueWFD DeviceInfo: 349, WFD CtrlPort: 554, WFD MaxThroughput: 50
+D/dalvikvm( 1955): GC_CONCURRENT freed 815K, 15% free 7606K/8948K, paused 3ms+5ms, total 60ms
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  155.838392] acquire wake_lock for 4500 ms(tx:145,rx_unicast:2)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  157.838384] acquire wake_lock for 4500 ms(tx:99,rx_unicast:3)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  159.838392] acquire wake_lock for 4500 ms(tx:201,rx_unicast:3)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  161.838379] acquire wake_lock for 4500 ms(tx:103,rx_unicast:4)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  163.838392] acquire wake_lock for 4500 ms(tx:95,rx_unicast:2)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  165.838384] acquire wake_lock for 4500 ms(tx:144,rx_unicast:2)
+[  166.213401] RTL871X: add_RATid=> mac_id:2 , raid:1 , bitmap=0x100ffff0, arg=0xa2
+[  166.221824] RTL871X: rtl8188e_Add_RateATid=> mac_id:2 , raid:1 , ra_bitmap=0xf0000, shortGIrate=0x01
+[  166.232238] ODM_ARFBRefresh_8188E(): RateID=1 RateMask=000f0000 RAUseRate=000f0000 HighestRate=19,DecisionRate=13 
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  167.838382] acquire wake_lock for 4500 ms(tx:165,rx_unicast:2)
+I/WifiDisplaySource( 1219): scheduleReaper.
+V/WifiDisplaySource( 1219): session 2 received 'RTSP/1.0 200 OK
+V/WifiDisplaySource( 1219): cseq: 5
+V/WifiDisplaySource( 1219): 
+V/WifiDisplaySource( 1219): '
+I/WifiDisplaySource( 1219): 1.updateLiveness
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  169.838519] acquire wake_lock for 4500 ms(tx:104,rx_unicast:4)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  171.838412] acquire wake_lock for 4500 ms(tx:201,rx_unicast:2)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  173.838388] acquire wake_lock for 4500 ms(tx:186,rx_unicast:2)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  175.838633] acquire wake_lock for 4500 ms(tx:94,rx_unicast:1)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  177.838510] acquire wake_lock for 4500 ms(tx:81,rx_unicast:0)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  179.838383] acquire wake_lock for 4500 ms(tx:79,rx_unicast:0)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  181.993044] RTL871X: issue_nulldata(p2p0) to d8:57:ef:b8:2b:6e, ch:11, 3/3 in 150 ms
+[  182.001802] RTL871X: ack check for asoc expire, keep_alive_trycnt=1
+[  182.009122] acquire wake_lock for 4500 ms(tx:122,rx_unicast:0)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  183.964060] RTL871X: issue_nulldata(p2p0) to d8:57:ef:b8:2b:6e, ch:11, 3/3 in 120 ms
+[  183.973041] RTL871X: ack check for asoc expire, keep_alive_trycnt=2
+[  183.980370] acquire wake_lock for 4500 ms(tx:91,rx_unicast:0)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  185.982168] RTL871X: issue_nulldata(p2p0) to d8:57:ef:b8:2b:6e, ch:11, 3/3 in 140 ms
+[  185.990935] RTL871X: ack check for asoc expire, keep_alive_trycnt=3
+[  185.998246] acquire wake_lock for 4500 ms(tx:87,rx_unicast:0)
+I/WifiDisplaySource( 1219): scheduleReaper.
+I/WifiDisplaySource( 1219): scheduleReaper.
+[  187.961919] RTL871X: issue_nulldata(p2p0) to d8:57:ef:b8:2b:6e, ch:11, 3/3 in 120 ms
+[  187.970708] RTL871X: asoc expire d8:57:ef:b8:2b:6e, state=0x4001
+[  187.977441] RTL871X: rtw_cfg80211_indicate_sta_disassoc(padapter=f4431000,p2p0)
+[  187.985685] RTL871X: report_del_sta_event: delete STA, mac_id=2
+[  187.987141] RTL871X: cfg80211_rtw_change_station(p2p0)
+[  187.987244] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  187.987258] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+I/wpa_supplicant( 2156): p2p0: A[  188.009566] RTL871X: update_bcn_fixed_ie
+P-STA-DISCONNECTED d8:57:ef:b8:2[  188.016731] RTL871X: bss_cap_update_on_sta_leave, updated=1
+b:6e p2p_dev_addr=d8:57:ef:b8:2b[  188.027138] RTL871X: ### Clean STA_(2) info
+:6e
+D/WifiP2pService( 1955): Gr[  188.034467] RTL871X: -cfg80211_rtw_del_station(p2p0)
+oupCreatedState{ what=147497 whe[  188.035255] acquire wake_lock for 4500 ms(tx:39,rx_unicast:0)
+[  188.035289] RTL871X: set pairwise key to hw: alg:0(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:16832
+[  188.036889] RTL871X: rtw_stadel_event_callback(mac_id=2)=d8:57:ef:b8:2b:6e
+n=0 obj=Device: 
+D/WifiP2pServi[  188.036904] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=0 MACID=2 
+ce( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( [  188.082005] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+1955):  primary type: null
+D/Wi[  188.090041] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  188.093130] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+fiP2pService( 1955):  secondary [  188.093143] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.093158] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+type: null
+D/WifiP2pService( 19[  188.093530] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+55):  wps: 0
+D/WifiP2pService( [  188.093542] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+1955):  grpcapab: 0
+D/WifiP2pSe[  188.093551] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.094069] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.094080] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+rvice( 1955):  devcapab: 0
+D/Wi[  188.094090] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.094581] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.094592] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.094602] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.122047] CPU2: Booted secondary processor
+[  188.122121] Calibrating delay loop (skipped) already calibrated this CPUacquire wake_lock for 4500 ms(tx:1,rx_unicast:2)
+
+D/WifiP2pService( 1955):  wfdIn[  188.224508] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+fo: null }
+D/WifiP2pService( 19[  188.234957] RTL871X: add bcn, wps_ielen=54
+[  188.236813] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+55): Removed client d8:57:ef:b8:[  188.236828] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.236841] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+2b:6e
+D/WifiP2pService( 1955): [  188.236925] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.236936] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.236969] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+Client list empty, remove non-pe[  188.237191] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.237202] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+rsistent p2p group
+[  188.237212] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238005] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238016] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238026] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238137] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238148] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238157] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238221] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238232] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238242] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238303] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238314] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238324] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238386] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238398] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238407] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238468] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238479] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238488] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238548] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238559] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238569] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238630] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238641] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238651] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238715] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238726] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238736] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238803] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238814] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238824] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238891] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238902] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238912] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.238978] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.238989] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.238999] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.239058] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.239069] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.239078] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.239136] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.239147] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.239157] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.239214] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.239225] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.239234] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.239294] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.239305] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.239314] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.239371] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.239382] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.239392] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.263294] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.263306] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.263318] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.263635] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.263647] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+I/WifiDisplaySource( 1219): sche[  188.263657] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.263722] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+duleReaper.
+[  188.263734] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.263743] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.270071] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.270089] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.270099] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.274888] CPU3: Booted secondary processor
+[  188.274957] Calibrating delay loop (skipped) already calibrated this CPURTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.285362] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.285376] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.323610] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.323621] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.323631] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.332111] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.332122] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.332133] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.332315] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.332327] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.332338] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.332505] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.332516] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.332527] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.332671] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.332682] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.332692] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.345863] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.345874] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.345884] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.360925] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.360936] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.360946] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.361084] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.361095] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.361105] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.391317] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.391329] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.391339] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.391472] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.391483] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.391493] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.407473] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.407485] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.407495] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.407675] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.407687] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.407697] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.407759] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.407770] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.407780] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.422045] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.422056] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.422066] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.422203] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.422214] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.422223] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.437869] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.437880] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.437890] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.468701] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.468714] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.468724] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.468941] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.468953] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.468963] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.484039] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.484050] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.484060] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.484232] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.484244] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.484254] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.484312] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.484323] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.484332] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.498784] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.498796] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.498806] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.498941] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.498953] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.498962] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.514395] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.514407] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.514417] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.544494] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.544506] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.544516] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.544668] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.544679] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.544689] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.560359] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.560370] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.560380] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.560552] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.560564] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.560574] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.560631] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.560642] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.560652] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.575013] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.575024] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.575034] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+I/wpa_supplicant( 2156): [CTRL_I[  188.575171] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.575182] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+FACE]p2p0: P2P_GROUP_REMOVE p2p0[  188.575192] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.589956] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+
+I/wpa_supplicant( 2156): p2p0:[  188.589967] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.589978] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+ P2P-GROUP-REMOVED p2p0 GO reaso[  188.590112] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.590123] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+n=REQUESTED
+I/wpa_supplicant( 2[  188.590133] RTL871X: DBG_156): [CTRL_IFACE]wlan0: SIGNAL_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+POLL
+D/WifiP2pService( 1955): G[  188.620381] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+roupCreatedState ap sta disconne[  188.620393] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+cted
+D/WifiDisplayController( 1[  188.620404] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+955): Received WIFI_P2P_PEERS_CH[  188.636106] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+ANGED_ACTION.
+D/WifiP2pService([  188.636118] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+ 1955): GroupCreatedState{ what=[  188.636128] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+139283 when=-1ms arg2=32 }
+D/Wi[  188.636268] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+fiP2pService( 1955): P2pEnabledS[  188.636279] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.636289] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+tate{ what=139283 when=-1ms arg2[  188.636925] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.636936] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.636946] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fa=32 }
+D/WifiP2pService( 1955): il
+[  188.650099] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+DefaultState{ what=139283 when=-[  188.650111] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+1ms arg2=32 }
+D/WifiDisplayCont[  188.650120] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+roller( 1955): Received list of [  188.652165] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.652177] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+peers.
+D/WifiDisplayController([  188.652186] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.666701] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+ 1955):   Device: Dongle-A1B4B0,[  188.666712] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.666722] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+ deviceAddress: d8:57:ef:b8:2b:6[  188.677699] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.677711] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+e, primary type: 1-0050F204-1, s[  188.677721] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.696529] RTL871X: DBG_TX_DROecondary type: null, wps: 392, gP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.696541] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+rpcapab: 0, devcapab: 33, status[  188.696551] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.713643] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+: 3, wfdInfo: WFD enabled: trueW[  188.713654] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+FD DeviceInfo: 349, WFD CtrlPort[  188.713664] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.716757] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+: 554, WFD MaxThroughput: 50
+D/[  188.716769] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.716778] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+WifiDisplayController( 1955): up[  188.716839] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.716850] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+dateDesiredDevice: new informati[  188.716859] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.745703] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail,on Device: Dongle-A1B4B0, device ra:d8:57:ef:b8:2b:6e
+Address: d8:57:ef:b8:2b:6e, prim[  188.745714] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+ary type: 1-0050F204-1, secondar[  188.745724] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.746048] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+y type: null, wps: 392, grpcapab[  188.746059] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.746069] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+: 0, devcapab: 33, status: 3, wf[  188.749280] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.749292] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+dInfo: WFD enabled: trueWFD Devi[  188.749302] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.787545] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+ceInfo: 349, WFD CtrlPort: 554, [  188.787557] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.787567] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+WFD MaxThroughput: 50
+D/WifiP2p[  188.790870] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.790881] Service( 1955): GroupCreatedStatRTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.790892] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+e{ what=147486 when=0 obj=networ[  188.816422] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.816433] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+k: null
+D/WifiP2pService( 1955)[  188.816443] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.816619] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+:  isGO: true
+D/WifiP2pService([  188.816630] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.816640] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+ 1955):  GO: null
+D/WifiP2pServ[  188.816701] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.816712] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+ice( 1955):  interface: p2p0
+D/[  188.816721] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.845292] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.845303] RTL871X: DBG_TX_DROP_FRAME rtw_xmit updaWifiP2pService( 1955):  networkIte attrib fail
+[  188.845313] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.845455] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+d: 0 }
+D/WifiP2pService( 1955):[  188.845467] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.845476] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+ GroupCreatedState group removed[  188.884033] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.884044] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+
+D/TetherController( 1213): Sto[  188.884054] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+pping tethering services
+I/dnsm[  188.884116] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.884127] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.884136] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+asq ( 4618): exiting on receipt [  188.897507] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+of SIGTERM
+D/TetherController( [  188.897519] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.897529] RTL871X1213): Tethering services stopped
+D/CommandListener( 1213): Clearing all IP addresses on p2p0
+D/NetUtils( 1955): android_net_utils_resetConnections in env=0x59f9af10 clazz=0x7c800001 iface=p2p0 mask=0x3
+D/WifiP2pService( 1955): Stopped Dhcp server
+E/NetworkSession( 1219): readMore on socket 34 failed w/ error -110 (Connection timed out)
+E/WifiDisplaySource( 1219): An error occurred in session 2 (-110, 'Recv failed./Connection timed out').
+I/WifiDisplayController( 1955): Lost RTSP connection with Wifi display due to error 1: Dongle-A1B4B0
+I/WifiDisplayController( 1955): Wifi display connection failed!
+I/wpa_supplicant( 2156): wpa_s->ifname p2p0 cmd SET p2p_group_idle 0
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: SET p2p_group_idle 0
+I/wpa_supplicant( 2156): [CTRL_IFACE]p2p0: P2P_FLUSH
+I/wpa_supplicant( 2156): p2p0: P2P-DEVICE-LOST p2p_dev_addr=d8:57:ef:b8:2b:6e
+I/WifiDisplaySource( 1219): Sending TEARDOWN trigger.
+V/WifiDisplaySource( 1219): finishStop
+V/WifiDisplaySource( 1219): disconnectClient
+V/WifiDisplaySource( 1219): Destroying PlaybackSession
+I/PlaybackSession( 1219): destroyAsync
+I/Converter( 1219): shutting down encoder
+D/WifiP2pService( 1955): sending p2p connection changed broadcast
+D/WifiDisplayController( 1955): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/WifiDisplayController( 1955): Stopped listening for RTSP connection on 192.168.49.1:7236 from Wifi display: Dongle-A1B4B0
+D/WifiP2pService( 1955): InactiveState
+D/WifiP2pService( 1955): InactiveState{ what=147462 when=-176ms obj=android.net.wifi.StateChangeResult@41c8cee0 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=-176ms obj=android.net.wifi.StateChangeResult@41c8cee0 }
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=-176ms obj=android.net.wifi.StateChangeResult@41c8cee0 }
+D/WifiP2pService( 1955): InactiveState{ what=147462 when=-177ms obj=android.net.wifi.StateChangeResult@41be6d80 }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147462 when=-177ms obj=android.net.wifi.StateChangeResult@41be6d80 }
+D/WifiP2pService( 1955): DefaultState{ what=147462 when=-177ms obj=android.net.wifi.StateChangeResult@41be6d80 }
+D/WifiP2pService( 1955): InactiveState{ what=147478 when=-4ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+D/WifiP2pService( 1955): P2pEnabledState{ what=147478 when=-4ms obj=Device: 
+D/WifiP2pService( 1955):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 1955):  primary type: null
+D/WifiP2pService( 1955):  secondary type: null
+D/WifiP2pService( 1955):  wps: 0
+D/WifiP2pService( 1955):  grpcapab: 0
+D/WifiP2pService( 1955):  devcapab: 0
+D/WifiP2pService( 1955):  status: 4
+D/WifiP2pService( 1955):  wfdInfo: null }
+I/MediaPuller( 1219): MediaPuller(audio/raw) stopping.
+D/omx_venc( 1219): x set state command, cmd = 0, cmddata = 2.
+D/omx_venc( 1219): pSelf->m_sInPortDef.bPopulated:1, pSelf->m_sOutPortDef.bPopulated: 1
+D/omx_venc( 1219): x set state command, cmd = 0, cmddata = 1.
+I/r_submix( 1219): in_standby()
+I/MediaPuller( 1219): MediaPuller(audio/raw) stopped.
+I/MediaPuller( 1219): MediaPuller(video/raw) stopping.
+D/omx_venc( 1219): component_deinit before
+D/omx_venc( 1219): x stop command.
+D/osal_linux( 1219): exit hw ref count:0
+D/aw_omx_core( 1219):  Unloading the dynamic library for OMX.allwinner.video.encoder.avc
+I/Converter( 1219): encoder (video/raw) shut down.
+I/Converter( 1219): shutting down encoder
+I/Converter( 1219): encoder (audio/raw) shut down.
+I/PlaybackSession( 1219): kWhatStopped audio posted
+I/PlaybackSession( 1219): Track 1 stopped
+I/r_submix( 1219): shutdown
+I/PlaybackSession( 1219): not all tracks are stopped yet
+: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.911461] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.911474] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.911484] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.919737] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.919748] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.919758] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.920678] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.920689] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.920699] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.920759] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.920770] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.920780] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.920838] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.920849] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.920859] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921073] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921084] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921094] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921153] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921164] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921174] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921232] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921242] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921252] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921311] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921321] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921331] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921523] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921535] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921545] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921603] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921614] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921624] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921682] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921693] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921703] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921844] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921855] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921865] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.921923] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.921934] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.921944] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.922135] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.922146] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.922156] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.922214] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.922225] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.922235] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.922292] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.922303] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.922313] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.922450] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.922461] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.922471] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.950332] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.950344] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.950354] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.950500] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.950511] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.950520] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.979203] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.979215] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.979226] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  188.979381] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  188.979392] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  188.979402] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.004204] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.004216] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.004226] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.007922] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.007933] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.007943] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.026319] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.026331] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.026340] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.047748] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.047760] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.047770] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.047941] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.047952] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.047961] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.048020] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.048031] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.048040] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.075701] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.075715] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.075726] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.075869] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.075881] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.075890] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.153811] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.153824] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.153835] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.153990] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.154001] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.154011] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.154171] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.154183] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.154193] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.154251] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.154262] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.154272] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.154385] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.154396] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.154406] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.175018] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.175030] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.175040] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.217303] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.217315] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.217325] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.239550] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.239562] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.239572] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.240606] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.240617] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.240627] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.260422] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.260434] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.260444] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.281404] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.281415] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.281425] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.323750] RTL871X: got p2p_ie, len=20
+[  189.323769] RTL871X: rtw_check_beacon_data, len=206
+<4>[  189.323807] RTL871X: update_hw_ht_param
+[  189.326740] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.326754] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.326766] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.346958] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.346970] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.346981] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.347122] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.347133] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.347143] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.366920] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.366931] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.366941] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.388228] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.388239] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.388249] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.431099] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.431111] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.431121] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.453320] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.453332] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.453342] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.453495] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.453506] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.453516] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.473525] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.473536] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.473546] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.494776] RTL871X: DBG_TX_DROP_FRAME update_attrib get sta_info fail, ra:d8:57:ef:b8:2b:6e
+[  189.494787] RTL871X: DBG_TX_DROP_FRAME rtw_xmit update attrib fail
+[  189.494797] RTL871X: DBG_TX_DROP_FRAME rtw_xmit_entry rtw_xmit fail
+[  189.518146] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+[  189.520745] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  189.521367] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+[  189.521382] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  189.521393] RTL871X: second adapter, CH=1, BW=0, offset=0
+[  189.521404] RTL871X: CH=11, BW=0, offset=0
+[  189.521865] RTL871X: update_mgnt_tx_rate(): rate = c
+[  189.522764] RTL871X: ### Set STA_(1) info
+[  189.522778] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  189.522795] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  189.522814] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  189.522830] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[  189.522993] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  189.524403] RTL871X: enter GO Mode, p2p_ielen=20
+[  189.524780] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  189.524917] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  189.524944] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[  189.524961] RTL871X: update_bcn_vendor_spec_ie
+[  189.524971] RTL871X: update_bcn_wps_ie
+[  189.525045] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  189.525071] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  189.525127] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  189.525145] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+[  189.534367] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  189.534377] RTL871X: flush all sta, and cam_entry
+[  189.534390] RTL871X: rtw_sta_flush(p2p0)
+[  189.534407] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+[  189.534530] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  189.534543] RTL871X: free sta macaddr =ff:ff:ff:ff:ff:ff
+[  189.534655] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=0
+[  189.534737] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=1
+[  189.534817] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=2
+[  189.534896] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=3
+[  189.534971] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  189.534988] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=35
+[  189.535018] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  189.535035] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  189.535062] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+[  189.535078] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=26
+[  189.535181] RTL871X: cfg80211_rtw_del_beacon(p2p0)
+[  189.535239] RTL871X: cfg80211_rtw_change_iface(p2p0) call netdev_if2_open
+[  189.535251] RTL871X: +871x_drv - if2_open, bup=1
+[  189.535264] RTL871X: -871x_drv - if2_open, bup=1
+[  189.535342] RTL871X: cfg80211_rtw_change_iface(p2p0) old_iftype=9, new_iftype=2
+[  189.535359] RTL871X: cfg80211_rtw_change_iface, role=1, p2p_state=2, pre_p2p_state=2
+[  189.535377] RTL871X: stop_ap_mode, free acl_node_queue, num=0
+[  189.535385] RTL871X: rtw_sta_flush(p2p0)
+[  189.535397] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+[  189.535494] RTL871X: ### Clean STA_(1) info
+[  189.535546] RTL871X: ### Clean STA_(1) info
+[  189.540234] RTL871X: hw_var_set_opmode()-3261 mode = 2
+[  190.961153] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[  192.029647] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[  192.531598] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[  192.544775] RTL871X: LPS_Enter smart_ps:2
+I/wpa_supplicant( 2156): [CTRL_I[  192.549308] RTL871X: rtw_set_ps_mode: Enter 802.11 power save
+FACE]wlan0: SIGNAL_POLL
+[  192.558510] RTL871X: rtl8188e_set_FwPwrMode_cmd: Mode=1 SmartPS=2 UAPSD=0
+[  193.869808] CPU2: shutdown
+[  193.872858] [hotplug]: cpu(1) try to kill cpu(2)
+[  193.879042] [hotplug]: cpu2 is killed! .
+[  193.886062] CPU3: shutdown
+[  193.889154] [hotplug]: cpu(0) try to kill cpu(3)
+[  193.895387] [hotplug]: cpu3 is killed! .
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  195.584681] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant( 2156): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  204.695781] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[  204.716259] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)

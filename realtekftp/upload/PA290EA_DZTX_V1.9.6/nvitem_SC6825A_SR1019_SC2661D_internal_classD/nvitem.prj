@@ -1,0 +1,30 @@
+# SpreadTrum NVEditor Project File, Format Version 1.0
+# WARNING: DO NOT EDIT OR DELETE THIS PROJECT FILE!
+
+################################################################################
+  PROJECT     =  NVitem
+  ALIGNMENT   =  4
+  TARGET      =  nvitem.bin
+  DESCRIPTION =  
+
+################################################################################
+
+# Begin Project Module
+
+  MODULE     =  audio_sc8810_modem_vlx.nvm
+  MODULE     =  audio_sc8810_modem_vlx_lvve.nvm
+  MODULE     =  audio_arm.nvm
+  MODULE     =  SC6825_sr1019_Common_dsp_RFGPIO_config.nvm
+  MODULE     =  Calibrationparam_sc8825_sr3500_td.nvm
+  MODULE     =  Downloadparam_sc8825_sr3500_td.nvm
+  MODULE     =  Calibrationparam_sc6825_sr1019.nvm
+  MODULE     =  DownloadParam_sc6825_sr1019.nvm
+  MODULE     =  nv_type_4band.nvm
+  MODULE     =  td_nv_type.nvm
+  MODULE     =  ProductionParam.nvm
+  MODULE     =  BaseParam.nvm
+  MODULE     =  audio_dsp_codec_tiger.nvm
+
+# End Project Module
+
+################################################################################

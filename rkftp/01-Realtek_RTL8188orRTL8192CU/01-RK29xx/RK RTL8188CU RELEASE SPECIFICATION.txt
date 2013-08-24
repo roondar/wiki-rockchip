@@ -1,0 +1,46 @@
+/*****************************************************************************************
+ *											 *
+ *		USB WIFI RTL8188CU RELEASE SPECIFICATION				 *
+ *											 *
+ *****************************************************************************************/
+
+/=============================
+/ << VERSION 3.23 >>
+/ SUBMIT TIME: 2011-09-30
+/ NOTE: For all USB interface.
+/ UPDATE DETAILS:
+	1、Suport soft-ap function.
+	2、Add android wifi sleep policy.(Details pls refer to document RK-WIFI休眠机制说明书.pdf)
+	3、Add country code getting function.
+	4、Better compatibility of authentication connection.
+
+/=============================
+/ << VERSION 3.24 >>
+/ SUBMIT TIME: 2011-11-15
+/ NOTE: Only for device work on USB 2.0 or OTG interface.
+/ UPDATE DETAILS:
+	1、Turn on wifi power saving mode. Reduced power dissipation.
+	In case of the system with USB1.1 interface and DPM device timeout checking,using PS function 
+ may make driver's suspend function take more then 3 sec to be done, so may have chance to trigger the 
+ "kernel BUG"resulting to kernel call trace and system reboot.
+
+/=============================
+/ << VERSION 3.25 >>
+/ SUBMIT TIME: 2011-11-15
+/ NOTE: Only for device work on USB 1.1 interface.
+/ UPDATE DETAILS:
+	1、Solve some encryption route connecting to Internet problem(Or can't open web page).
+
+/=============================
+/ << VERSION 3.26 >>
+/ SUBMIT TIME: 2011-11-17
+/ NOTE: For all USB interface.
+/ UPDATE DETAILS:
+	1、Solve handlinkAP disconnect issue.
+	   Driver return the support rate without judge the STA's capability. New Driver add 
+	Judgment mechanism.
+	2、Solve H3CAP disconnect issue.
+	   H3CAP keep the stutation of laster connection if not received the deauth message from
+	STA, then H3CAP will always refuse STA to auth next time. New driver send a deauth message
+	before everytime's connect setp to clean the last connection info.
+

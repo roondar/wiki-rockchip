@@ -1,0 +1,1508 @@
+# SpreadTrum NVEditor NV Module File, Format Version 1.0
+# WARNING: DO NOT EDIT OR DELETE THIS NV Module FILE!
+
+###############################################################################
+  MODULE      = Common_dsp_RFGPIO_config
+  DESCRIPTION = 
+
+################################################################################
+
+# Begin Module Item
+  BEGIN_ITEM
+    ITEM_NAME    = Antenna_switch_RFGPIO_config
+    ITEM_ID      = 553
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 244
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 0
+    ITEM_PARENT  = -1
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = antenna_switch_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xF800
+    ITEM_INDEX   = 1
+    ITEM_PARENT  = 0
+    ITEM_DESC    = @yiru.lin: These items are decided by pins that control the Antenna switch used by customer
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = Antenna_switch_truth_table
+    ITEM_ID      = 553
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 26
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 2
+    ITEM_PARENT  = 0
+    ITEM_DESC    = @yiru.lin: These items are decided by the Antenna switch that used by customer
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TD1.9G_Tx
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xA000
+    ITEM_INDEX   = 3
+    ITEM_PARENT  = 2
+    ITEM_DESC    = Bit [15:8] for TX,Bit [7:0] for Rx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TD1.9G_Rx
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3000
+    ITEM_INDEX   = 4
+    ITEM_PARENT  = 2
+    ITEM_DESC    = Bit [15:8] for TX,Bit [7:0] for Rx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TD2G_Tx
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xA000
+    ITEM_INDEX   = 5
+    ITEM_PARENT  = 2
+    ITEM_DESC    = Bit [15:8] for TX,Bit [7:0] for Rx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TD2G_Rx
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3000
+    ITEM_INDEX   = 6
+    ITEM_PARENT  = 2
+    ITEM_DESC    = Bit [15:8] for TX,Bit [7:0] for Rx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TD2.3G_Tx
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x80
+    ITEM_INDEX   = 7
+    ITEM_PARENT  = 2
+    ITEM_DESC    = Bit [15:8] for TX,Bit [7:0] for Rx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TD2.3G_Rx
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x800
+    ITEM_INDEX   = 8
+    ITEM_PARENT  = 2
+    ITEM_DESC    = Bit [15:8] for TX,Bit [7:0] for Rx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reversed0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 9
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reversed1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 10
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reversed2
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 11
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reversed3
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 12
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reversed4
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 13
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved5
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 14
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rfPA_RFGPIO_config
+    ITEM_ID      = 553
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 132
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 15
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rfPA_EN_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 6
+    ITEM_LENGTH  = 38
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 16
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = GSM_PA_EN_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x400
+    ITEM_INDEX   = 17
+    ITEM_PARENT  = 16
+    ITEM_DESC    = @yiru.lin: These items are decided by pins that control the GSM PA used by customer
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td1.9G_PA_EN_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x400
+    ITEM_INDEX   = 18
+    ITEM_PARENT  = 16
+    ITEM_DESC    = @yiru.lin: These items are decided by pins that control the TD PA used by customer
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2G_PA_EN_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x400
+    ITEM_INDEX   = 19
+    ITEM_PARENT  = 16
+    ITEM_DESC    = @yiru.lin: These items are decided by pins that control the TD PA used by customer
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2.3G_PA_EN_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x20
+    ITEM_INDEX   = 20
+    ITEM_PARENT  = 16
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 21
+    ITEM_PARENT  = 16
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 22
+    ITEM_PARENT  = 16
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rfPA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 9
+    ITEM_LENGTH  = 56
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 23
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = gsm850_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 24
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = gsm900_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 25
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = dcs_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 26
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = pcs_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 27
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td1.9G_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x28
+    ITEM_INDEX   = 28
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2G_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x28
+    ITEM_INDEX   = 29
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2.3G_PA_on_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x38
+    ITEM_INDEX   = 30
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 31
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 32
+    ITEM_PARENT  = 23
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rfPA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 9
+    ITEM_LENGTH  = 74
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 33
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = gsm850_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 34
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = gsm900_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 35
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = dcs_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 36
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = pcs_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 37
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td1.9G_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 38
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2G_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 39
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2.3G_PA_off_time_adjust
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 40
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 41
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 42
+    ITEM_PARENT  = 33
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 43
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve_param1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 10
+    ITEM_LENGTH  = 96
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 44
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[0]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 45
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[1]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 46
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[2]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 47
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[3]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 48
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[4]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 49
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[5]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 50
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[6]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 51
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[7]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 52
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[8]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 53
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved[9]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 54
+    ITEM_PARENT  = 44
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tdPA_gain_mode_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 55
+    ITEM_PARENT  = 15
+    ITEM_DESC    = bit[1:0] for bandF, bit[3:2] for bandA, bit[5:4] for bandE:1 means APC control,0 means RFCTL control;
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tdPA_gainswitch
+    ITEM_ID      = 553
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 132
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 56
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td1.9G&2G_PA_gainswitch_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1000
+    ITEM_INDEX   = 57
+    ITEM_PARENT  = 56
+    ITEM_DESC    = RF GPIO selection, to control TD TX gain mode
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2.3G_PA_gainswitch_pin_control
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x102
+    ITEM_INDEX   = 58
+    ITEM_PARENT  = 56
+    ITEM_DESC    = bit[0:3] 1.9g; bit[4:7] 2g; bit[8:11] 2.3g
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td1.9g&2g_PA_gainswitch_vramp_table
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 15
+    ITEM_LENGTH  = 112
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 59
+    ITEM_PARENT  = 56
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = high
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 60
+    ITEM_PARENT  = 59
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = mid
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 61
+    ITEM_PARENT  = 59
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = low
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 62
+    ITEM_PARENT  = 59
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 63
+    ITEM_PARENT  = 59
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 64
+    ITEM_PARENT  = 59
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = td2.3g_PA_gainswitch_vramp_table
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 5
+    ITEM_LENGTH  = 122
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 65
+    ITEM_PARENT  = 56
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = high
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 66
+    ITEM_PARENT  = 65
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = mid
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 67
+    ITEM_PARENT  = 65
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = low
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 68
+    ITEM_PARENT  = 65
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 69
+    ITEM_PARENT  = 65
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 70
+    ITEM_PARENT  = 65
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 15
+    ITEM_LENGTH  = 132
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 71
+    ITEM_PARENT  = 56
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = high
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 72
+    ITEM_PARENT  = 71
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = mid
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 73
+    ITEM_PARENT  = 71
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = low
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 74
+    ITEM_PARENT  = 71
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 75
+    ITEM_PARENT  = 71
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 76
+    ITEM_PARENT  = 71
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = GSM_Antenna_switch_truth_table
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 18
+    ITEM_LENGTH  = 168
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 77
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_ugsm850_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 78
+    ITEM_PARENT  = 77
+    ITEM_DESC    = RX UGSM850 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_egsm900_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5000
+    ITEM_INDEX   = 79
+    ITEM_PARENT  = 77
+    ITEM_DESC    = RX EGSM900 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_dcs1800_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 80
+    ITEM_PARENT  = 77
+    ITEM_DESC    = RX DCS1800 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_pcs1900_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5000
+    ITEM_INDEX   = 81
+    ITEM_PARENT  = 77
+    ITEM_DESC    = RX PCS1900 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved0
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 82
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tx_low_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 83
+    ITEM_PARENT  = 77
+    ITEM_DESC    = TX low band, 850/900 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tx_high_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5000
+    ITEM_INDEX   = 84
+    ITEM_PARENT  = 77
+    ITEM_DESC    = TX high band, 1800/1900 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = edge_tx_low_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 85
+    ITEM_PARENT  = 77
+    ITEM_DESC    = EDGE TX low band, 850/900 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = edge_tx_high_band
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1000
+    ITEM_INDEX   = 86
+    ITEM_PARENT  = 77
+    ITEM_DESC    = EDGE TX high band, 1800/1900 band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserved1
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 87
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_rx_tx_port_selection
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5011
+    ITEM_INDEX   = 88
+    ITEM_PARENT  = 77
+    ITEM_DESC    = select sr3500 port, D15:8 tx, D7:0 rx, band ugsm egsm dcs pcs
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[0]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 89
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[1]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 90
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[2]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 91
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[3]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 92
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[4]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 93
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[5]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 94
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_param[6]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 95
+    ITEM_PARENT  = 77
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register_number
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6
+    ITEM_INDEX   = 96
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = GSM_RF_Initial_Registers
+    ITEM_ID      = 553
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 36
+    ITEM_LENGTH  = 242
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 97
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[0]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xDC5E
+    ITEM_INDEX   = 98
+    ITEM_PARENT  = 97
+    ITEM_DESC    = reg_0x0006, edge tx gain parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[1]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6
+    ITEM_INDEX   = 99
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[2]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x40F4
+    ITEM_INDEX   = 100
+    ITEM_PARENT  = 97
+    ITEM_DESC    = reg_0x0004, edge tx gain parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[3]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4F
+    ITEM_INDEX   = 101
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[4]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x333E
+    ITEM_INDEX   = 102
+    ITEM_PARENT  = 97
+    ITEM_DESC    = reg_0x0079, refout 26MHz clock type parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[5]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x79
+    ITEM_INDEX   = 103
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[6]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8407
+    ITEM_INDEX   = 104
+    ITEM_PARENT  = 97
+    ITEM_DESC    = reg_0x007A, refout 26MHz clock enable parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[7]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7A
+    ITEM_INDEX   = 105
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[8]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4016
+    ITEM_INDEX   = 106
+    ITEM_PARENT  = 97
+    ITEM_DESC    = reg_0x00A0, iq common-mode voltage parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[9]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xA0
+    ITEM_INDEX   = 107
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[10]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x474
+    ITEM_INDEX   = 108
+    ITEM_PARENT  = 97
+    ITEM_DESC    = reg_0x0175, TD dc-remove parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[11]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x175
+    ITEM_INDEX   = 109
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[12]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 110
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[13]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 111
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[14]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 112
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[15]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 113
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[16]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 114
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[17]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 115
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[18]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 116
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[19]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 117
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[20]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 118
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[21]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 119
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[22]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 120
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[23]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 121
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[24]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 122
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[25]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 123
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[26]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 124
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[27]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 125
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[28]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 126
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[29]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 127
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[30]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 128
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[31]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 129
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[32]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 130
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[33]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 131
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[34]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 132
+    ITEM_PARENT  = 97
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_inital_register[35]
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 133
+    ITEM_PARENT  = 97
+    ITEM_DESC    = sc6825-tiger, sr1019, mobilephone, v1.0.0
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_chip_id
+    ITEM_ID      = 553
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3500
+    ITEM_INDEX   = 134
+    ITEM_PARENT  = 0
+    ITEM_DESC    = rf chip id to identify different rf chip, sr3200 or sr3500
+  END_ITEM
+
+
+# End Module Item
+
+################################################################################

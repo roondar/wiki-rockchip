@@ -1,0 +1,50 @@
+diff --git a/src/drivers/driver_nl80211.c b/src/drivers/driver_nl80211.c
+index 8795104..a41009a 100644
+--- a/src/drivers/driver_nl80211.c
++++ b/src/drivers/driver_nl80211.c
+@@ -410,7 +410,17 @@ static int no_seq_check(struct nl_msg *msg, void *arg)
+ {
+ 	return NL_OK;
+ }
++// gwl
++static int drv_errors = 0;
+ 
++static void wpa_driver_send_hang_msg(struct wpa_driver_nl80211_data *drv)
++{
++    drv_errors++;
++    if (drv_errors > DRV_NUMBER_SEQUENTIAL_ERRORS) {
++        drv_errors = 0;
++        wpa_msg(drv->ctx, MSG_INFO, WPA_EVENT_DRIVER_STATE "HANGED");
++    }
++}
+ 
+ static int send_and_recv(struct nl80211_global *global,
+ 			 struct nl_handle *nl_handle, struct nl_msg *msg,
+@@ -1179,6 +1189,11 @@ static void mlme_event_disconnect(struct wpa_driver_nl80211_data *drv,
+ 		data.disassoc_info.reason_code = nla_get_u16(reason);
+ 	data.disassoc_info.locally_generated = by_ap == NULL;
+ 	wpa_supplicant_event(drv->ctx, EVENT_DISASSOC, &data);
++// gwl fix hang issue
++	if (data.disassoc_info.reason_code == WLAN_REASON_UNSPECIFIED) {
++		drv_errors = 4;
++		wpa_driver_send_hang_msg(drv);	
++	}
+ }
+ 
+@@ -8834,6 +8849,7 @@ typedef struct android_wifi_priv_cmd {
+ 	int total_len;
+ } android_wifi_priv_cmd;
+ 
++/* (gwl)
+ static int drv_errors = 0;
+ 
+ static void wpa_driver_send_hang_msg(struct wpa_driver_nl80211_data *drv)
+@@ -8844,7 +8860,7 @@ static void wpa_driver_send_hang_msg(struct wpa_driver_nl80211_data *drv)
+ 		wpa_msg(drv->ctx, MSG_INFO, WPA_EVENT_DRIVER_STATE "HANGED");
+ 	}
+ }
+-
++*/
+ 
+ static int android_priv_cmd(struct i802_bss *bss, const char *cmd)
+ {

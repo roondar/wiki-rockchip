@@ -1,0 +1,589 @@
+[  894.765666] [hotplug]: cpu(0) try to kill cpu(2)
+[  894.771853] [hotplug]: cpu2 is killed! .
+[  894.778890] CPU3: shutdown
+[  894.782104] [hotplug]: cpu(1) try to kill cpu(3)
+[  894.788355] [hotplug]: cpu3 is killed! .
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  896.903466] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  902.900959] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  905.285245] CPU2: Booted secondary processor
+[  905.285295] Calibrating delay loop (skipped) already calibrated this CPUCPU3: Booted secondary processor
+[  905.333056] Calibrating delay loop (skipped) already calibrated this CPUI/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  911.792670] CPU2: shutdown
+[  911.795726] [hotplug]: cpu(0) try to kill cpu(2)
+[  911.801911] [hotplug]: cpu2 is killed! .
+[  911.808559] CPU3: shutdown
+[  911.811828] [hotplug]: cpu(0) try to kill cpu(3)
+[  911.818008] [hotplug]: cpu3 is killed! .
+[  912.413836] CPU2: Booted secondary processor
+[  912.413887] Calibrating delay loop (skipped) already calibrated this CPUCPU3: Booted secondary processor
+[  912.445317] Calibrating delay loop (skipped) already calibrated this CPUI/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+D/dalvikvm( 2546): GC_CONCURRENT freed 956K, 27% free 8413K/11500K, paused 6ms+11ms, total 112ms
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  917.902513] CPU1: shutdown
+[  917.905557] [hotplug]: cpu(2) try to kill cpu(1)
+[  917.911711] [hotplug]: cpu1 is killed! .
+[  917.928659] CPU2: shutdown
+[  917.931735] [hotplug]: cpu(0) try to kill cpu(2)
+[  917.937941] [hotplug]: cpu2 is killed! .
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  920.892076] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  921.929323] CPU1: Booted secondary processor
+[  921.929374] Calibrating delay loop (skipped) already calibrated this CPUCPU2: Booted secondary processor
+[  921.963272] Calibrating delay loop (skipped) already calibrated this CPUI/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/r_submix( 1198): out_standby()
+RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  927.984779] CPU2: shutdown
+[  927.987811] [hotplug]: cpu(3) try to kill cpu(2)
+[  927.994045] [hotplug]: cpu2 is killed! .
+[  928.000771] CPU3: shutdown
+[  928.003844] [hotplug]: cpu(1) try to kill cpu(3)
+[  928.010035] [hotplug]: cpu3 is killed! .
+[  930.202984] CPU2: Booted secondary processor
+[  930.203051] Calibrating delay loop (skipped) already calibrated this CPUCPU3: Booted secondary processor
+[  930.231191] Calibrating delay loop (skipped) already calibrated this CPUI/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+V/DeadZone( 3658): consuming errant click: (405.47205,11.036072)
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+I/ActivityManager( 2546): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from pid 2546
+RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+I/ActivityManager( 2546): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from pid 2546
+D/dalvikvm(11745): GC_CONCURRENT freed 1240K, 59% free 8039K/19248K, paused 3ms+6ms, total 50ms
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+I/ActivityManager( 2546): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from pid 2546
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+I/ActivityManager( 2546): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from pid 2546
+[  938.891725] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+D/WindowManager( 2546): mBootFastRuning = falseshutdhownPending = false
+I/ActivityManager( 2546): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from pid 2546
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  941.982645] CPU1: shutdown
+[  941.985675] [hotplug]: cpu(2) try to kill cpu(1)
+[  941.991833] [hotplug]: cpu1 is killed! .
+[  941.998283] CPU3: shutdown
+[  942.001457] [hotplug]: cpu(2) try to kill cpu(3)
+[  942.007624] [hotplug]: cpu3 is killed! .
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/r_submix( 1198): out_standby()
+[  944.909201] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  950.911840] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  956.892956] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  962.672657] CPU1: Booted secondary processor
+[  962.672705] Calibrating delay loop (skipped) already calibrated this CPUCPU3: Booted secondary processor
+[  962.701982] Calibrating delay loop (skipped) already calibrated this CPURTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  968.892611] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  974.891837] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  977.220212] RTL871X: send eapol packet
+[  978.224847] RTL871X: send eapol packet
+[  978.891552] acquire wake_lock for 4500 ms(tx:4,rx_unicast:0)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  979.230121] RTL871X: send eapol packet
+[  980.235267] RTL871X: send eapol packet
+[  980.692701] CPU2: shutdown
+[  980.695747] [hotplug]: cpu(1) try to kill cpu(2)
+[  980.701914] [hotplug]: cpu2 is killed! .
+[  980.708739] CPU3: shutdown
+[  980.711789] [hotplug]: cpu(1) try to kill cpu(3)
+[  980.717950] [hotplug]: cpu3 is killed! .
+[  980.891695] RTL871X: asoc check, sta(d8:57:ef:b8:2b:6e) is alive
+[  980.898667] acquire wake_lock for 4500 ms(tx:4,rx_unicast:0)
+[  981.240804] RTL871X: cfg80211_rtw_add_key(p2p0) adding key for   (null)
+[  981.248326] RTL871X: cipher=0xfac04
+[  981.253292] RTL871X: key_len=0x10
+[  981.257047] RTL871X: seq_len=0x0
+[  981.260695] RTL871X: key_index=2
+[  981.264315] RTL871X: pairwise=0
+[  981.267989] RTL871X: rtw_cfg80211_ap_set_encryption
+[  981.273456] RTL871X: rtw_cfg80211_ap_set_encryption, set group_key, CCMP
+[  981.280947] RTL871X: set_group_key
+[  981.284807] RTL871X: set group key to hw: alg:4(WEP40-1 WEP104-5 TKIP-2 AES-4) keyid:2
+[  981.294043] RTL871X: cfg80211_rtw_set_default_key(p2p0) key_index=2, unicast=0, multicast=1.
+[  981.303793] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  981.309441] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+[  981.315431] RTL871X: free psta=f028f774, aid=1
+[  981.320431] RTL871X: rx agg disable tid(0)
+[  981.325075] RTL871X: issue_action_BA, category=3, action=2, status=0
+[  981.332234] RTL871X: tx agg disable tid(5)
+[  981.336837] RTL871X: issue_action_BA, category=3, action=2, status=11
+[  981.344100] RTL871X: tx agg disable tid(6)
+[  981.348688] RTL871X: issue_action_BA, category=3, action=2, status=13
+[  981.355955] RTL871X: issue_deauth to d8:57:ef:b8:2b:6e
+[  981.361764] RTL871X: rtw_cfg80211_indicate_sta_disassoc(padapter=f024c000,p2p0)
+[  981.370007] RTL871X: report_del_sta_event: delete STA, mac_id=2
+[  981.376662] RTL871X: SetHwReg8188EU, 4074, RCR= 7000208e 
+[  981.376684] RTL871X: update_bcn_fixed_ie
+[  981.376703] RTL871X: bss_cap_update_on_sta_leave, updated=1
+[  981.376744] RTL871X: ### Clean STA_(2) info
+I/wpa_supplicant(10505): p2p0: A[  981.377585] RTL871X: -cfg80211_rtw_del_station(p2p0)
+[  981.390440] RTL871X: cfg80211_rtw_change_station(p2p0)
+P-STA-DISCONNECTED d8:57:ef:b8:2[  981.390560] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  981.390573] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+[  981.390585] RTL871X: -cfg80211_rtw_del_station(p2p0)
+b:6e p2p_dev_addr=d8:57:ef:b8:2b[  981.390936] RTL871X: cfg80211_rtw_change_station(p2p0)
+[  981.391017] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  981.391029] RTL871X: free sta macaddr =d8:57:ef:b8:2b:6e
+:6e[  981.391040] RTL871X: -cfg80211_rtw_del_station(p2p0)
+[  981.391286] RTL871X: cfg80211_rtw_set_beacon(p2p0)
+[  981.391297] RTL871X: cfg80211_rtw_add_beacon(p2p0)
+[  981.391308] RTL871X: rtw_add_beacon beacon_head_len=73, beacon_tail_len=192
+
+[  981.391323] RTL871X: add bcn, wps_ielen=54
+[  981.391332] RTL871X: got p2p_ie, len=20
+[  981.391346] RTL871X: rtw_check_beacon_data, len=206
+[  981.391374] RTL871X: update_hw_ht_param
+[  981.392160] RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+E/wpa_supplicant(10505): WPA: wp[  981.406913] RTL871X: HW_VAR_BASIC_RATE: BrateCfg(0x150)
+[  981.407536] RTL871X: primary iface is at linked state, sync cur_channel/cur_bwmode/cur_ch_offset
+a_sm_step() called recursively[  981.407550] RTL871X: primary adapter, CH=11, BW=1, offset=2
+[  981.407560] RTL871X: second adapter, CH=6, BW=0, offset=0
+[  981.407570] RTL871X: CH=11, BW=0, offset=0
+
+[  981.408036] RTL871X: update_mgnt_tx_rate(): rate = c
+[  981.408795] RTL871X: ### Set STA_(1) info
+[  981.408808] RTL871X: update_bmc_sta, mask=0x6000000f, arg=0x81
+[  981.408822] RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:6 , ra_bitmap=0xf, shortGIrate=0x00
+[  981.408839] ODM_ARFBRefresh_8188E(): RateID=6 RateMask=0000000f RAUseRate=0000000d HighestRate=3,DecisionRate=3 
+[  981.408854] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[  981.409039] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+[  981.409922] RTL871X: enter GO Mode, p2p_ielen=20
+D/WifiP2pService( 2546): GroupCr[  981.410024] RTL871X: cfg80211_rtw_change_bss(p2p0)
+[  981.410101] RTL871X:eatedState{ what=147497 when=0 o rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+[  981.410123] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=89
+[  981.410134] RTL871X: update_bcn_vendor_spec_ie
+bj=Device: [  981.410143] RTL871X: update_bcn_wps_ie
+[  981.410184] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  981.410205] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  981.410234] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+
+[  981.410250] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=47
+[  981.411101] RTL871X: +cfg80211_rtw_del_station(p2p0)
+[  981.411112] RTL871X: flush all sta, and cam_entry
+[  981.411124] RTL871X: rtw_sta_flush(p2p0)
+[  981.411138] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+[  981.411317] RTL871X: +cfg80211_rtw_del_station(p2p0)
+D/WifiP2pService( 2546):  device[  981.411330] RTL871X: free sta macaddr =ff:ff:ff:ff:ff:ff
+[  981.411415] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=0
+[  981.411495] RTL87Address: d8:57:ef:b8:2b:6e1X: cfg80211_rtw_del_key(p2p0) key_index=1
+[  981.411573] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=2
+[  981.411651] RTL871X: cfg80211_rtw_del_key(p2p0) key_index=3
+[  981.411725] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 1" on p2p0
+
+[  981.411745] RTL871X: rtw_cfg80211_set_beacon_wpsp2pie(p2p0) ielen=35
+[  981.411776] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 2" on p2p0
+[  981.411794] RTL871X: Got P2P Capability Attr, grp_cap=0x2b, is_GO
+[  981.411821] RTL871X: rtw_android_priv_cmd: Android private cmd "SET_AP_WPS_P2P_IE 4" on p2p0
+D/WifiP2pService( 2546):  primar[  981.411837] RTL871X: rtw_cfg80211_set_assoc_resp_wpsp2pie, ielen=26
+[  981.411893] RTL871X: cfg80211_rtw_del_beacon(p2p0)
+[  981.440792] RTL871X: cfg80211_rtw_change_iface(p2p0) call netdev_if2_open
+y type: null[  981.440806] RTL871X: +871x_drv - if2_open, bup=1
+[  981.440819] RTL871X: -871x_drv - if2_open, bup=1
+[  981.440836] RTL871X: cfg80211_rtw_change_iface(p2p0) old_iftype=9, new_iftype=2
+
+[  981.440852] RTL871X: cfg80211_rtw_change_iface, role=1, p2p_state=2, pre_p2p_state=2
+[  981.440868] RTL871X: stop_ap_mode, free acl_node_queue, num=0
+[  981.440877] RTL871X: rtw_sta_flush(p2p0)
+[  981.440888] RTL871X: issue_deauth to ff:ff:ff:ff:ff:ff
+D/WifiP2pService( 2546):  second[  981.440969] RTL871X: ### Clean STA_(1) info
+[  981.441035] RTL871X: ### Clean STA_(1) info
+ary type: null
+D/WifiP2pService( 2546):  wps: 0
+D/WifiP2pService( 2546):  grpcapab: 0
+D/WifiP2pService( 2546):  devcapab: 0
+D/WifiP2pService( 2546):  status: 4
+D/WifiP2pService( 2546):  wfdInfo: null }
+D/WifiP2pService( 2546): Removed client d8:57:ef:b8:2b:6e
+D/W[  981.872272] RTL871X: set pairwise key to hw: alg:0(WEP40-1 WEP104-5 TKIP-2 AES-4) camid:-516989184
+ifiP2pService( 2546): Client lis[  981.884564] RTL871X: rtw_stadel_event_callback(mac_id=2)=d8:57:ef:b8:2b:6e
+[  981.892458] CPU2: Booted secondary processor
+t empty, remove non-persistent p[  981.892514] Calibrating delay loop (skipped) already calibrated this CPU2p group
+I/wpa_supplicant(10505RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=0 MACID=2 
+): [CTRL_IFACE]p2p0: P2P_GROUP_REMOVE p2p0
+I/wpa_supplicant(105[  981.919580] RTL871X: rtw_cfg80211_indicate_disconnect(padapter=f024c000)
+[  981.919597] RTL871X: rtw_cfg80211_indicate_disconnect, role=1, p2p_state=2, pre_p2p_state=2
+[  981.919608] RTL871X: pwdev->sme_state(b)=0
+[  981.919615] RTL871X: pwdev->sme_state(a)=0
+05): p2p0: P2P-GROUP-REMOVED p2p0 GO reason=REQUESTED
+D/TetherC[  981.951926] RTL871X: hw_var_set_opmode()-3261 mode = 2
+ontroller( 1192): Stopping tethering services
+I/dnsmasq (13999)[  981.964058] RTL871X: LPS_Enter smart_ps:2
+[  981.970868] CPU3: Booted secondary processor
+[  981.970924] Calibrating delay loop (skipped) already calibrated this CPURTL871X: rtw_set_ps_mode: Enter 802.11 power save
+
+D/TetherController( 1192): Teth[  981.990137] RTL871X: rtl8188e_set_FwPwrMode_cmd: Mode=1 SmartPS=2 UAPSD=0
+ering services stopped
+D/WifiP2pService( 2546): GroupCreatedState ap sta disconnected
+D/WifiP2pService( 2546): GroupCreatedState{ what=147486 when=-22ms obj=network: null
+D/WifiP2pService( 2546):  isGO: true
+D/WifiP2pService( 2546):  GO: null
+D/WifiP2pService( 2546):  interface: p2p0
+D/WifiP2pService( 2546):  networkId: 0 }
+D/WifiP2pService( 2546): GroupCreatedState group removed
+D/WifiDisplayController( 2546): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+D/CommandListener( 1192): Clearing all IP addresses on p2p0
+D/NetUtils( 2546): android_net_utils_resetConnections in env=0x682067a8 clazz=0x50400001 iface=p2p0 mask=0x3
+D/WifiP2pService( 2546): Stopped Dhcp server
+E/NetworkSession( 1198): writeMore on socket 50 failed w/ error -22 (Invalid argument)
+E/Sender  ( 1198): An error occurred during send in session 3 (-22, 'Send datagram failed.' (Invalid argument)).
+I/WifiDisplaySource( 1198): playback session wants to quit.
+I/WifiDisplayController( 2546): Lost RTSP connection with Wifi display due to error 1: Dongle-A1B4B0
+I/WifiDisplayController( 2546): Wifi display connection failed!
+E/NetworkSession( 1198): readMore on socket 34 failed w/ error -110 (Connection timed out)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+E/WifiDisplaySource( 1198): An error occurred in session 2 (-110, 'Recv failed./Connection timed out').
+I/WifiDisplayController( 2546): Lost RTSP connection with Wifi display due to error 1: Dongle-A1B4B0
+I/WifiDisplayController( 2546): Wifi display connection failed!
+I/wpa_supplicant(10505): wpa_s->ifname p2p0 cmd SET p2p_group_idle 0
+I/wpa_supplicant(10505): [CTRL_IFACE]p2p0: SET p2p_group_idle 0
+I/wpa_supplicant(10505): [CTRL_IFACE]p2p0: P2P_FLUSH
+I/wpa_supplicant(10505): p2p0: P2P-DEVICE-LOST p2p_dev_addr=d8:57:ef:b8:2b:6e
+D/WifiP2pService( 2546): sending p2p connection changed broadcast
+I/WifiDisplaySource( 1198): Sending TEARDOWN trigger.
+V/WifiDisplaySource( 1198): finishStop
+V/WifiDisplaySource( 1198): disconnectClient
+V/WifiDisplaySource( 1198): Destroying PlaybackSession
+I/PlaybackSession( 1198): destroyAsync
+I/Converter( 1198): shutting down encoder
+D/WifiDisplayController( 2546): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/WifiDisplayController( 2546): Stopped listening for RTSP connection on 192.168.49.1:7236 from Wifi display: Dongle-A1B4B0
+D/WifiP2pService( 2546): InactiveState
+D/WifiP2pService( 2546): InactiveState{ what=147462 when=-594ms obj=android.net.wifi.StateChangeResult@41bb5d50 }
+D/WifiP2pService( 2546): P2pEnabledState{ what=147462 when=-595ms obj=android.net.wifi.StateChangeResult@41bb5d50 }
+D/WifiP2pService( 2546): DefaultState{ what=147462 when=-596ms obj=android.net.wifi.StateChangeResult@41bb5d50 }
+D/WifiP2pService( 2546): InactiveState{ what=147462 when=-596ms obj=android.net.wifi.StateChangeResult@41a43548 }
+D/WifiP2pService( 2546): P2pEnabledState{ what=147462 when=-597ms obj=android.net.wifi.StateChangeResult@41a43548 }
+D/WifiP2pService( 2546): DefaultState{ what=147462 when=-597ms obj=android.net.wifi.StateChangeResult@41a43548 }
+D/WifiP2pService( 2546): InactiveState{ what=139283 when=-574ms arg2=18 }
+D/WifiP2pService( 2546): P2pEnabledState{ what=139283 when=-574ms arg2=18 }
+D/WifiP2pService( 2546): DefaultState{ what=139283 when=-574ms arg2=18 }
+D/WifiP2pService( 2546): InactiveState{ what=147478 when=-11ms obj=Device: 
+D/WifiP2pService( 2546):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 2546):  primary type: null
+D/WifiP2pService( 2546):  secondary type: null
+D/WifiP2pService( 2546):  wps: 0
+D/WifiP2pService( 2546):  grpcapab: 0
+D/WifiP2pService( 2546):  devcapab: 0
+D/WifiP2pService( 2546):  status: 4
+D/WifiP2pService( 2546):  wfdInfo: null }
+D/WifiP2pService( 2546): P2pEnabledState{ what=147478 when=-11ms obj=Device: 
+D/WifiP2pService( 2546):  deviceAddress: d8:57:ef:b8:2b:6e
+D/WifiP2pService( 2546):  primary type: null
+D/WifiP2pService( 2546):  secondary type: null
+D/WifiP2pService( 2546):  wps: 0
+D/WifiP2pService( 2546):  grpcapab: 0
+D/WifiP2pService( 2546):  devcapab: 0
+D/WifiP2pService( 2546):  status: 4
+D/WifiP2pService( 2546):  wfdInfo: null }
+I/MediaPuller( 1198): MediaPuller(audio/raw) stopping.
+I/MediaPuller( 1198): MediaPuller(video/raw) stopping.
+D/omx_venc( 1198): x set state command, cmd = 0, cmddata = 2.
+D/omx_venc( 1198): pSelf->m_sInPortDef.bPopulated:1, pSelf->m_sOutPortDef.bPopulated: 1
+D/omx_venc( 1198): x set state command, cmd = 0, cmddata = 1.
+I/r_submix( 1198): in_standby()
+I/MediaPuller( 1198): MediaPuller(audio/raw) stopped.
+D/omx_venc( 1198): component_deinit before
+D/omx_venc( 1198): x stop command.
+D/osal_linux( 1198): exit hw ref count:0
+D/aw_omx_core( 1198):  Unloading the dynamic library for OMX.allwinner.video.encoder.avc
+I/Converter( 1198): encoder (video/raw) shut down.
+I/Converter( 1198): shutting down encoder
+I/Converter( 1198): encoder (audio/raw) shut down.
+I/PlaybackSession( 1198): kWhatStopped audio posted
+I/PlaybackSession( 1198): Track 1 stopped
+I/r_submix( 1198): shutdown
+I/PlaybackSession( 1198): not all tracks are stopped yet
+[  983.892402] CPU2: shutdown
+[  983.895459] [hotplug]: cpu(0) try to kill cpu(2)
+[  983.901614] [hotplug]: cpu2 is killed! .
+[  983.908087] CPU3: shutdown
+[  983.911281] [hotplug]: cpu(0) try to kill cpu(3)
+[  983.917440] [hotplug]: cpu3 is killed! .
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  985.128565] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/InputDispatcher( 2546): Dropped event because the current application is not responding and the user has started interacting with a different application.
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[  994.268940] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[  994.290180] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1001.103442] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1003.409060] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[ 1003.440801] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/InputDispatcher( 2546): Application is not responding: Window{41988b08 u0 com.android.launcher/com.android.launcher2.Launcher}.  It has been 5000.9ms since event, 5000.7ms since wait started.  Reason: Waiting because the touched window has not finished processing the input events that were previously delivered to it.
+I/WindowManager( 2546): Input event dispatching timed out sending to com.android.launcher/com.android.launcher2.Launcher
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1010.262203] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+I/InputDispatcher( 2546): Dropped event because it is stale.
+[ 1014.852562] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1021.713565] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[ 1023.993059] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1030.831938] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1033.088183] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1037.699057] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1042.621320] RTL871X: rtw_set_ps_mode: Leave 802.11 power save
+[ 1042.627768] RTL871X: rtl8188e_set_FwPwrMode_cmd: Mode=0 SmartPS=2 UAPSD=0
+[ 1043.621548] RTL871X: LPS_Enter smart_ps:2
+[ 1043.626022] RTL871X: rtw_set_ps_mode: Enter 802.11 power save
+[ 1043.632554] RTL871X: rtl8188e_set_FwPwrMode_cmd: Mode=1 SmartPS=2 UAPSD=0
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+W/BroadcastQueue( 2546): Timeout of broadcast BroadcastRecord{417bb958 u-1 android.intent.action.TIME_TICK} - receiver=android.os.BinderProxy@4184a320, started 60000ms ago
+W/BroadcastQueue( 2546): Receiver during timeout: BroadcastFilter{41a39fb8 u0 ReceiverList{41a3ad70 3658 com.android.systemui/10052/u0 remote:4184a320}}
+I/Process ( 2546): Sending signal. PID: 3658 SIG: 3
+I/dalvikvm( 3658): threadid=3: reacting to signal 3
+I/dalvikvm( 3658): Wrote stack traces to '/data/anr/traces.txt'
+I/Process ( 2546): Sending signal. PID: 2546 SIG: 3
+I/dalvikvm( 2546): threadid=3: reacting to signal 3
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/dalvikvm( 2546): Wrote stack traces to '/data/anr/traces.txt'
+I/Process ( 2546): Sending signal. PID: 3782 SIG: 3
+I/dalvikvm( 3782): threadid=3: reacting to signal 3
+I/dalvikvm( 3782): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 2546): JIT code cache reset in 3 ms (1048576 bytes 1/0)
+D/dalvikvm( 2546): GC_CONCURRENT freed 975K, 26% free 8516K/11500K, paused 3ms+10ms, total 59ms
+D/dalvikvm( 2546): WAIT_FOR_CONCURRENT_GC blocked 25ms
+D/dalvikvm( 2546): GC_EXPLICIT freed 682K, 24% free 8747K/11500K, paused 4ms+5ms, total 69ms
+I/Process ( 2546): Sending signal. PID: 5418 SIG: 3
+I/dalvikvm( 5418): threadid=3: reacting to signal 3
+I/dalvikvm( 5418): Wrote stack traces to '/data/anr/traces.txt'
+E/ActivityManager( 2546): ANR in com.android.systemui
+E/ActivityManager( 2546): Reason: Broadcast of Intent { act=android.intent.action.TIME_TICK flg=0x40000014 (has extras) }
+E/ActivityManager( 2546): Load: 1.95 / 2.03 / 1.61
+E/ActivityManager( 2546): [ 1049.236194] binder: release 3658:3658 transaction 311430 out, still active
+CPU usage from 55006ms to 0ms ago:
+E/ActivityManager( 2546):   0.3% 29717/kworker/0:0: 0% user + 0.3% kernel
+E/ActivityManager( 2546):   0.3% 5418/com.baidu.video.pad:download: 0% user + 0.2% kernel / faults: 1 minor
+E/ActivityManager( 2546):   0.1% 1105/kworker/0:2: 0% user + 0.1% kernel
+E/ActivityManager( 2546):   0.1% 2546/system_server: 0.1% user + 0% kernel / faults: 185 minor 4 major
+E/ActivityManager( 2546):   0.1% 10529/RTW_CMD_THREAD: 0% user + 0.1% kernel
+E/ActivityManager( 2546):   0% 734/kworker/u:3: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 735/kworker/u:4: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 1320/adbd: 0% user + 0% kernel / faults: 27 minor
+E/ActivityManager( 2546):   0% 619/file-storage: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 1129/hdmi proc: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 1195/surfaceflinger: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 1201/rild: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 3658/com.android.systemui: 0% user + 0% kernel / faults: 8 minor
+E/ActivityManager( 2546):   0% 4237/com.google.process.gapps: 0% user + 0% kernel / faults: 1 minor
+E/ActivityManager( 2546):   0% 9941/kworker/1:0: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 10329/com.android.settings: 0% user + 0% kernel / faults: 1 minor
+E/ActivityManager( 2546):   0% 10505/wpa_supplicant: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 12060/com.google.android.apps.m[ 1049.370389] CPU2: Booted secondary processor
+[ 1049.370440] Calibrating delay loop (skipped) already calibrated this CPUaps:GoogleLocationService: 0% user + 0% kernel
+E/ActivityManager( 2546):   0% 13668/logcat: 0% user + 0% kernel
+E/ActivityManager( 2546):  +0% 10995/sh: 0% user + 0% kernel
+E/ActivityManager( 2546): 0.2% TOTAL: 0% user + 0.1% kernel + 0% iowait + 0% softirq
+E/ActivityManager( 2546): CPU usage from 679ms to 1201ms later:
+E/ActivityManager( 2546):   3.8% 2546/system_server: 0% uCPU3: Booted secondary processor
+[ 1049.415008] Calibrating delay loop (skipped) already calibrated this CPUser + 3.8% kernel / faults: 24 minor
+E/ActivityManager( 2546):     3.8% 2595/ActivityManager: 0% user + 3.8% kernel
+E/ActivityManager( 2546):   1.4% 5418/com.baidu.video.pad:download: 0% user + 1.4% kernel
+E/ActivityManager( 2546): 1.4% TOTAL: 0% user + 1.4% kernel
+W/ActivityManager( 2546): Killing ProcessRecord{41880238 3658:com.android.systemui/u0a10052}: background ANR
+W/InputDispatcher( 2546): channel '418f2be0 StatusBar (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher( 2546): channel '418f2be0 StatusBar (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher( 2546): channel '41ddb4d0 NavigationBar (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher( 2546): channel '41ddb4d0 NavigationBar (server)' ~ Channel is unrecoverably broken and will be disposed!
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 46K, 23% free 8889K/11500K, paused 49ms, total 49ms
+I/dalvikvm-heap( 2546): Grow heap (frag case) to 9.437MB for 262160-byte allocation
+W/InputDispatcher( 2546): channel '41af49e0 SearchPanel (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher( 2546): channel '41af49e0 SearchPanel (server)' ~ Channel is unrecoverably broken and will be disposed!
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 319K, 25% free 8826K/11760K, paused 48ms, total 48ms
+W/InputDispatcher( 2546): Attempted to unregister already unregistered input channel '41af49e0 SearchPanel (server)'
+W/InputDispatcher( 2546): Attempted to unregister already unregistered input channel '41ddb4d0 NavigationBar (server)'
+W/InputDispatcher( 2546): Attempted to unregister already unregistered input channel '418f2be0 StatusBar (server)'
+I/WindowState( 2546): WIN DEATH: Window{41af49e0 u0 SearchPanel}
+I/ActivityManager( 2546): Process com.android.systemui (pid 3658) has died.
+I/WindowState( 2546): WIN DEATH: Window{41ddb4d0 u0 NavigationBar}
+W/ActivityManager( 2546): Scheduling restart of crashed service com.android.systemui/.SystemUIService in 0ms
+I/WindowState( 2546): WIN DEATH: Window{418f2be0 u0 StatusBar}
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 18K, 26% free 8819K/11760K, paused 57ms, total 57ms
+I/dalvikvm-heap( 2546): Grow heap (frag case) to 9.368MB for 262160-byte allocation
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 1K, 25% free 9074K/12020K, paused 46ms, total 46ms
+I/ActivityManager( 2546): Start proc com.android.systemui for restart com.android.systemui: pid=11004 uid=10052 gids={50052, 1028, 1015, 3002, 3001}
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 6K, 25% free 9068K/12020K, paused 47ms, total 47ms
+I/dalvikvm-heap( 2546): Grow heap (frag case) to 9.736MB for 393236-byte allocation
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 256K, 26% free 9195K/12408K, paused 45ms, total 45ms
+D/dalvikvm( 2546): GC_FOR_ALLOC freed <1K, 26% free 9195K/12408K, paused 44ms, total 44ms
+I/dalvikvm-heap( 2546): Grow heap (frag case) to 9.736MB for 262190-byte allocation
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 0K, 26% free 9452K/12668K, paused 47ms, total 47ms
+D/dalvikvm( 2546): GC_FOR_ALLOC freed 776K, 32% free 8676K/12668K, paused 44ms, total 44ms
+D/SystemUIService(11004): loading: class com.android.systemui.statusbar.phone.PhoneStatusBar
+D/SystemUIService(11004): running: com.android.systemui.statusbar.phone.PhoneStatusBar@417cc4b0
+I/StatusBarManagerService( 2546): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41a735a0
+D/dalvikvm(11004): GC_CONCURRENT freed 265K, 16% free 4317K/5100K, paused 2ms+1ms, total 20ms
+D/dalvikvm(11004): GC_FOR_ALLOC freed 260K, 18% free 4391K/5308K, paused 11ms, total 11ms
+D/dalvikvm(11004): GC_FOR_ALLOC freed 167K, 17% free 4435K/5308K, paused 12ms, total 12ms
+D/dalvikvm(11004): GC_FOR_ALLOC freed 205K, 16% free 4590K/5464K, paused 12ms, total 12ms
+D/dalvikvm(11004): GC_FOR_ALLOC freed 324K, 18% free 4582K/5588K, paused 12ms, total 12ms
+D/dalvikvm(11004): GC_CONCURRENT freed 207K, 15% free 4772K/5588K, paused 2ms+1ms, total 13ms
+D/dalvikvm(11004): WAIT_FOR_CONCURRENT_GC blocked 11ms
+D/BluetoothManagerService( 2546): Message: 20
+D/BluetoothAdapter(11004): 1098871120: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter(11004): 1098871120: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothManagerService( 2546): Added callback: android.bluetooth.IBluetoothManagerCallba
+[ 1049.974947] binder: 2546:3317 transaction failed 29189, size 100-4
+ck$Stub$Proxy@41dc7108:true
+D/B[ 1049.984598] binder: 2546:3317 transaction failed 29189, size 100-4
+luetoothAdapter(11004): 1098871120: getState() :  mService = null. Returning STATE_OFF
+D/dalvikvm(11004): GC_CONCURRENT freed 445K, 17% free 4821K/5784K, paused 2ms+2ms, total 15ms
+D/dalvikvm(11004): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm(11004): GC_FOR_ALLOC freed 184K, 16% free 4878K/5784K, paused 12ms, total 13ms
+I/dalvikvm-heap(11004): Grow heap (frag case) to 5.450MB for 193612-byte allocation
+D/dalvikvm(11004): GC_FOR_ALLOC freed 2K, 16% free 5065K/5976K, paused 13ms, total 13ms
+D/WifiDisplayAdapter( 2546): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=3, scanState=0, activeDisplayState=2, activeDisplay=Dongle-A1B4B0 (d8:57:ef:b8:2b:6e), availableDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)], rememberedDisplays=[Dongle-A1B4B0 (d8:57:ef:b8:2b:6e)]}
+D/PhoneStatusBar(11004): disable: < expand icons alerts ticker system_info back home recent clock search >
+D/dalvikvm(11004): GC_CONCURRENT freed 407K, 16% free 5114K/6036K, paused 2ms+3ms, total 17ms
+D/dalvikvm(11004): GC_CONCURRENT freed 256K, 13% free 5288K/6060K, paused 1ms+4ms, total 19ms
+D/dalvikvm(11004): GC_FOR_ALLOC freed 209K, 15% free 5329K/6244K, paused 15ms, total 15ms
+D/BluetoothAdapter(11004): 1098871120: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter(11004): 1098871120: getState() :  mService = null. Returning STATE_OFF
+D/SystemUIService(11004): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService(11004): running: com.android.systemui.power.PowerUI@418e8a30
+D/SystemUIService(11004): loading: class com.android.systemui.media.RingtonePlayer
+D/SystemUIService(11004): running: com.android.systemui.media.RingtonePlayer@418e9698
+D/dalvikvm(11004): GC_CONCURRENT freed 242K, 13% free 5477K/6292K, paused 2ms+2ms, total 18ms
+[ 1051.152745] CPU2: shutdown
+[ 1051.155776] [hotplug]: cpu(3) try to kill cpu(2)
+[ 1051.161934] [hotplug]: cpu2 is killed! .
+[ 1051.168338] CPU3: shutdown
+[ 1051.171410] [hotplug]: cpu(1) try to kill cpu(3)
+[ 1051.177583] [hotplug]: cpu3 is killed! .
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1051.406691] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+[ 1053.211738] CPU2: Booted secondary processor
+[ 1053.211784] Calibrating delay loop (skipped) already calibrated this CPUCPU3: Booted secondary processor
+[ 1053.234795] Calibrating delay loop (skipped) already calibrated this CPUI/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+
+[ 1055.272516] CPU2: shutdown
+[ 1055.275767] [hotplug]: cpu(0) try to kill cpu(2)
+[ 1055.281922] [hotplug]: cpu2 is killed! .
+[ 1055.288283] CPU3: shutdown
+[ 1055.291335] [hotplug]: cpu(1) try to kill cpu(3)
+[ 1055.297493] [hotplug]: cpu3 is killed! .
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/PowerManagerService( 2546): Going to sleep due to screen timeout...
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1067.400063] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL
+[ 1074.251938] RTL871X: DON'T issue_probersp_p2p: p2p_enabled:1, wps_probe_resp_ie:  (null), p2p_probe_resp_ie:  (null)
+I/wpa_supplicant(10505): [CTRL_IFACE]wlan0: SIGNAL_POLL

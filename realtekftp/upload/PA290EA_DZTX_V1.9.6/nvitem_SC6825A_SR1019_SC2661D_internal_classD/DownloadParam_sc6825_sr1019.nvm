@@ -1,0 +1,5944 @@
+# SpreadTrum NVEditor NV Module File, Format Version 1.0
+# WARNING: DO NOT EDIT OR DELETE THIS NV Module FILE!
+
+###############################################################################
+  MODULE      = GSM_DownloadParam
+  DESCRIPTION = 
+
+################################################################################
+
+# Begin Module Item
+  BEGIN_ITEM
+    ITEM_NAME    = system_param_dsp_use_T
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 1012
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 0
+    ITEM_PARENT  = -1
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = system_param_version
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFF04
+    ITEM_INDEX   = 1
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = fcch_det_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 26
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 2
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = acor_delay
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 3
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = alpha
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6FFF
+    ITEM_INDEX   = 4
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = beta
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x77FF
+    ITEM_INDEX   = 5
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5332
+    ITEM_INDEX   = 6
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = nameda
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6FFF
+    ITEM_INDEX   = 7
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = hp
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x23
+    ITEM_INDEX   = 8
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = lp
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x23
+    ITEM_INDEX   = 9
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = t1
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7D
+    ITEM_INDEX   = 10
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = t2
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC8
+    ITEM_INDEX   = 11
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = power_shift1
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 12
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = power_shift2
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 13
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = extra_gain_for_fcch
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x10
+    ITEM_INDEX   = 14
+    ITEM_PARENT  = 2
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = freq_est_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 38
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 15
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = iteration_num
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 16
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = freq_est_beta
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5999
+    ITEM_INDEX   = 17
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = N_length
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6C
+    ITEM_INDEX   = 18
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = N_lag
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8
+    ITEM_INDEX   = 19
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = N_shift1
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 20
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = N_shift2
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2
+    ITEM_INDEX   = 21
+    ITEM_PARENT  = 15
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = freq_track_algo_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 46
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 22
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = monitor_win_size
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x32
+    ITEM_INDEX   = 23
+    ITEM_PARENT  = 22
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = decision_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x23
+    ITEM_INDEX   = 24
+    ITEM_PARENT  = 22
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = idle_AFC_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2004
+    ITEM_INDEX   = 25
+    ITEM_PARENT  = 22
+    ITEM_DESC    = used for idle frequency track
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = freq_track_by_fcch
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 26
+    ITEM_PARENT  = 22
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = AGC_algo_cal_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 70
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 27
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = beta_gsm
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xE6
+    ITEM_INDEX   = 28
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = beta_gprs
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x80
+    ITEM_INDEX   = 29
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = threshold1
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 30
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = threshold2
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2
+    ITEM_INDEX   = 31
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_target_BB_RSSI
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFE4
+    ITEM_INDEX   = 32
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = idle_target_BB_RSSI
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFE4
+    ITEM_INDEX   = 33
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = target_BB_RSSI_idle_reduce
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 34
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = BEC_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3C2D
+    ITEM_INDEX   = 35
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = agc_idle_saturate_threshold_reduce
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 36
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = agc_idle_saturate_gain_cut_down
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xA
+    ITEM_INDEX   = 37
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = voice_BEC_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2E
+    ITEM_INDEX   = 38
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = RSSI_cal_cons
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x52
+    ITEM_INDEX   = 39
+    ITEM_PARENT  = 27
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = time_track_algo_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 78
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 40
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = win_size
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 41
+    ITEM_PARENT  = 40
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tracking_decision_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 42
+    ITEM_PARENT  = 40
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TAV_control
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 43
+    ITEM_PARENT  = 40
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = TAV_step
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 44
+    ITEM_PARENT  = 40
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_equalizer_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 84
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 45
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = soft_bit_N_OPT
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 46
+    ITEM_PARENT  = 45
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = RF_ref_RX_lev
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 47
+    ITEM_PARENT  = 45
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = chan_est_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2000
+    ITEM_INDEX   = 48
+    ITEM_PARENT  = 45
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_deinterlever_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 86
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 49
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = FACCH_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 50
+    ITEM_PARENT  = 49
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = power_scan_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 100
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 51
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = power_scan_saturation_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFF3
+    ITEM_INDEX   = 52
+    ITEM_PARENT  = 51
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = power_exp_lev
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 3
+    ITEM_LENGTH  = 94
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 53
+    ITEM_PARENT  = 51
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x14
+    ITEM_INDEX   = 54
+    ITEM_PARENT  = 53
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x32
+    ITEM_INDEX   = 55
+    ITEM_PARENT  = 53
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x50
+    ITEM_INDEX   = 56
+    ITEM_PARENT  = 53
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = power_underflow_thresh
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 3
+    ITEM_LENGTH  = 100
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 57
+    ITEM_PARENT  = 51
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFC0
+    ITEM_INDEX   = 58
+    ITEM_PARENT  = 57
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFD2
+    ITEM_INDEX   = 59
+    ITEM_PARENT  = 57
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFD2
+    ITEM_INDEX   = 60
+    ITEM_PARENT  = 57
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tone_para_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 102
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 61
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tone_volume
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3FFF
+    ITEM_INDEX   = 62
+    ITEM_PARENT  = 61
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = action_tables_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 678
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 63
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = saved_action_table
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 288
+    ITEM_LENGTH  = 678
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 64
+    ITEM_PARENT  = 63
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5003
+    ITEM_INDEX   = 65
+    ITEM_PARENT  = 64
+    ITEM_DESC    = BURST1_RX_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4804
+    ITEM_INDEX   = 66
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3007
+    ITEM_INDEX   = 67
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 68
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 69
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 70
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 71
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD04D
+    ITEM_INDEX   = 72
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 73
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x82DF
+    ITEM_INDEX   = 74
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 75
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 76
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 77
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5003
+    ITEM_INDEX   = 78
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 79
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 80
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 81
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 82
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x12]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 83
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x13]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 84
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x14]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 85
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x15]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 86
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x16]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 87
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x17]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 88
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x18]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 89
+    ITEM_PARENT  = 64
+    ITEM_DESC    = BURST2_RX_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x19]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 90
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 91
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 92
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 93
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD054
+    ITEM_INDEX   = 94
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 95
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x1F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x854F
+    ITEM_INDEX   = 96
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x20]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 97
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x21]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 98
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x22]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 99
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x23]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 100
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x24]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 101
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x25]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 102
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x26]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 103
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x27]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 104
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x28]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 105
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x29]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 106
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 107
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 108
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 109
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 110
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 111
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x2F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 112
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x30]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 113
+    ITEM_PARENT  = 64
+    ITEM_DESC    = BURST3_RX_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x31]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 114
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x32]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 115
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x33]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 116
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x34]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 117
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x35]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD054
+    ITEM_INDEX   = 118
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x36]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 119
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x37]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x87BF
+    ITEM_INDEX   = 120
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x38]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 121
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x39]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 122
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 123
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 124
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 125
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 126
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 127
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x3F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 128
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x40]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 129
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x41]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 130
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x42]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 131
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x43]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 132
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x44]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 133
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x45]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 134
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x46]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 135
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x47]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 136
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x48]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 137
+    ITEM_PARENT  = 64
+    ITEM_DESC    = BURST4_RX_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x49]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 138
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 139
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 140
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 141
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD054
+    ITEM_INDEX   = 142
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 143
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x4F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8F53
+    ITEM_INDEX   = 144
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x50]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x82DF
+    ITEM_INDEX   = 145
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x51]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 146
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x52]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 147
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x53]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 148
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x54]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 149
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x55]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 150
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x56]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 151
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x57]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 152
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x58]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 153
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x59]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 154
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 155
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 156
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 157
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 158
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 159
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x5F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 160
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x60]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 161
+    ITEM_PARENT  = 64
+    ITEM_DESC    = MONITOR_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x61]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3007
+    ITEM_INDEX   = 162
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x62]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 163
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x63]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 164
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x64]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 165
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x65]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 166
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x66]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD04D
+    ITEM_INDEX   = 167
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x67]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 168
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x68]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x80E8
+    ITEM_INDEX   = 169
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x69]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 170
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 171
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 172
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 173
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 174
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 175
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x6F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 176
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x70]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 177
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x71]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 178
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x72]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 179
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x73]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 180
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x74]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 181
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x75]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 182
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x76]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 183
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x77]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 184
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x78]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 185
+    ITEM_PARENT  = 64
+    ITEM_DESC    = SEARCH_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x79]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3007
+    ITEM_INDEX   = 186
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 187
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 188
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 189
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 190
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD04D
+    ITEM_INDEX   = 191
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x7F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 192
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x80]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FF
+    ITEM_INDEX   = 193
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x81]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FF
+    ITEM_INDEX   = 194
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x82]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FF
+    ITEM_INDEX   = 195
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x83]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 196
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x84]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 197
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x85]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 198
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x86]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 199
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x87]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 200
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x88]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 201
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x89]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 202
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 203
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 204
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 205
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 206
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 207
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x8F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 208
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x90]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 209
+    ITEM_PARENT  = 64
+    ITEM_DESC    = RACH TX_ACTION_TABLE
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x91]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 210
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x92]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 211
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x93]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 212
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x94]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 213
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x95]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x886C
+    ITEM_INDEX   = 214
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x96]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3808
+    ITEM_INDEX   = 215
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x97]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD008
+    ITEM_INDEX   = 216
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x98]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD00D
+    ITEM_INDEX   = 217
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa txen on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x99]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD270
+    ITEM_INDEX   = 218
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa and switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8003
+    ITEM_INDEX   = 219
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 220
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3003
+    ITEM_INDEX   = 221
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 222
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 223
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x9F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 224
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 225
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 226
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 227
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 228
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 229
+    ITEM_PARENT  = 64
+    ITEM_DESC    = #####  end of actions above  ##### 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x25E
+    ITEM_INDEX   = 230
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap1,g+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x261
+    ITEM_INDEX   = 231
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap1,8+g
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x261
+    ITEM_INDEX   = 232
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap1,8+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x270
+    ITEM_INDEX   = 233
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap2,g+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xA9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x270
+    ITEM_INDEX   = 234
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap2,8+g
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xAA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x270
+    ITEM_INDEX   = 235
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap2,8+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xAB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x270
+    ITEM_INDEX   = 236
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap3,g+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xAC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x270
+    ITEM_INDEX   = 237
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap3,8+g
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xAD]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x270
+    ITEM_INDEX   = 238
+    ITEM_PARENT  = 64
+    ITEM_DESC    = gap3,8+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xAE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 239
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xAF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 240
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 1-end of stage-1
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 241
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 2-start of common tx actions
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 242
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 243
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 244
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 245
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 246
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 247
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 248
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 249
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 2-end of stage-2
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xB9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 250
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 3-start of gmsk tx part
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xBA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x886C
+    ITEM_INDEX   = 251
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xBB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3808
+    ITEM_INDEX   = 252
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xBC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD008
+    ITEM_INDEX   = 253
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xBD]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD00D
+    ITEM_INDEX   = 254
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa gmsk tx on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xBE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 255
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xBF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 256
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 257
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 258
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 259
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 3-end of stage-3
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1015
+    ITEM_INDEX   = 260
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 4-start of 8psk tx part
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3866
+    ITEM_INDEX   = 261
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2807
+    ITEM_INDEX   = 262
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 263
+    ITEM_PARENT  = 64
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD00A
+    ITEM_INDEX   = 264
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa and switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 265
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xC9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 266
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xCA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 267
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xCB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 268
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xCC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 269
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xCD]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 270
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 4-end of stage-4
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xCE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD270
+    ITEM_INDEX   = 271
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 5-start of gmsk tx off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xCF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8003
+    ITEM_INDEX   = 272
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 273
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 274
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 275
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 276
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 5-end of stage-5
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD275
+    ITEM_INDEX   = 277
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 6-start of 8psk tx off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2005
+    ITEM_INDEX   = 278
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 279
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 280
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 281
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xD9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 282
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 6-end of stage-g6
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xDA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 283
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 7-stage-7, GG1 actions in gmsk-gmsk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xDB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 284
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 8-stage-8, GG2 actions in gmsk-gmsk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xDC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 285
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 9-stage-9, GG3 actions in gmsk-gmsk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xDD]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9003
+    ITEM_INDEX   = 286
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 10-start of PP1 actions in 8psk-8psk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xDE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x100B
+    ITEM_INDEX   = 287
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xDF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 288
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 289
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 10-end of stage-10 PP1
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9003
+    ITEM_INDEX   = 290
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 11-start of PP2 actions in 8psk-8psk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x100B
+    ITEM_INDEX   = 291
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 292
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 293
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 11-end of stage-11 PP2
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9003
+    ITEM_INDEX   = 294
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 12-start of PP3 actions in 8psk-8psk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x100B
+    ITEM_INDEX   = 295
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 296
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 297
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 12-end of stage-12 PP2
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xE9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8A60
+    ITEM_INDEX   = 298
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 13-start of PG1 actions in 8psk-gmsk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xEA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD00F
+    ITEM_INDEX   = 299
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa and switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xEB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 300
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xEC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 301
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xED]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD003
+    ITEM_INDEX   = 302
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa and switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xEE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2005
+    ITEM_INDEX   = 303
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xEF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 304
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 305
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 306
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 307
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 308
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 309
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 13-end of stage-13 PG1
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2A60
+    ITEM_INDEX   = 310
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 14-start of GP1 actions in gmsk-8psk
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD009
+    ITEM_INDEX   = 311
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa and switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 312
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 313
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xF9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD003
+    ITEM_INDEX   = 314
+    ITEM_PARENT  = 64
+    ITEM_DESC    = pa and switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xFA]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8030
+    ITEM_INDEX   = 315
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xFB]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 316
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xFC]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 317
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xFD]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 318
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xFE]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 319
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0xFF]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 320
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x100]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 321
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 14-end of stage-14 GP1
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x101]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1003
+    ITEM_INDEX   = 322
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 15-start of common tx off actions
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x102]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3003
+    ITEM_INDEX   = 323
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x103]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 324
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x104]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 325
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x105]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 326
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x106]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 327
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x107]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 328
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x108]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 329
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x109]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 330
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 331
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 332
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 15-end of stage-15 tx all off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD003
+    ITEM_INDEX   = 333
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 16-start of PA ON for 4TX
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 334
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 335
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x10F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFF
+    ITEM_INDEX   = 336
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 16-end of stage-16 for 4tx
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x110]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 337
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x111]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 338
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x112]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 339
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x113]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 340
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x114]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 341
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x115]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 342
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x116]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 343
+    ITEM_PARENT  = 64
+    ITEM_DESC    = edge multislot parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x117]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6
+    ITEM_INDEX   = 344
+    ITEM_PARENT  = 64
+    ITEM_DESC    = trace data mode
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x118]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xDF3F
+    ITEM_INDEX   = 345
+    ITEM_PARENT  = 64
+    ITEM_DESC    = edge ir parameter
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x119]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1133
+    ITEM_INDEX   = 346
+    ITEM_PARENT  = 64
+    ITEM_DESC    = bit[12~15]enable 8psk channel mask;bit[8~11]enable mean notch;bit[4~7]ai filter mode;bit[0~3]3:enable ChT;4:disable ChT
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11A]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 347
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11B]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 348
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11C]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2331
+    ITEM_INDEX   = 349
+    ITEM_PARENT  = 64
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11D]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x20
+    ITEM_INDEX   = 350
+    ITEM_PARENT  = 64
+    ITEM_DESC    = register val:lpfd stable parameter ffff
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11E]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 351
+    ITEM_PARENT  = 64
+    ITEM_DESC    = register val:lpfb stable parameter ffeb
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = [0x11F]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x59
+    ITEM_INDEX   = 352
+    ITEM_PARENT  = 64
+    ITEM_DESC    = rx,tx delay adjust 1
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = audio_filter_coef
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 780
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 353
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 36
+    ITEM_LENGTH  = 750
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 354
+    ITEM_PARENT  = 353
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x800
+    ITEM_INDEX   = 355
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x34ED
+    ITEM_INDEX   = 356
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 357
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xAA07
+    ITEM_INDEX   = 358
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6A2E
+    ITEM_INDEX   = 359
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x34ED
+    ITEM_INDEX   = 360
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC0C1
+    ITEM_INDEX   = 361
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FFF
+    ITEM_INDEX   = 362
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x35AD
+    ITEM_INDEX   = 363
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 364
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[10]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xAA3A
+    ITEM_INDEX   = 365
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[11]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6983
+    ITEM_INDEX   = 366
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[12]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x35AD
+    ITEM_INDEX   = 367
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[13]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC2DC
+    ITEM_INDEX   = 368
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[14]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FFF
+    ITEM_INDEX   = 369
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[15]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2D21
+    ITEM_INDEX   = 370
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[16]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 371
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[17]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xBBE4
+    ITEM_INDEX   = 372
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[18]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x68DC
+    ITEM_INDEX   = 373
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[19]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2D15
+    ITEM_INDEX   = 374
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[20]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC6FA
+    ITEM_INDEX   = 375
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[21]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2000
+    ITEM_INDEX   = 376
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[22]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4EBC
+    ITEM_INDEX   = 377
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[23]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 378
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[24]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xB1CD
+    ITEM_INDEX   = 379
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[25]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x67F4
+    ITEM_INDEX   = 380
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[26]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4210
+    ITEM_INDEX   = 381
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[27]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xCE20
+    ITEM_INDEX   = 382
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[28]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1000
+    ITEM_INDEX   = 383
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[29]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x59BC
+    ITEM_INDEX   = 384
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[30]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 385
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[31]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x31BC
+    ITEM_INDEX   = 386
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[32]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x6714
+    ITEM_INDEX   = 387
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[33]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x59BC
+    ITEM_INDEX   = 388
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[34]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xD563
+    ITEM_INDEX   = 389
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = HPF_coef[35]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FFF
+    ITEM_INDEX   = 390
+    ITEM_PARENT  = 354
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 16
+    ITEM_LENGTH  = 780
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 391
+    ITEM_PARENT  = 353
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FFF
+    ITEM_INDEX   = 392
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3831
+    ITEM_INDEX   = 393
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 394
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8FB8
+    ITEM_INDEX   = 395
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x740F
+    ITEM_INDEX   = 396
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x3831
+    ITEM_INDEX   = 397
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xCAE5
+    ITEM_INDEX   = 398
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FFF
+    ITEM_INDEX   = 399
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 400
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 401
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[10]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x807A
+    ITEM_INDEX   = 402
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[11]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7D97
+    ITEM_INDEX   = 403
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[12]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4000
+    ITEM_INDEX   = 404
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[13]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC1A6
+    ITEM_INDEX   = 405
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = LPF_coef[14]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7FFF
+    ITEM_INDEX   = 406
+    ITEM_PARENT  = 391
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = dsp_uart_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 782
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 407
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = uart_init_ckd0low
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4E
+    ITEM_INDEX   = 408
+    ITEM_PARENT  = 407
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = deep_sleep_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 792
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 409
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = calibration_cycle
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xA
+    ITEM_INDEX   = 410
+    ITEM_PARENT  = 409
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = idle_frames_after_sleep
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 411
+    ITEM_PARENT  = 409
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = enable_dsp_sleep
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 412
+    ITEM_PARENT  = 409
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = calibration_duration
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC
+    ITEM_INDEX   = 413
+    ITEM_PARENT  = 409
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = sleep_frames_in_deact
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x32
+    ITEM_INDEX   = 414
+    ITEM_PARENT  = 409
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = log_switch_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 794
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 415
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = DSP_log_switch
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 416
+    ITEM_PARENT  = 415
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = dummy_pch_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 798
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 417
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = reserve_word
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 418
+    ITEM_PARENT  = 417
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = enable_dummy_pch
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1B5
+    ITEM_INDEX   = 419
+    ITEM_PARENT  = 417
+    ITEM_DESC    = bit0:dummy pch enable;bit1:idle mode change freq to 12M/36M
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = dynamic_RF_ctrl_struct
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 948
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 420
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_on_index
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 421
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = pa_on_index
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8
+    ITEM_INDEX   = 422
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 13
+    ITEM_LENGTH  = 828
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 423
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 424
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x3007
+    ITEM_INDEX   = 425
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 426
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 427
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 428
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 429
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xD04D
+    ITEM_INDEX   = 430
+    ITEM_PARENT  = 423
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 431
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x7FF
+    ITEM_INDEX   = 432
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x7FF
+    ITEM_INDEX   = 433
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[10]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x7FF
+    ITEM_INDEX   = 434
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[11]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 435
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = normal_search_action_table[12]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 436
+    ITEM_PARENT  = 423
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 10
+    ITEM_LENGTH  = 848
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 437
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 438
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 439
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 440
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 441
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 442
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 443
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 444
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 445
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 446
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = last_search_action_table[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 447
+    ITEM_PARENT  = 437
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 10
+    ITEM_LENGTH  = 868
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 448
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 449
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8007
+    ITEM_INDEX   = 450
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8007
+    ITEM_INDEX   = 451
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 452
+    ITEM_PARENT  = 448
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 453
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 454
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 455
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 456
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 457
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = stop_search_action_table[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 458
+    ITEM_PARENT  = 448
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 19
+    ITEM_LENGTH  = 906
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 459
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x4807
+    ITEM_INDEX   = 460
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x3007
+    ITEM_INDEX   = 461
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x9007
+    ITEM_INDEX   = 462
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 463
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 464
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1007
+    ITEM_INDEX   = 465
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xD04D
+    ITEM_INDEX   = 466
+    ITEM_PARENT  = 459
+    ITEM_DESC    = switch on
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8807
+    ITEM_INDEX   = 467
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8F50
+    ITEM_INDEX   = 468
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8F50
+    ITEM_INDEX   = 469
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[10]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8A70
+    ITEM_INDEX   = 470
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[11]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x879E
+    ITEM_INDEX   = 471
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[12]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xD005
+    ITEM_INDEX   = 472
+    ITEM_PARENT  = 459
+    ITEM_DESC    = switch off
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[13]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1005
+    ITEM_INDEX   = 473
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[14]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x4005
+    ITEM_INDEX   = 474
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[15]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x7
+    ITEM_INDEX   = 475
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[16]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 476
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[17]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 477
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tch_search_action_table[18]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 478
+    ITEM_PARENT  = 459
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = dsp_register_init_T
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 948
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 479
+    ITEM_PARENT  = 420
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = init_register_num
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xA
+    ITEM_INDEX   = 480
+    ITEM_PARENT  = 479
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 20
+    ITEM_LENGTH  = 948
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 481
+    ITEM_PARENT  = 479
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8
+    ITEM_INDEX   = 482
+    ITEM_PARENT  = 481
+    ITEM_DESC    = NBABD_CNTL  UGSM850
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x8
+    ITEM_INDEX   = 483
+    ITEM_PARENT  = 481
+    ITEM_DESC    = GSM_CNTL  EGSM900
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x404
+    ITEM_INDEX   = 484
+    ITEM_PARENT  = 481
+    ITEM_DESC    = DCS_CNTL  DCS1800
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x404
+    ITEM_INDEX   = 485
+    ITEM_PARENT  = 481
+    ITEM_DESC    = PCS_CNTL  PCS1900
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 486
+    ITEM_PARENT  = 481
+    ITEM_DESC    = CLOCK_RST
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 487
+    ITEM_PARENT  = 481
+    ITEM_DESC    = reserve_val
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x2
+    ITEM_INDEX   = 488
+    ITEM_PARENT  = 481
+    ITEM_DESC    = APCDAC gain, reset 0x3
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xF2F2
+    ITEM_INDEX   = 489
+    ITEM_PARENT  = 481
+    ITEM_DESC    = rf gmsk tx gain
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1E1E
+    ITEM_INDEX   = 490
+    ITEM_PARENT  = 481
+    ITEM_DESC    = rf 8psk tx gain, high/low band
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x40
+    ITEM_INDEX   = 491
+    ITEM_PARENT  = 481
+    ITEM_DESC    = edge multislot parameter, d[6:4] 8+g,  d[2:0] g+8
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[10]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 492
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[11]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 493
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[12]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 494
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[13]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 495
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[14]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 496
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[15]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 497
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[16]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 498
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[17]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 499
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[18]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 500
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = register_value[19]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 501
+    ITEM_PARENT  = 481
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 10
+    ITEM_LENGTH  = 968
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 502
+    ITEM_PARENT  = 0
+    ITEM_DESC    = dsp used switches
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 503
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 0: IR disabled;1:IR enabled
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 504
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xC050
+    ITEM_INDEX   = 505
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 506
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xCFFF
+    ITEM_INDEX   = 507
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFFC
+    ITEM_INDEX   = 508
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 509
+    ITEM_PARENT  = 502
+    ITEM_DESC    = SAIC switch, '1' enable, '0' disable
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 510
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 511
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = control_switches[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 512
+    ITEM_PARENT  = 502
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = Aero2_frequency_track_para
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 992
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 513
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold
+    ITEM_ID      = 1
+    ITEM_TYPE    = 5 (ARRAY)
+    ITEM_SIZE    = 10
+    ITEM_LENGTH  = 988
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 514
+    ITEM_PARENT  = 513
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[0]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x1C8
+    ITEM_INDEX   = 515
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[1]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x390
+    ITEM_INDEX   = 516
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[2]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x559
+    ITEM_INDEX   = 517
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[3]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x722
+    ITEM_INDEX   = 518
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[4]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x8EC
+    ITEM_INDEX   = 519
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[5]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xAB6
+    ITEM_INDEX   = 520
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[6]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xC82
+    ITEM_INDEX   = 521
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[7]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0xE4F
+    ITEM_INDEX   = 522
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[8]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x101E
+    ITEM_INDEX   = 523
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_threshold[9]
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 5
+    ITEM_CONTENT = 0x11EE
+    ITEM_INDEX   = 524
+    ITEM_PARENT  = 514
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_shift
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5
+    ITEM_INDEX   = 525
+    ITEM_PARENT  = 513
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = frequency_track_max_step
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x9
+    ITEM_INDEX   = 526
+    ITEM_PARENT  = 513
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = common_RF_param
+    ITEM_ID      = 1
+    ITEM_TYPE    = 7 (STRUCT)
+    ITEM_LENGTH  = 1004
+    ITEM_CONTENT = 
+    ITEM_INDEX   = 527
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rx_ctrl_word_num
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 528
+    ITEM_PARENT  = 527
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tx_ctrl_word_num
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x4
+    ITEM_INDEX   = 529
+    ITEM_PARENT  = 527
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = tx_send_random_data_enable
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 530
+    ITEM_PARENT  = 527
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = afc_dac_length
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xE
+    ITEM_INDEX   = 531
+    ITEM_PARENT  = 527
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = gain_index_step
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x1
+    ITEM_INDEX   = 532
+    ITEM_PARENT  = 527
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = agc_ctrl_step_num
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x5A
+    ITEM_INDEX   = 533
+    ITEM_PARENT  = 527
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = agc_saturate_threshold
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFF3
+    ITEM_INDEX   = 534
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = agc_blownoise_threshold
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0xFFD8
+    ITEM_INDEX   = 535
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_ctrl_param_0
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 536
+    ITEM_PARENT  = 0
+    ITEM_DESC    = bit 0, TX power reduction under maximal power level 
+  END_ITEM
+
+  BEGIN_ITEM
+    ITEM_NAME    = rf_ctrl_param_1
+    ITEM_ID      = 1
+    ITEM_TYPE    = 2 (SHORT)
+    ITEM_LENGTH  = 2
+    ITEM_CONTENT = 0x0
+    ITEM_INDEX   = 537
+    ITEM_PARENT  = 0
+    ITEM_DESC    = 
+  END_ITEM
+
+
+# End Module Item
+
+################################################################################
